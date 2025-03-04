@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\MyProject\\c#\\TMKStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\myproject\\c#\\tmkstore\\repos\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\myproject\\c#\\tmkstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\myproject\\c#\\tmkstore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\myproject\\c#\\tmkstore\\repos\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\myproject\\c#\\tmkstore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\MyProject\\c#\\TMKStore\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\MyProject\\c#\\TMKStore\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T08:11:18.349Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -79,13 +66,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\MyProject\\c#\\TMKStore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\MyProject\\c#\\TMKStore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T08:11:18.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\MyProject\\c#\\TMKStore\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\MyProject\\c#\\TMKStore\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-04T06:40:53.625Z",
               "EditorCaption": ""
@@ -100,18 +99,17 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:34:49.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:34:49.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\MyProject\\c#\\TMKStore\\Repos\\Account.cs",
               "RelativeDocumentMoniker": "Repos\\Account.cs",
               "ToolTip": "D:\\MyProject\\c#\\TMKStore\\Repos\\Account.cs",
               "RelativeToolTip": "Repos\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T06:31:34.667Z",
               "EditorCaption": ""
@@ -126,8 +124,7 @@
               "RelativeToolTip": "Repos\\IAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:29:07.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:29:07.658Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "RelativeToolTip": "Responses\\CustomResponses.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:25:31.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:25:31.772Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "DTOs\\CustomUserClaims.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:15:56.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:15:56.1Z"
             },
             {
               "$type": "Document",
@@ -165,8 +160,7 @@
               "RelativeToolTip": "DTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:13:45.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:13:45.452Z"
             },
             {
               "$type": "Document",
@@ -178,8 +172,7 @@
               "RelativeToolTip": "DTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:07:31.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:07:31.777Z"
             },
             {
               "$type": "Document",
@@ -191,8 +184,7 @@
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:05:29.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:05:29.542Z"
             }
           ]
         }
