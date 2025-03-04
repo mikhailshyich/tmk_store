@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using TMKStore.Components;
 using TMKStore.Data;
 using TMKStore.Repos;
+using TMKStore.Services;
+using TMKStore.States;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +44,9 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddScoped<IAccount, Account>();
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7234/") });
+builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
 var app = builder.Build();
 
@@ -60,10 +66,14 @@ app.UseAntiforgery();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name V1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
 });
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+
+app.MapControllers();
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.Run();
