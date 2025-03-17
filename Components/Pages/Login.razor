@@ -14,7 +14,7 @@
                 </div>
                 <div class="form-group mt-3">
                     <label class="form-label">Пароль</label>
-                    <InputText @bind-Value="LoginDto.Password" class="form-control"></InputText>
+                    <InputText type="password" @bind-Value="LoginDto.Password" class="form-control"></InputText>
                 </div>
                 <div class="form-group mt-3">
                     <button class="btn btn-primary" type="submit">Войти</button>
@@ -33,7 +33,7 @@
         LoginResponse response = await accountService.LoginAsync(LoginDto);
         if (!response.Flag)
         {
-            await js.InvokeVoidAsync("Предупреждение", response.Message);
+            await js.InvokeVoidAsync("alert", response.Message);
             return;
         }
 

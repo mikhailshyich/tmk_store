@@ -30,5 +30,20 @@ namespace TMKStore.Controllers
             var result = await accountRepo.LoginAsync(model);
             return Ok(result);
         }
+
+        [HttpGet("goods")]
+        public ActionResult<GoodsDTO[]> GetGoods()
+        {
+            var goods = new List<GoodsDTO>();
+            var goods1 = new GoodsDTO("Моцарелла пицца", "2600");
+            var goods2 = new GoodsDTO("Моцарелла пицца", "1000");
+            var goods3 = new GoodsDTO("Моцарелла пицца", "500");
+            var goods4 = new GoodsDTO("Моцарелла пицца", "250");
+            goods.Add(goods1);
+            goods.Add(goods2);
+            goods.Add(goods3);
+            goods.Add(goods4);
+            return Ok(goods);
+        }
     }
 }

@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "TMKStore.Controllers.AccountController",
+    "Method": "GetGoods",
+    "RelativePath": "api/Account/goods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TMKStore.DTOs.GoodsDTO[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TMKStore.Controllers.AccountController",
     "Method": "LoginAsync",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",

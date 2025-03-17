@@ -18,11 +18,11 @@
                 </div>
                 <div class="form-group mt-3">
                     <label class="form-label">Пароль</label>
-                    <InputText @bind-Value="RegisterDto.Password" class="form-control"></InputText>
+                    <InputText type="password" @bind-Value="RegisterDto.Password" class="form-control" typeof="password"></InputText>
                 </div>
                 <div class="form-group mt-3">
                     <label class="form-label">Подтвердите пароль</label>
-                    <InputText @bind-Value="RegisterDto.ConfirmPassword" class="form-control"></InputText>
+                    <InputText type="password" @bind-Value="RegisterDto.ConfirmPassword" class="form-control"></InputText>
                 </div>
                 <div class="form-group mt-3">
                     <button class="btn btn-primary" type="submit">Регистрация</button>
@@ -41,7 +41,7 @@
         RegistrationResponse response = await accountService.RegisterAsync(RegisterDto);
         if (!response.Flag)
         {
-            await js.InvokeVoidAsync("Предупреждение", response.Message);
+            await js.InvokeVoidAsync("alert", response.Message);
             RegisterDto = new();
             return;
         }
