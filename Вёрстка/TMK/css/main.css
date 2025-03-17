@@ -1,0 +1,67 @@
+:root{
+    --bg-color: #FBF0C4;
+    --text-color: #401F0E;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main{
+    flex: 1 1 auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+/* ============================ Header rules ==================================== */
+
+ul.menu-icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu-icons li{
+    margin-right: 50px;
+}
+
+.menu-item{
+    height: 88px;
+}
+
+/* ============================ Content rules ==================================== */
+
+/* ============================ Footer rules ==================================== */
+
+ul.social-icons{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-icons li{
+    margin-right: 10px;
+}
+
+.social-icons-item{
+    width: 50px;
+}
+
