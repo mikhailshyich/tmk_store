@@ -3,5 +3,12 @@
 <PageTitle>Корзина</PageTitle>
 
 <main class="main d-flex justify-content-center">
-    <h2>Корзина</h2>
+    <AuthorizeView>
+        <Authorized>
+            <h2>Корзина</h2>
+        </Authorized>
+        <NotAuthorized>
+            <h2>Вы не авторизованы.</h2>
+        </NotAuthorized>
+    </AuthorizeView>
 </main>

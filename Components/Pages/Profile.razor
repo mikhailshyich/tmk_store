@@ -1,7 +1,18 @@
 ﻿@page "/profile"
 @rendermode InteractiveServer
 
-<h3>Profile</h3>
+<PageTitle>Профиль</PageTitle>
+
+<main class="main d-flex justify-content-center">
+    <AuthorizeView>
+        <Authorized>
+            <h3>Привет, @context.User.Identity!.Name</h3>
+        </Authorized>
+        <NotAuthorized>
+            <h3>Вы не авторизованы.</h3>
+        </NotAuthorized>
+    </AuthorizeView>
+</main>
 
 @code {
 
