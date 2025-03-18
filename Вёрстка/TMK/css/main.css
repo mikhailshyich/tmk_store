@@ -24,6 +24,11 @@ body{
 
 main.main{
     flex: 1 1 auto;
+    align-items: center;
+}
+
+.main-content{
+
 }
 
 a{
@@ -49,6 +54,13 @@ ul.menu-icons li{
 }
 
 /* ============================ Content rules ==================================== */
+
+.btn-main{
+    height: 100px;
+    width: 450px;
+    border-radius: 50px;
+    font-size: 30px;
+}
 
 /* ============================ Footer rules ==================================== */
 
