@@ -1,4 +1,4 @@
-:root{
+:root {
     --bg-color: #FBF0C4;
     --text-color: #401F0E;
 }
@@ -38,6 +38,20 @@ ul.menu-icons{
 
 ul.menu-icons li{
     margin-right: 50px;
+}
+
+.drop-menu{
+    background-color: var(--bg-color);
+}
+
+.drop-btn {
+    border: none;
+    background: none;
+}
+
+ul.drop-menu li{
+    margin: 0;
+    color: var(--text-color);
 }
 
 .menu-item{

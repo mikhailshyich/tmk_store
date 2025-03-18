@@ -1,12 +1,14 @@
-﻿
-@page "/register"
-
+﻿@page "/registration"
 @rendermode InteractiveServer
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-            <h2>Регистрация</h2>
+
+<PageTitle>Страница регистрации</PageTitle>
+
+<main class="main d-flex justify-content-center">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-content-center">
             <EditForm Model="@RegisterDto" OnValidSubmit="RegisterClicked">
+                    <h2 class="text-center">Форма регистрации</h2>
                 <DataAnnotationsValidator />
                 <div class="form-group">
                     <label class="form-label">Имя</label>
@@ -24,15 +26,15 @@
                     <label class="form-label">Подтвердите пароль</label>
                     <InputText type="password" @bind-Value="RegisterDto.ConfirmPassword" class="form-control"></InputText>
                 </div>
-                <div class="form-group mt-3">
-                    <button class="btn btn-primary" type="submit">Регистрация</button>
+                    <div class="text-center form-group mt-3">
+                    <button class="btn btn-light btn-submit" type="submit">Зарегистрироваться</button>
                 </div>
                 <ValidationSummary />
             </EditForm>
         </div>
     </div>
 </div>
-
+</main>
 @code{
     public RegisterDTO RegisterDto = new();
 

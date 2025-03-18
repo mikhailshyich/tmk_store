@@ -48,7 +48,7 @@
   {
     "ContainingType": "TMKStore.Controllers.AccountController",
     "Method": "RegisterAsync",
-    "RelativePath": "api/Account/register",
+    "RelativePath": "api/Account/registration",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

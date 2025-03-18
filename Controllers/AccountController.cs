@@ -17,7 +17,7 @@ namespace TMKStore.Controllers
             this.accountRepo = accountRepo;
         }
 
-        [HttpPost("register")]
+        [HttpPost("registration")]
         public async Task<ActionResult<RegistrationResponse>> RegisterAsync(RegisterDTO model)
         {
             var result = await accountRepo.RegisterAsync(model);

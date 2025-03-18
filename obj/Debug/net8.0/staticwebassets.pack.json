@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\cart.png",
       "PackagePath": "staticwebassets\\img\\cart.png"
     },
@@ -27,6 +23,10 @@
     {
       "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
     },
     {
       "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\git.png",

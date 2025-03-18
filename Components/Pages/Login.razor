@@ -1,13 +1,14 @@
-﻿
-@page "/login"
+﻿@page "/login"
+
+<PageTitle>Страница входа</PageTitle>
 
 @rendermode InteractiveServer
 <main class="main d-flex justify-content-center">
-<div class="container">
-    <div class="row">
-        <div class="d-flex justify-content-center align-content-center">
-            <EditForm Model="@LoginDto" OnValidSubmit="LoginClicked">
-                    <h2>Войти в приложение</h2>
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center align-content-center">
+                <EditForm Model="@LoginDto" OnValidSubmit="LoginClicked">
+                    <h2 class="text-center">Форма входа</h2>
                     <DataAnnotationsValidator />
                     <div class="form-group">
                         <label class="form-label">E-mail адрес</label>
@@ -22,10 +23,10 @@
                     </div>
 
                     <ValidationSummary />
-            </EditForm>
-        </div>
+                </EditForm>
+            </div>
+         </div>
     </div>
-</div>
 </main>
 
 @code{

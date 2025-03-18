@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aHhIk8B3ufvBw36AFCriZd1RzLlBjEwfnx+niYRYM1Q=",
+  "Hash": "eGQGhXbHmygJypSUKvPiKAi1r1vG/4XF4H+l5XY33x0=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -74,25 +74,6 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
-      "Identity": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\favicon.ico",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
       "Identity": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\cart.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -148,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
+    },
+    {
+      "Identity": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\favicon.ico",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
     },
     {
       "Identity": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\git.png",

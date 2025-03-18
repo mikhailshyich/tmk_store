@@ -19,7 +19,25 @@
                                         <li><a href="cart"><img class="menu-icons-item" src="img/cart.png"></a></li>
                                     </Authorized>
                                 </AuthorizeView>
-                                <li><a href="login"><img class="menu-icons-item" src="img/profile.png"></a></li>
+                                <li>
+                                    <div class="btn-group" role="group">
+                                        <button class="drop-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="menu-icons-item" src="img/profile.png">
+                                        </button>
+                                        <ul class="drop-menu dropdown-menu">
+                                            <AuthorizeView>
+                                                <Authorized>
+                                                    <li><a class="dropdown-item drop-item" href="#">Посмотреть профиль</a></li>
+                                                    <li><a class="dropdown-item drop-item" href="#">Выйти</a></li>
+                                                </Authorized>
+                                                <NotAuthorized>
+                                                    <li><a class="dropdown-item drop-item" href="login">Войти</a></li>
+                                                    <li><a class="dropdown-item drop-item" href="registration">Зарегистрироваться</a></li>
+                                                </NotAuthorized>
+                                            </AuthorizeView>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
