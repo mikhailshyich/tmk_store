@@ -22,15 +22,6 @@ body{
     flex-direction: column;
 }
 
-main.main{
-    flex: 1 1 auto;
-    align-items: center;
-}
-
-.main-content{
-
-}
-
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -55,7 +46,19 @@ ul.menu-icons li{
 
 /* ============================ Content rules ==================================== */
 
+main.main{
+    flex: 1 1 auto;
+    align-items: center;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .btn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 450px;
     border-radius: 50px;
