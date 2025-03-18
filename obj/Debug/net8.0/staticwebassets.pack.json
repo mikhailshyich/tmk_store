@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TMKStore.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TMKStore.bundle.scp.css"
-    },
-    {
-      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\app.css",
-      "PackagePath": "staticwebassets\\app.css"
-    },
-    {
       "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
@@ -17,8 +9,60 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\cart.png",
+      "PackagePath": "staticwebassets\\img\\cart.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\content.png",
+      "PackagePath": "staticwebassets\\img\\content.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\git.png",
+      "PackagePath": "staticwebassets\\img\\git.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\goods.png",
+      "PackagePath": "staticwebassets\\img\\goods.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\home.png",
+      "PackagePath": "staticwebassets\\img\\home.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
+      "PackagePath": "staticwebassets\\img\\profile.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\img\\telegram.png",
+      "PackagePath": "staticwebassets\\img\\telegram.png"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TMKStore.Microsoft.AspNetCore.StaticWebAssets.props",

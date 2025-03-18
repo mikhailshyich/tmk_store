@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\TMK\**" />
+    <Content Remove="wwwroot\TMK\**" />
+    <EmbeddedResource Remove="wwwroot\TMK\**" />
+    <None Remove="wwwroot\TMK\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <!--Server-->
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
@@ -23,6 +30,10 @@
     <!--Client-->
     <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.1" />
 
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\resource\" />
   </ItemGroup>
 
 </Project>

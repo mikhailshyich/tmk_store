@@ -135,10 +135,7 @@ D:\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets\msbuild.build.TMKStore
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TMKStore.props
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TMKStore.props
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets.pack.json
-D:\MyProject\c#\TMKStore\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-D:\MyProject\c#\TMKStore\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\scopedcss\bundle\TMKStore.styles.css
-D:\MyProject\c#\TMKStore\obj\Debug\net8.0\scopedcss\projectbundle\TMKStore.bundle.scp.css
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.csproj.Up2Date
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.dll
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\refint\TMKStore.dll

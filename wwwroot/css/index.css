@@ -50,9 +50,13 @@ main.main{
     flex: 1 1 auto;
     align-items: center;
     margin: 20px 0;
+}
+
+main.main-image {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-image: url("/img/content.png");
 }
 
 .btn-main{
@@ -63,6 +67,11 @@ main.main{
     width: 450px;
     border-radius: 50px;
     font-size: 30px;
+}
+
+.btn-submit{
+    width: 250px;
+    border-radius: 50px;
 }
 
 /* ============================ Footer rules ==================================== */
