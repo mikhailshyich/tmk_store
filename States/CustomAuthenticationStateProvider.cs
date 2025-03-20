@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.Net.Http.Headers;
-using Microsoft.VisualBasic;
-using System.IdentityModel.Tokens.Jwt;
+using System.Net.Http;
 using System.Security.Claims;
 using TMKStore.DTOs;
 
@@ -10,6 +8,7 @@ namespace TMKStore.States
     public class CustomAuthenticationStateProvider : AuthenticationStateProvider
     {
         private readonly ClaimsPrincipal anonymus = new(new ClaimsIdentity());
+
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {
             try

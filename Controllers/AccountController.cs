@@ -41,7 +41,7 @@ namespace TMKStore.Controllers
         }
 
         [HttpGet("weather")]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public ActionResult<WeatherForecast[]> GetWeatherForecast()
         {
             var startDate = DateOnly.FromDateTime(DateTime.Now);
