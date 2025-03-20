@@ -1,15 +1,21 @@
 [
   {
     "ContainingType": "TMKStore.Controllers.AccountController",
-    "Method": "GetGoods",
-    "RelativePath": "api/Account/goods",
-    "HttpMethod": "GET",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TMKStore.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "TMKStore.DTOs.GoodsDTO[]",
+        "Type": "TMKStore.Responses.CustomResponses\u002BLoginResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -21,15 +27,15 @@
   },
   {
     "ContainingType": "TMKStore.Controllers.AccountController",
-    "Method": "LoginAsync",
-    "RelativePath": "api/Account/login",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Account/refresh-token",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "model",
-        "Type": "TMKStore.DTOs.LoginDTO",
+        "Type": "TMKStore.DTOs.UserSession",
         "IsRequired": true
       }
     ],
@@ -62,6 +68,26 @@
     "ReturnTypes": [
       {
         "Type": "TMKStore.Responses.CustomResponses\u002BRegistrationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TMKStore.Controllers.AccountController",
+    "Method": "GetWeatherForecast",
+    "RelativePath": "api/Account/weather",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TMKStore.DTOs.WeatherForecast[]",
         "MediaTypes": [
           "text/plain",
           "application/json",

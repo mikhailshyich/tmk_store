@@ -7,6 +7,7 @@ using TMKStore.Data;
 using TMKStore.DTOs;
 using TMKStore.Models;
 using TMKStore.Responses;
+using TMKStore.States;
 using static TMKStore.Responses.CustomResponses;
 
 namespace TMKStore.Repos
@@ -35,6 +36,15 @@ namespace TMKStore.Repos
             return new LoginResponse(true, "Авторизация прошла успешно.", jwtToken);
         }
 
+        public LoginResponse RefreshToken(UserSession userSession)
+        {
+            CustomUserClaims customUserClaims = DecryptJWTService.DecryptToken(userSession.JWTToken);
+            if (customUserClaims is null) return new LoginResponse(false, "Неверный токен авторизации");
+            string newToken = GenerateToken(new ApplicationUser()
+            { Name = customUserClaims.Name, Email = customUserClaims.Email });
+            return new LoginResponse(true, "Новый токен авторизации", newToken);
+        }
+
         /// <summary>
         /// Регистрация нового пользователя
         /// </summary>
@@ -51,6 +61,7 @@ namespace TMKStore.Repos
                 {
                     Name = model.Name,
                     Email = model.Email,
+                    Role = model.Role,
                     Password = BCrypt.Net.BCrypt.HashPassword(model.Password) //хэшируем пароль
                 });
 
@@ -75,6 +86,7 @@ namespace TMKStore.Repos
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Role, user.Role),
             };
 
             var token = new JwtSecurityToken(

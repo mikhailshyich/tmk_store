@@ -7,6 +7,7 @@ namespace TMKStore.Services
     {
         Task<RegistrationResponse> RegisterAsync(RegisterDTO model);
         Task<LoginResponse> LoginAsync(LoginDTO model);
-        Task<GoodsDTO[]> GetGoodsAsync(GoodsDTO model);
+        Task<LoginResponse> RefreshToken(UserSession userSession);
+        Task<WeatherForecast[]> GetWeatherForecast();
     }
 }

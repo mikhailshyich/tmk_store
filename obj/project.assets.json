@@ -3507,11 +3507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\c#\\TMKStore\\TMKStore.csproj",
+      "projectUniqueName": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\TMKStore.csproj",
       "projectName": "TMKStore",
-      "projectPath": "D:\\MyProject\\c#\\TMKStore\\TMKStore.csproj",
+      "projectPath": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\TMKStore.csproj",
       "packagesPath": "C:\\Users\\shiich\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\c#\\TMKStore\\obj\\",
+      "outputPath": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3544,7 +3544,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3608,7 +3609,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

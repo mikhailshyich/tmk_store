@@ -7,5 +7,6 @@ namespace TMKStore.Repos
     {
         Task<RegistrationResponse> RegisterAsync(RegisterDTO model);
         Task<LoginResponse> LoginAsync(LoginDTO model);
+        LoginResponse RefreshToken(UserSession userSession);
     }
 }

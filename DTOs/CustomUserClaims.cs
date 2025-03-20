@@ -1,4 +1,4 @@
 ﻿namespace TMKStore.DTOs
 {
-    public record CustomUserClaims(string Name = null!, string Email = null!);
+    public record CustomUserClaims(string Name = null!, string Email = null!, string Role = null!);
 }

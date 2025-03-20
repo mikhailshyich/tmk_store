@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Runtime.InteropServices;
 using TMKStore.DTOs;
 using TMKStore.Repos;
 using static TMKStore.Responses.CustomResponses;
@@ -18,6 +17,7 @@ namespace TMKStore.Controllers
         }
 
         [HttpPost("registration")]
+        [AllowAnonymous]
         public async Task<ActionResult<RegistrationResponse>> RegisterAsync(RegisterDTO model)
         {
             var result = await accountRepo.RegisterAsync(model);
@@ -25,25 +25,33 @@ namespace TMKStore.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<ActionResult<LoginResponse>> LoginAsync(LoginDTO model)
         {
             var result = await accountRepo.LoginAsync(model);
             return Ok(result);
         }
 
-        [HttpGet("goods")]
-        public ActionResult<GoodsDTO[]> GetGoods()
+        [HttpPost("refresh-token")]
+        [AllowAnonymous]
+        public ActionResult<LoginResponse> RefreshToken(UserSession model)
         {
-            var goods = new List<GoodsDTO>();
-            var goods1 = new GoodsDTO("Моцарелла пицца", "2600");
-            var goods2 = new GoodsDTO("Моцарелла пицца", "1000");
-            var goods3 = new GoodsDTO("Моцарелла пицца", "500");
-            var goods4 = new GoodsDTO("Моцарелла пицца", "250");
-            goods.Add(goods1);
-            goods.Add(goods2);
-            goods.Add(goods3);
-            goods.Add(goods4);
-            return Ok(goods);
+            var result = accountRepo.RefreshToken(model);
+            return Ok(result);
+        }
+
+        [HttpGet("weather")]
+        [Authorize]
+        public ActionResult<WeatherForecast[]> GetWeatherForecast()
+        {
+            var startDate = DateOnly.FromDateTime(DateTime.Now);
+            var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
+            return Ok(Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = startDate.AddDays(index),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = summaries[Random.Shared.Next(summaries.Length)]
+            }).ToArray());
         }
     }
 }

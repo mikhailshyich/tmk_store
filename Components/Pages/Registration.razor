@@ -1,8 +1,7 @@
 ﻿@page "/registration"
-@rendermode InteractiveServer
 
 <PageTitle>Страница регистрации</PageTitle>
-
+@rendermode InteractiveServer
 <main class="main d-flex justify-content-center">
     <div class="container">
         <div class="row">
@@ -50,6 +49,7 @@
 
         var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
         RegisterDto = new();
-        return;
+        await js.InvokeVoidAsync("alert", "Регистрация прошла успешно!");
+        NavManager.NavigateTo("/login", forceLoad: true);
     }
 }
