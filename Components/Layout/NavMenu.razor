@@ -14,11 +14,13 @@
                             <ul class="menu-icons d-flex justify-content-center">
                                 <li><a href="/"><img class="menu-icons-item" src="img/home.png"></a></li>
                                 <li><a href="goods"><img class="menu-icons-item" src="img/goods.png"></a></li>
-                                <AuthorizeView Roles="Admin">
+                                <AuthorizeView>
                                     <Authorized>
                                         <li><a href="cart"><img class="menu-icons-item" src="img/cart.png"></a></li>
-                                        <li><a href="weather"><img class="menu-icons-item" src="">Погода</a></li>
                                     </Authorized>
+                                </AuthorizeView>
+                                <AuthorizeView Roles="Admin">
+                                    <li><a href="weather"><img class="menu-icons-item" src="">Погода</a></li>
                                 </AuthorizeView>
                                 <li>
                                     <div class="btn-group" role="group">
@@ -29,7 +31,7 @@
                                             <AuthorizeView>
                                                 <Authorized>
                                                     <li><a class="dropdown-item drop-item" href="profile">Посмотреть профиль</a></li>
-                                                    <li><a class="dropdown-item drop-item" href="#">Выйти</a></li>
+                                                    <li><a class="dropdown-item drop-item" href="logout">Выйти</a></li>
                                                 </Authorized>
                                                 <NotAuthorized>
                                                     <li><a class="dropdown-item drop-item" href="login">Войти</a></li>

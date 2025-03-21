@@ -1,0 +1,14 @@
+﻿@page "/logout"
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        //await base.OnInitializedAsync();
+        // await js.InvokeVoidAsync("localStorage.removeItem", "user").ConfigureAwait(false);
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        customAuthStateProvider.UpdateAuthenticationState(null);
+        NavManager.NavigateTo("/", forceLoad: true);
+        //StateHasChanged();
+    }
+}

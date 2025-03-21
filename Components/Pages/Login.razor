@@ -25,6 +25,7 @@
 
 @code{
     public LoginDTO LoginDto = new();
+    public string JWTToken = "";
 
     async Task LoginClicked()
     {
@@ -34,9 +35,11 @@
             await js.InvokeVoidAsync("alert", response.Message);
             return;
         }
+        JWTToken = response.JWTToken;
+        //await js.InvokeVoidAsync("localStorage.setItem", "user", $"{JWTToken}").ConfigureAwait(false);
 
         var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
-        customAuthStateProvider.UpdateAuthenticationState(response.JWTToken);
+        customAuthStateProvider.UpdateAuthenticationState(JWTToken);
         NavManager.NavigateTo("/", forceLoad: true);
     }
 }
