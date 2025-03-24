@@ -3,6 +3,7 @@
 <PageTitle>Страница входа</PageTitle>
 
 @rendermode InteractiveServer
+
 <main class="main d-flex justify-content-center">
     <EditForm Model="@LoginDto" OnValidSubmit="LoginClicked">
         <h2 class="text-center">Форма входа</h2>
@@ -18,10 +19,11 @@
         <div class="text-center form-group mt-3">
             <button class="btn btn-light btn-submit" type="submit">Войти в личный кабинет</button>
         </div>
-
         <ValidationSummary />
     </EditForm>
+
 </main>
+
 
 @code{
     public LoginDTO LoginDto = new();
