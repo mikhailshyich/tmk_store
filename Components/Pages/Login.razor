@@ -21,7 +21,6 @@
         </div>
         <ValidationSummary />
     </EditForm>
-
 </main>
 
 
@@ -29,8 +28,24 @@
     public LoginDTO LoginDto = new();
     public string JWTToken = "";
 
+
+    protected override async Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            NavManager.NavigateTo("/", forceLoad: true);
+        }
+    }
+        
+
     async Task LoginClicked()
     {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
         LoginResponse response = await accountService.LoginAsync(LoginDto);
         if (!response.Flag)
         {
@@ -38,9 +53,9 @@
             return;
         }
         JWTToken = response.JWTToken;
-        //await js.InvokeVoidAsync("localStorage.setItem", "user", $"{JWTToken}").ConfigureAwait(false);
+        //await js.InvokeVoidAsync("localStorage.setItem", "userEmail", $"{LoginDto.Email}").ConfigureAwait(false);
 
-        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
         customAuthStateProvider.UpdateAuthenticationState(JWTToken);
         NavManager.NavigateTo("/", forceLoad: true);
     }

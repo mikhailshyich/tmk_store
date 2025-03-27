@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c3SvFBGYtvgfCPUBiODsPkMmNQvCrfoa6VdN7g1slNo=",
+  "Hash": "5uyHddrQkVDYJzQumU4wNF0AEZvP+SVC+vMTL7N3xIo=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -185,27 +185,6 @@
       "OriginalItemSpec": "wwwroot\\img\\git.png"
     },
     {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\goods.png",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "img/goods#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5nhdaaozfw",
-      "Integrity": "b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\goods.png"
-    },
-    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\home.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -267,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5nhdaaozfw",
+      "Integrity": "b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products.png"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "hj1ntvb5y6",
+      "Integrity": "jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
@@ -1011,88 +1011,6 @@
       ]
     },
     {
-      "Route": "img/goods.5nhdaaozfw.png",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\goods.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 11:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5nhdaaozfw"
-        },
-        {
-          "Name": "label",
-          "Value": "img/goods.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k="
-        }
-      ]
-    },
-    {
-      "Route": "img/goods.png",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\goods.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 11:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k="
-        }
-      ]
-    },
-    {
       "Route": "img/home.6hu56fgm6c.png",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\home.png",
       "Selectors": [],
@@ -1335,6 +1253,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-94/dY60sB47emDvd5DsrjnZdVdy9O8pRd526PAxLIvI="
+        }
+      ]
+    },
+    {
+      "Route": "img/products.5nhdaaozfw.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 11:32:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nhdaaozfw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k="
+        }
+      ]
+    },
+    {
+      "Route": "img/products.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 11:32:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b3OQg2bMx2r/vzrxwkp5OLynAfJ/N+m6kJ5FCvVg08k="
         }
       ]
     },
@@ -1585,7 +1585,7 @@
       ]
     },
     {
-      "Route": "js/main.5ipweew5fc.js",
+      "Route": "js/main.hj1ntvb5y6.js",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1595,7 +1595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "91"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +1603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 12:31:22 GMT"
+          "Value": "Wed, 26 Mar 2025 06:59:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,7 +1617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "hj1ntvb5y6"
         },
         {
           "Name": "label",
@@ -1625,7 +1625,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA="
         }
       ]
     },
@@ -1640,7 +1640,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "91"
         },
         {
           "Name": "Content-Type",
@@ -1648,11 +1648,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 12:31:22 GMT"
+          "Value": "Wed, 26 Mar 2025 06:59:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1662,7 +1662,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA="
         }
       ]
     }

@@ -1,4 +1,7 @@
-﻿using TMKStore.DTOs;
+﻿using Microsoft.EntityFrameworkCore;
+using TMKStore.Data;
+using TMKStore.DTOs;
+using TMKStore.Models;
 using TMKStore.Responses;
 using TMKStore.States;
 using static TMKStore.Responses.CustomResponses;
@@ -16,7 +19,7 @@ namespace TMKStore.Services
 
         private const string BaseUrl = "api/account";
 
-        private static bool CheckIfUnauthorized(HttpResponseMessage httpResponseMessage)
+        public static bool CheckIfUnauthorized(HttpResponseMessage httpResponseMessage)
         {
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.Unauthorized)
             {

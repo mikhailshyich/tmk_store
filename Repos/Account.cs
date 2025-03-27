@@ -25,6 +25,7 @@ namespace TMKStore.Repos
 
         public async Task<LoginResponse> LoginAsync(LoginDTO model)
         {
+
             var findUser = await GetUser(model.Email); //поиск пользователя в БД
             if (findUser == null) return new LoginResponse(false, "Пользователь не зарегистрирован.");
 
@@ -106,7 +107,8 @@ namespace TMKStore.Repos
         /// </summary>
         /// <param name="email">Почта пользователя</param>
         /// <returns></returns>
-        private async Task<ApplicationUser> GetUser(string email)
+        public async Task<ApplicationUser> GetUser(string email)
             => await appDbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
+
     }
 }

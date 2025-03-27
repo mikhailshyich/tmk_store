@@ -9,6 +9,8 @@ namespace TMKStore.States
     {
         private readonly ClaimsPrincipal anonymus = new(new ClaimsIdentity());
 
+
+
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {
             try

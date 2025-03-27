@@ -33,10 +33,6 @@
       "PackagePath": "staticwebassets\\img\\git.png"
     },
     {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\goods.png",
-      "PackagePath": "staticwebassets\\img\\goods.png"
-    },
-    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\home.png",
       "PackagePath": "staticwebassets\\img\\home.png"
     },
@@ -47,6 +43,10 @@
     {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products.png",
+      "PackagePath": "staticwebassets\\img\\products.png"
     },
     {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",

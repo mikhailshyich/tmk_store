@@ -1,4 +1,5 @@
 ﻿using TMKStore.DTOs;
+using TMKStore.Models;
 using static TMKStore.Responses.CustomResponses;
 
 namespace TMKStore.Services

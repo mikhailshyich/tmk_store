@@ -12,11 +12,13 @@
 @using TMKStore.Services
 @using TMKStore.DTOs
 @using TMKStore.Responses
+@using TMKStore.Repos
 @using TMKStore.States
 @using Microsoft.AspNetCore.Components.Authorization
 @using static TMKStore.Responses.CustomResponses
 
 @inject IAccountService accountService
+@inject IAccount account
 @inject IJSRuntime js
 @inject NavigationManager NavManager
 @inject AuthenticationStateProvider AuthStateProvider

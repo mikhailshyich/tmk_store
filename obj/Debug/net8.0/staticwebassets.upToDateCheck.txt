@@ -6,10 +6,10 @@ wwwroot\img\content.png
 wwwroot\img\facebook.png
 wwwroot\img\favicon.ico
 wwwroot\img\git.png
-wwwroot\img\goods.png
 wwwroot\img\home.png
 wwwroot\img\instagram.png
 wwwroot\img\logo.png
+wwwroot\img\products.png
 wwwroot\img\profile.png
 wwwroot\img\telegram.png
 wwwroot\index.html

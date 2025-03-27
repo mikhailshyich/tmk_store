@@ -1,4 +1,6 @@
 ﻿@page "/profile"
+@using System.Text.Json
+@using TMKStore.Models
 @rendermode InteractiveServer
 
 <PageTitle>Профиль</PageTitle>
@@ -6,7 +8,9 @@
 <main class="main d-flex justify-content-center">
     <AuthorizeView>
         <Authorized>
-            <h3>Привет, @context.User.Identity!.Name</h3>
+            <h3>Привет, @User.Name</h3>
+            <h2>Твоя почта @User.Email</h2>
+            <h2>Твоя роль @User.Role</h2>
         </Authorized>
         <NotAuthorized>
             <Login />
@@ -14,6 +18,21 @@
     </AuthorizeView>
 </main>
 
-@code {
 
+@code {
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            ClaimsList = authState.Result.User.Claims.ToList();
+            var Email = ClaimsList[1].Value;
+            User = await account.GetUser(Email);
+        }
+    }
 }

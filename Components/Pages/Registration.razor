@@ -37,6 +37,17 @@
 @code{
     public RegisterDTO RegisterDto = new();
 
+    protected override async Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            NavManager.NavigateTo("/", forceLoad: true);
+        }
+    }
+
     async Task RegisterClicked()
     {
         RegistrationResponse response = await accountService.RegisterAsync(RegisterDto);
