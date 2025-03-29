@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5uyHddrQkVDYJzQumU4wNF0AEZvP+SVC+vMTL7N3xIo=",
+  "Hash": "NI6ReTzW6aAj9ZCfNob9gHZn+Ccs6AzJEVsHjqGqHJU=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "upjv9f8grc",
-      "Integrity": "bsVbvdLSGCusuwCh/sEsbSLPihhIOnZxDPfYvzj/gnc=",
+      "Fingerprint": "t5gl7fvq0w",
+      "Integrity": "70foDHQfL9viz5igP2x1LoXwKd65sNyRde+39ud1kHA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -269,6 +269,27 @@
       "OriginalItemSpec": "wwwroot\\img\\products.png"
     },
     {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/mozzarella_flow_1_125-600x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6997qigplb",
+      "Integrity": "ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png"
+    },
+    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -325,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2rsnmskggj",
-      "Integrity": "Tveb7ltLkS0gtOIp0ktqHGXEtbptgLmQaOe98BdtRe4=",
+      "Fingerprint": "b7ke4x20go",
+      "Integrity": "xyWeC1zSbv5QJrP3YBUp/NoUdBFirYfZx7NR5xEzgZ4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -346,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hj1ntvb5y6",
-      "Integrity": "jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
@@ -529,7 +550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1726"
+          "Value": "2819"
         },
         {
           "Name": "Content-Type",
@@ -537,11 +558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bsVbvdLSGCusuwCh/sEsbSLPihhIOnZxDPfYvzj/gnc=\""
+          "Value": "\"70foDHQfL9viz5igP2x1LoXwKd65sNyRde+39ud1kHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 08:34:46 GMT"
+          "Value": "Sat, 29 Mar 2025 20:30:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -551,12 +572,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bsVbvdLSGCusuwCh/sEsbSLPihhIOnZxDPfYvzj/gnc="
+          "Value": "sha256-70foDHQfL9viz5igP2x1LoXwKd65sNyRde+39ud1kHA="
         }
       ]
     },
     {
-      "Route": "css/index.upjv9f8grc.css",
+      "Route": "css/index.t5gl7fvq0w.css",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -566,7 +587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1726"
+          "Value": "2819"
         },
         {
           "Name": "Content-Type",
@@ -574,11 +595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bsVbvdLSGCusuwCh/sEsbSLPihhIOnZxDPfYvzj/gnc=\""
+          "Value": "\"70foDHQfL9viz5igP2x1LoXwKd65sNyRde+39ud1kHA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 08:34:46 GMT"
+          "Value": "Sat, 29 Mar 2025 20:30:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -588,7 +609,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "upjv9f8grc"
+          "Value": "t5gl7fvq0w"
         },
         {
           "Name": "label",
@@ -596,7 +617,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bsVbvdLSGCusuwCh/sEsbSLPihhIOnZxDPfYvzj/gnc="
+          "Value": "sha256-70foDHQfL9viz5igP2x1LoXwKd65sNyRde+39ud1kHA="
         }
       ]
     },
@@ -1339,6 +1360,88 @@
       ]
     },
     {
+      "Route": "img/products/mozzarella_flow_1_125-600x600.6997qigplb.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:05:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6997qigplb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/mozzarella_flow_1_125-600x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/mozzarella_flow_1_125-600x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:05:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
       "Route": "img/profile.png",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
       "Selectors": [],
@@ -1503,7 +1606,7 @@
       ]
     },
     {
-      "Route": "index.2rsnmskggj.html",
+      "Route": "index.b7ke4x20go.html",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1513,7 +1616,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4375"
+          "Value": "7174"
         },
         {
           "Name": "Content-Type",
@@ -1521,11 +1624,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tveb7ltLkS0gtOIp0ktqHGXEtbptgLmQaOe98BdtRe4=\""
+          "Value": "\"xyWeC1zSbv5QJrP3YBUp/NoUdBFirYfZx7NR5xEzgZ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:47:14 GMT"
+          "Value": "Fri, 28 Mar 2025 08:41:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1535,7 +1638,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2rsnmskggj"
+          "Value": "b7ke4x20go"
         },
         {
           "Name": "label",
@@ -1543,7 +1646,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Tveb7ltLkS0gtOIp0ktqHGXEtbptgLmQaOe98BdtRe4="
+          "Value": "sha256-xyWeC1zSbv5QJrP3YBUp/NoUdBFirYfZx7NR5xEzgZ4="
         }
       ]
     },
@@ -1558,7 +1661,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4375"
+          "Value": "7174"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +1669,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tveb7ltLkS0gtOIp0ktqHGXEtbptgLmQaOe98BdtRe4=\""
+          "Value": "\"xyWeC1zSbv5QJrP3YBUp/NoUdBFirYfZx7NR5xEzgZ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 08:47:14 GMT"
+          "Value": "Fri, 28 Mar 2025 08:41:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,12 +1683,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Tveb7ltLkS0gtOIp0ktqHGXEtbptgLmQaOe98BdtRe4="
+          "Value": "sha256-xyWeC1zSbv5QJrP3YBUp/NoUdBFirYfZx7NR5xEzgZ4="
         }
       ]
     },
     {
-      "Route": "js/main.hj1ntvb5y6.js",
+      "Route": "js/main.5ipweew5fc.js",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1595,7 +1698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "91"
+          "Value": "0"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +1706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=\""
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 06:59:27 GMT"
+          "Value": "Sat, 29 Mar 2025 18:45:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,7 +1720,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hj1ntvb5y6"
+          "Value": "5ipweew5fc"
         },
         {
           "Name": "label",
@@ -1625,7 +1728,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA="
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
@@ -1640,7 +1743,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "91"
+          "Value": "0"
         },
         {
           "Name": "Content-Type",
@@ -1648,11 +1751,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA=\""
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 06:59:27 GMT"
+          "Value": "Sat, 29 Mar 2025 18:45:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1662,7 +1765,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jXD4a3s/IVFdl9davl09Q1fS52XMa7jLkM/elaG4/NA="
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     }
