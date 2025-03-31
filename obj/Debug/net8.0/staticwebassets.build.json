@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IIoxUu7yu6kCQgUSBNie7SE4Ug+6Qsfa7MY64f7Pq6g=",
+  "Hash": "qThf9z8dT8TTQfg0qu/oRNCe2kksZrtRTxqiWjXcYoQ=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ceaon5xuxw",
-      "Integrity": "pIWhPYsjgmx3mxD+BouASBSGP0HoLMGbwZm+jonzen0=",
+      "Fingerprint": "37fjelyhvn",
+      "Integrity": "UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -540,7 +540,7 @@
       ]
     },
     {
-      "Route": "css/index.ceaon5xuxw.css",
+      "Route": "css/index.37fjelyhvn.css",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -550,7 +550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3565"
+          "Value": "4335"
         },
         {
           "Name": "Content-Type",
@@ -558,11 +558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pIWhPYsjgmx3mxD+BouASBSGP0HoLMGbwZm+jonzen0=\""
+          "Value": "\"UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 06:47:47 GMT"
+          "Value": "Mon, 31 Mar 2025 14:17:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,7 +572,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ceaon5xuxw"
+          "Value": "37fjelyhvn"
         },
         {
           "Name": "label",
@@ -580,7 +580,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pIWhPYsjgmx3mxD+BouASBSGP0HoLMGbwZm+jonzen0="
+          "Value": "sha256-UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM="
         }
       ]
     },
@@ -595,7 +595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3565"
+          "Value": "4335"
         },
         {
           "Name": "Content-Type",
@@ -603,11 +603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pIWhPYsjgmx3mxD+BouASBSGP0HoLMGbwZm+jonzen0=\""
+          "Value": "\"UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 06:47:47 GMT"
+          "Value": "Mon, 31 Mar 2025 14:17:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -617,7 +617,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pIWhPYsjgmx3mxD+BouASBSGP0HoLMGbwZm+jonzen0="
+          "Value": "sha256-UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM="
         }
       ]
     },

@@ -60,7 +60,7 @@ ul.drop-menu li{
     height: 88px;
 }
 
-/* ======= Dropdown ====== */
+/* ============================ Dropdown menu ==================================== */
 
 .dropbtn {
     background-color: var(--bg-color);
@@ -98,8 +98,6 @@ ul.drop-menu li{
     display: block;
 }
 
-/* ======= End ========*/
-
 /* ============================ Content rules ==================================== */
 
 main.main{
@@ -124,6 +122,8 @@ main.main-image {
     border-radius: 50px;
     font-size: 30px;
 }
+
+/* ============================ Формы авторизации и регистрации ==================================== */
 
 .btn-submit{
     width: 250px;
@@ -192,6 +192,40 @@ main.main-image {
     padding: 10px;
 }
 
+/* ============================ Header страница products ==================================== */
+
+.row-btn{
+    align-items: center;
+}
+
+.col-btn {
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+
+.btn-group{
+    display: flex;
+    overflow: auto;
+}
+
+.col-btn span{
+    font-size: 33px;
+    margin-right: 10px;
+}
+
+.item-btn {
+    margin-right: 20px;
+    background-color: transparent;
+    white-space: nowrap;
+    border-radius: 20px;
+    border: 3px solid var(--page-title-color)
+}
+
+.item-btn:hover {
+    background-color: var(--page-title-color);
+    color: white;
+}
 
 /* ============================ Footer rules ==================================== */
 ul.social-icons {
