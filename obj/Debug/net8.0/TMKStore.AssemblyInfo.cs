@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMKStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+698d737b79d032f0d26719b376d8c1935cfa404d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+558516b6d204f28adc36d0d6751dd737715d10b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMKStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMKStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
