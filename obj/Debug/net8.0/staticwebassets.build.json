@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qThf9z8dT8TTQfg0qu/oRNCe2kksZrtRTxqiWjXcYoQ=",
+  "Hash": "c0WJe6Rd0FGBCtC0paaUk7Nm9ysTIToWsH5fXDU8qZo=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "37fjelyhvn",
-      "Integrity": "UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=",
+      "Fingerprint": "kb39xlzpmm",
+      "Integrity": "8OGKJc/Fe7r7ezxBTqV0Qh/MZRpi8nZL8DRq+Xlar/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -540,51 +540,6 @@
       ]
     },
     {
-      "Route": "css/index.37fjelyhvn.css",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4335"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 14:17:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "37fjelyhvn"
-        },
-        {
-          "Name": "label",
-          "Value": "css/index.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM="
-        }
-      ]
-    },
-    {
       "Route": "css/index.css",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
@@ -595,7 +550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4335"
+          "Value": "6578"
         },
         {
           "Name": "Content-Type",
@@ -603,11 +558,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM=\""
+          "Value": "\"8OGKJc/Fe7r7ezxBTqV0Qh/MZRpi8nZL8DRq+Xlar/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 14:17:57 GMT"
+          "Value": "Mon, 07 Apr 2025 07:34:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -617,7 +572,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UYouzsgtKD+yMXIuXgpxNTnUq5/Cc/wKOoGjbONiXOM="
+          "Value": "sha256-8OGKJc/Fe7r7ezxBTqV0Qh/MZRpi8nZL8DRq+Xlar/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.kb39xlzpmm.css",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8OGKJc/Fe7r7ezxBTqV0Qh/MZRpi8nZL8DRq+Xlar/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:34:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kb39xlzpmm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8OGKJc/Fe7r7ezxBTqV0Qh/MZRpi8nZL8DRq+Xlar/0="
         }
       ]
     },

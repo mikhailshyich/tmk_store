@@ -18,9 +18,13 @@
                      </div>
                 </div>
             </div>
-            <div class="col-sm col-btn">
-                <button class="btn btn-warning col-btn"><span>+ </span>Добавить товар</button>
-            </div>
+            <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <div class="col-sm col-btn">
+                        <button class="btn btn-warning col-btn"><span>+ </span>Добавить товар</button>
+                    </div>
+                </Authorized>
+            </AuthorizeView>
         </div>
         <div class="page-products">
             <h2 class="page-title">Mozzarella</h2>

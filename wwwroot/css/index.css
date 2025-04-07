@@ -100,10 +100,13 @@ ul.drop-menu li{
 
 /* ============================ Content rules ==================================== */
 
-main.main{
+main.main, .main-cart{
     flex: 1 1 auto;
-    align-items: center;
     margin: 20px 0;
+}
+
+main.main{
+    align-items: center;
 }
 
 main.main-image {
@@ -123,14 +126,14 @@ main.main-image {
     font-size: 30px;
 }
 
-/* ============================ Формы авторизации и регистрации ==================================== */
+/* ============================ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ==================================== */
 
 .btn-submit{
     width: 250px;
     border-radius: 50px;
 }
 
-/* ============================ Карточка товара ==================================== */
+/* ============================ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ ==================================== */
 
 .page-products {
     padding-top: 90px;
@@ -160,6 +163,7 @@ main.main-image {
 .card-body-product {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .product-img {
@@ -188,11 +192,12 @@ main.main-image {
 .btn-product{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     padding: 10px;
 }
 
-/* ============================ Header страница products ==================================== */
+/* ============================ Header пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ products ==================================== */
 
 .row-btn{
     align-items: center;
@@ -201,7 +206,8 @@ main.main-image {
 .col-btn {
     display: flex;
     align-items: center;
-    justify-content: end
+    justify-content: end;
+    border-radius: 30px;
 }
 
 .btn-group{
@@ -226,6 +232,129 @@ main.main-image {
     background-color: var(--page-title-color);
     color: white;
 }
+
+/* ============================ Cart rules ==================================== */
+
+.row-item{
+    background-color: var(--bg-card-product);
+}
+
+.item-img{
+    width: 250px;
+    padding: 20px;
+}
+
+.cart-title{
+    margin-bottom: 20px;
+}
+
+.product-img{
+    max-width: 250px;
+}
+
+.cart-item-title{
+    margin: 0;
+    line-height: 29px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card-item, .card-item-body {
+    border-radius: 20px;
+}
+
+.card-item{
+    background-color: var(--bg-color);
+    border: none;
+}
+
+.card-item-body {
+    margin-bottom: 20px;
+    background-color: var(--bg-card-product);
+}
+
+.card-item-body:last-child {
+    margin-bottom: 0;
+}
+
+.cart-item {
+    background-color: var(--bg-color);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.row-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col-description-product{
+    text-align: start;
+}
+
+.cart-item-img{
+    display: flex;
+}
+
+/* Cart counter */
+
+.number {
+	user-select: none;
+	position: relative;
+	text-align: left;
+	padding: 0;
+	width: 140px;
+	border: 1px solid var(--text-color);
+	display: inline-block;
+}
+.number-minus, .number-plus {
+	position: absolute;
+	top: 0;
+	width: 40px;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	color: #3e1e02;
+	text-decoration: none;
+}
+.number-minus {
+	left: 0;
+	border-right: 1px solid var(--text-color);
+}
+.number-plus {
+	right: 0;
+	border-left: 1px solid var(--text-color);
+}
+.number-minus:hover, .number-plus:hover {
+	background: var(--text-color);
+    color: #fff;
+}
+.number-minus:active, .number-plus:active {
+	background: #783d20;
+}
+.number-text{
+	display: inline-block;
+	color: var(--text-color);
+	line-height: 32px;
+	height: 32px;
+	padding: 0;
+	margin: 0 0 0 42px;
+	background: transparent;
+	outline: none;
+	border: none;
+	width: 57px;
+	text-align: center;
+}
+
+/* End */
+
 
 /* ============================ Footer rules ==================================== */
 ul.social-icons {

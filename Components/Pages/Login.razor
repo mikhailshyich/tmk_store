@@ -5,7 +5,7 @@
 @rendermode InteractiveServer
 
 <main class="main d-flex justify-content-center">
-    <EditForm Model="@LoginDto" OnValidSubmit="LoginClicked">
+    <EditForm FormName="login" Model="@LoginDto" OnValidSubmit="LoginClicked">
         <h2 class="text-center">Форма входа</h2>
         <DataAnnotationsValidator />
         <div class="form-group">
