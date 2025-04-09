@@ -5,15 +5,23 @@
 
 <h1>Counter</h1>
 
-<p role="status">Current count: @currentCount</p>
+<p class="counter" role="status">Current count: currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary">Click me</button>
+
+<input type="number" name="name" value="currentCount" />
+
 
 @code {
     private int currentCount = 0;
 
-    private void IncrementCount()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        currentCount++;
+        // Параметр гарантирует, что код в блоке будет вызываться однократно,
+        // только при инициализации приложения.
+        if (firstRender == true)
+        {
+            await js.InvokeVoidAsync("counter");
+        }
     }
 }

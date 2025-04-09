@@ -1,103 +1,88 @@
 ﻿@page "/cart"
+@using static Microsoft.AspNetCore.Components.Web.RenderMode
+@rendermode InteractiveServer
 
 <PageTitle>Корзина</PageTitle>
 
 <main class="main d-flex justify-content-center">
-    <AuthorizeView>
-        <Authorized>
-            <div class="container">
-                <div class="row cart-title">
-                    <h3>Товары в вашей корзине</h3>
-                </div>
-                <div class="card card-item">
-                    <div class="card-body card-item-body">
-                        <div class="row row-cart">
-                            <div class="col-md-3 col-img-product">
-                                <a class="cart-item-img" href="#">
-                                    <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
-                                </a>
+    <CascadingAuthenticationState>
+        <AuthorizeView>
+            <Authorized>
+                <div class="container">
+                    <div class="row cart-title">
+                        <h3>Товары в вашей корзине</h3>
+                    </div>
+                    <div class="card card-item">
+                        <div class="card-body card-item-body">
+                            <div class="row row-cart">
+                                <div class="col-md-3 col-img-product">
+                                    <a class="cart-item-img" href="#">
+                                        <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-description-product">
+                                    <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
+                                    <p class="cart-item-subtitle">Maxi</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>Цена за 1 шт.<br /><span style="font-weight: 600;">5.60 BYN</span></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="counter">
+                                        <input class="counter-text" type="text" step="1" min="1" name="count" value="1">
+                                        <button class="counter-minus" disabled>−</button>
+                                        <button class="counter-plus">+</button>
+                                    </div>
+                                    <div class="btn-remove">
+                                        <button class="btn btn-danger">Убрать из корзины</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-description-product">
-                                <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
-                                <p class="cart-item-subtitle">Maxi</p>
-                            </div>
-                            <div class="col-md-3">
-                                <p>Цена за 1 шт.<br /><span style="font-weight: 600;">5,60 BYN</span></p>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="number" data-step="1" data-min="1" data-max="1000">
-                                    <input class="number-text" type="text" name="count" value="1">
-                                    <a href="#" class="number-minus">−</a>
-                                    <a href="#" class="number-plus">+</a>
+                        </div>
+                        <div class="card-body card-item-body">
+                            <div class="row row-cart">
+                                <div class="col-md-3 col-img-product">
+                                    <a class="cart-item-img" href="#">
+                                        <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-description-product">
+                                    <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
+                                    <p class="cart-item-subtitle">Maxi</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>Цена за 1 шт.<br /><span style="font-weight: 600;">5.60 BYN</span></p>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="counter">
+                                        <input class="counter-text" type="text" step="1" min="1" name="count" value="1">
+                                        <button class="counter-minus" disabled>−</button>
+                                        <button class="counter-plus">+</button>
+                                    </div>
+                                    <div class="btn-remove">
+                                        <button class="btn btn-danger">Убрать из корзины</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-body card-item-body">
-                        <div class="row row-cart">
-                            <div class="col-md-3 col-img-product">
-                                <a class="cart-item-img" href="#">
-                                    <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
-                                </a>
-                            </div>
-                            <div class="col-md-3 col-description-product">
-                                <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
-                                <p class="cart-item-subtitle">Maxi</p>
-                            </div>
-                            <div class="col-md-3">
-                                <p>Цена за 1 шт.<br /><span style="font-weight: 600;">5,60 BYN</span></p>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="number" data-step="1" data-min="1" data-max="1000">
-                                    <input class="number-text" type="text" name="count" value="1">
-                                    <a href="#" class="number-minus">−</a>
-                                    <a href="#" class="number-plus">+</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </Authorized>
-        <NotAuthorized>
-            <Login />
-        </NotAuthorized>
-    </AuthorizeView>
+            </Authorized>
+            <NotAuthorized>
+                <Login />
+            </NotAuthorized>
+        </AuthorizeView>
+    </CascadingAuthenticationState>
+
 </main>
 
-<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('body').on('click', '.number-minus, .number-plus', function(){
-            var $row = $(this).closest('.number');
-            var $input = $row.find('.number-text');
-            var step = $row.data('step');
-            var val = parseFloat($input.val());
-            if ($(this).hasClass('number-minus')) {
-                val -= step;
-            } else {
-                val += step;
-            }
-            $input.val(val);
-            $input.change();
-            return false;
-        });
+@code {
 
-        $('body').on('change', '.number-text', function(){
-            var $input = $(this);
-            var $row = $input.closest('.number');
-            var step = $row.data('step');
-            var min = parseInt($row.data('min'));
-            var max = parseInt($row.data('max'));
-            var val = parseFloat($input.val());
-            if (isNaN(val)) {
-                val = step;
-            } else if (min && val < min) {
-                val = min;
-            } else if (max && val > max) {
-                val = max;
-            }
-            $input.val(val);
-        });
-    });
-</script>
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender == true)
+        {
+            await js.InvokeVoidAsync("counter");
+        }
+    }
+}

@@ -197,7 +197,7 @@ main.main-image {
     padding: 10px;
 }
 
-/* ============================ Header �������� products ==================================== */
+/* ============================ Header products ==================================== */
 
 .row-btn{
     align-items: center;
@@ -299,18 +299,22 @@ main.main-image {
     display: flex;
 }
 
+.btn-remove {
+    margin-top: 20px;
+}
+
 /* Cart counter */
 
-.number {
-	user-select: none;
-	position: relative;
-	text-align: left;
-	padding: 0;
-	width: 140px;
-	border: 1px solid var(--text-color);
-	display: inline-block;
+.counter {
+    user-select: none;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    border: 1px solid var(--text-color);
+    display: inline-block;
 }
-.number-minus, .number-plus {
+.counter-minus, .counter-plus {
 	position: absolute;
 	top: 0;
 	width: 40px;
@@ -323,23 +327,24 @@ main.main-image {
 	text-align: center;
 	color: #3e1e02;
 	text-decoration: none;
+    border: none;
 }
-.number-minus {
+.counter-minus {
 	left: 0;
 	border-right: 1px solid var(--text-color);
 }
-.number-plus {
+.counter-plus {
 	right: 0;
 	border-left: 1px solid var(--text-color);
 }
-.number-minus:hover, .number-plus:hover {
+.counter-minus:hover, .counter-plus:hover {
 	background: var(--text-color);
     color: #fff;
 }
-.number-minus:active, .number-plus:active {
+.counter-minus:active, .counter-plus:active {
 	background: #783d20;
 }
-.number-text{
+.counter-text{
 	display: inline-block;
 	color: var(--text-color);
 	line-height: 32px;
@@ -349,7 +354,7 @@ main.main-image {
 	background: transparent;
 	outline: none;
 	border: none;
-	width: 57px;
+	width: auto;
 	text-align: center;
 }
 

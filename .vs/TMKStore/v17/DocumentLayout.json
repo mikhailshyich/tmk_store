@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\wwwroot\\js\\cartcounter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:wwwroot\\js\\cartcounter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,51 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T06:32:10.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
-              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T06:32:06.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Products.razor",
-              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Products.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Products.razor",
-              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Products.razor",
-              "RelativeToolTip": "Components\\Pages\\Products.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T06:31:24.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cart.razor",
-              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Cart.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Cart.razor",
-              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Cart.razor",
-              "RelativeToolTip": "Components\\Pages\\Cart.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T11:12:53.078Z",
+              "WhenOpened": "2025-04-09T13:11:32.12Z",
               "EditorCaption": ""
             },
             {
@@ -106,22 +61,35 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\index.css",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
               "RelativeToolTip": "wwwroot\\css\\index.css",
-              "ViewState": "AgIAAI0AAAAAAAAAAAASwJEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACYBAAAAAAAAAADwvzgBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-06T14:25:22.111Z",
+              "WhenOpened": "2025-04-09T13:10:59.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cartCounter.js",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\cartCounter.js",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
+              "RelativeToolTip": "wwwroot\\js\\cartCounter.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-09T06:40:26.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Title": "Cart.razor",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Cart.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Cart.razor",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Cart.razor",
+              "RelativeToolTip": "Components\\Pages\\Cart.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwDgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T11:40:13.672Z",
+              "WhenOpened": "2025-04-04T11:12:53.078Z",
               "EditorCaption": ""
             }
           ]
