@@ -48,6 +48,9 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https:/
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
+builder.Services.AddScoped<IProduct, ProductRepos>();
+builder.Services.AddScoped<ProductService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

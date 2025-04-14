@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1z4oqqmamy"},{"Name":"integrity","Value":"sha256-LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ="},{"Name":"label","Value":"_content/TMKStore/css/index.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 07:03:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 07:06:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 07:03:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7911"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LRE4oqy4oapI5bzLlc6aHcLc1a\u002BcdjAaMmgJof0ZEIQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 07:06:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/cart.p4fuqxgzil.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cart.png'))</AssetFile>

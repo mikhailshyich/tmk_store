@@ -14,6 +14,7 @@
 @using TMKStore.Responses
 @using TMKStore.Repos
 @using TMKStore.States
+@using TMKStore.Models
 @using Microsoft.AspNetCore.Components.Authorization
 @using static TMKStore.Responses.CustomResponses
 
@@ -22,3 +23,5 @@
 @inject IJSRuntime js
 @inject NavigationManager NavManager
 @inject AuthenticationStateProvider AuthStateProvider
+@inject IProduct producInterface
+@inject ProductService productService
