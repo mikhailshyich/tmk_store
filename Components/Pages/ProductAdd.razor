@@ -10,43 +10,43 @@
                     <DataAnnotationsValidator />
                     <div class="form-group">
                         <label class="form-label">Наименование</label>
-                        <InputText @bind-Value="ProductDTO.Title" class="form-control"></InputText>
+                        <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">E-mail адрес</label>
-                        <InputText @bind-Value="ProductDTO.Subtitle" class="form-control"></InputText>
+                        <InputText @bind-Value="@productDTO.Subtitle" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Пароль</label>
-                        <InputText type="number" @bind-Value="ProductDTO.Description" class="form-control"></InputText>
+                        <InputText type="number" @bind-Value="@productDTO.Description" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.Weight" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Пароль</label>
-                        <InputText type="number" @bind-Value="ProductDTO.StorageCondition" class="form-control"></InputText>
+                        <InputText type="number" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.Cost" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.Cost" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.Protein" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.Fats" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.NutritionalValue" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="ProductDTO.EnergyValue" class="form-control"></InputNumber>
+                        <InputNumber type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
                     </div>
                     <div class="text-center form-group mt-3">
                         <button class="btn btn-light btn-submit" type="submit">Добавить</button>
@@ -57,4 +57,7 @@
         </div>
     </div>
 </main>
- *@
+
+@code{
+    private ProductDTO productDTO { get; set; } = new();
+} *@
