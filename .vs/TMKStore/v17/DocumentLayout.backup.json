@@ -98,8 +98,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:37:29.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T13:37:29.265Z"
             },
             {
               "$type": "Document",
@@ -133,7 +132,7 @@
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T10:45:16.317Z",
               "EditorCaption": ""
@@ -148,8 +147,7 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T10:22:06.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T10:22:06.674Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "Repos\\ProductRepos.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:44:08.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T08:44:08.717Z"
             },
             {
               "$type": "Document",
@@ -174,8 +171,7 @@
               "RelativeToolTip": "Repos\\IProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:28:31.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T08:28:31.546Z"
             },
             {
               "$type": "Document",
@@ -233,7 +229,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Products.razor",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Products.razor",
               "RelativeToolTip": "Components\\Pages\\Products.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T05:37:16.822Z",
               "EditorCaption": ""

@@ -29,38 +29,41 @@
         </div>
         @if(ProductsList.Count > 0)
         {
-            @foreach (var product in ProductsList)
+            @foreach (var title in uniqueProductNames)
             {
                 <div class="page-products">
-                    <h2 class="page-title">@product.Title</h2>
+                    <h2 class="page-title">@title</h2>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col col-md-3 col-sm-4 product-col">
-                            <div class="card card-product">
-                                <a class="card-product-link" href="#">
-                                    <img src="/img/products/mozzarella_flow_1_125-600x600.png" class="card-img-top product-img" alt="products">
-                                </a>
-                                <div class="card-body card-body-product">
-                                    <div class="col-md-6">
-                                        <a href="#">
-                                            <p class="product-title">@product.Title</p>
-                                            <p class="product-subtitle">@product.Subtitle</p>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <b><p class="product-weight">@product.Weight <span>г</span></p></b>
-                                    </div>
-                                </div>
-                                <AuthorizeView>
-                                    <Authorized>
-                                        <div class="btn-product">
-                                            <div class="col-md-12">
-                                                <a class="btn btn-warning">Добавить в корзину</a>
-                                            </div>
+                        @foreach (var product in ProductsList.Where(p => p.Title == title))
+                        {
+                            <div class="col col-md-4 col-sm-4 product-col">
+                                <div class="card card-product">
+                                    <a class="card-product-link" href="#">
+                                        <img src="/img/products/mozzarella_flow_1_125-600x600.png" class="card-img-top product-img" alt="products">
+                                    </a>
+                                    <div class="card-body card-body-product">
+                                        <div class="col-md-6">
+                                            <a href="#">
+                                                <p class="product-title">@product.Title</p>
+                                                <p class="product-subtitle">@product.Subtitle</p>
+                                            </a>
                                         </div>
-                                    </Authorized>
-                                </AuthorizeView>
+                                        <div class="col-md-6">
+                                            <b><p class="product-weight">@product.Weight <span>г</span></p></b>
+                                        </div>
+                                    </div>
+                                    <AuthorizeView>
+                                        <Authorized>
+                                            <div class="btn-product">
+                                                <div class="col-md-12">
+                                                    <a class="btn btn-warning">Добавить в корзину</a>
+                                                </div>
+                                            </div>
+                                        </Authorized>
+                                    </AuthorizeView>
+                                </div>
                             </div>
-                        </div>
+                        }
                     </div>
                 </div>
             }
@@ -74,6 +77,8 @@
 
 @code{
     private List<Product> ProductsList { get; set; } = new();
+    private List<string> ProductTitleList { get; set; } = new();
+    private IEnumerable<string>? uniqueProductNames { get; set; }
 
     private async Task LoadProduct()
     {
@@ -83,7 +88,9 @@
         foreach(var product in products)
         {
             ProductsList?.Add(product);
+            ProductTitleList?.Add(product.Title);
         }
+        uniqueProductNames = ProductTitleList?.Distinct();
     }
 
     protected override async Task OnInitializedAsync() => await LoadProduct();

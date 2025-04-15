@@ -3,7 +3,7 @@ using TMKStore.Repos;
 
 namespace TMKStore.Services
 {
-    public class ProductService : IProductService
+    public class ProductService : IProduct
     {
         private readonly HttpClient httpClient;
 
