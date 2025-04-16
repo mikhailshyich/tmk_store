@@ -1,11 +1,11 @@
-﻿@* @page "/product/add"
+﻿@page "/product/add"
 @rendermode InteractiveServer
 
 <main class="main d-flex justify-content-center">
     <div class="container">
         <div class="row">
             <div class="d-flex justify-content-center align-content-center">
-                <EditForm Model="@ProductDTO" OnValidSubmit="AddClicked">
+                <EditForm Model="@productDTO" OnValidSubmit="AddProduct" FormName="AddProduct">
                     <h2 class="text-center">Форма добавления продукта</h2>
                     <DataAnnotationsValidator />
                     <div class="form-group">
@@ -13,43 +13,47 @@
                         <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">E-mail адрес</label>
+                        <label class="form-label">Подзаголовок</label>
                         <InputText @bind-Value="@productDTO.Subtitle" class="form-control"></InputText>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Пароль</label>
-                        <InputText type="number" @bind-Value="@productDTO.Description" class="form-control"></InputText>
+                        <label class="form-label">Описание</label>
+                        <InputTextArea type="text" @bind-Value="@productDTO.Description" class="form-control"></InputTextArea>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
+                        <label class="form-label">Вес в граммах</label>
                         <InputNumber type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Пароль</label>
-                        <InputText type="number" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputText>
+                        <label class="form-label">Условия хранения</label>
+                        <InputTextArea type="text" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputTextArea>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.Cost" class="form-control"></InputNumber>
+                        <label class="form-label">Цена за 1 шт.</label>
+                        <InputNumber @bind-Value="@productDTO.Price" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
+                        <label class="form-label">Количество</label>
+                        <InputNumber @bind-Value="@productDTO.Count" class="form-control"></InputNumber>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label class="form-label">Содержание белков в граммах</label>
                         <InputNumber type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
+                        <label class="form-label">Содержание жиров в граммах</label>
                         <InputNumber type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
+                        <label class="form-label">Пищевая ценность</label>
                         <InputNumber type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
-                        <label class="form-label">Подтвердите пароль</label>
+                        <label class="form-label">Энергетическая ценность</label>
                         <InputNumber type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
                     </div>
                     <div class="text-center form-group mt-3">
-                        <button class="btn btn-light btn-submit" type="submit">Добавить</button>
+                        <button class="btn btn-light btn-submit" type="submit">Добавить новый продукт</button>
                     </div>
                     <ValidationSummary />
                 </EditForm>
@@ -59,5 +63,12 @@
 </main>
 
 @code{
-    private ProductDTO productDTO { get; set; } = new();
-} *@
+    [SupplyParameterFromForm]
+    public ProductDTO productDTO { get; set; } = new();
+
+    private async Task AddProduct()
+    {
+        var result = producInterface.AddProductAsync(productDTO);
+        NavManager.NavigateTo("/products", forceLoad: true);
+    }
+}

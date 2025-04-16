@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TMKStore.Data;
+using TMKStore.DTOs;
 using TMKStore.Models;
 using TMKStore.Services;
+using static TMKStore.Responses.CustomResponses;
 
 namespace TMKStore.Repos
 {
@@ -13,15 +15,31 @@ namespace TMKStore.Repos
             this.appDbContext = appDbContext;
         }
 
-        public async Task<Product> AddProductAsync(Product product)
+        public async Task<ProductResponse> AddProductAsync(ProductDTO productDTO)
         {
-            if (product is null) return null!;
-            var checkProduct = appDbContext.Products.Where(p => p.Title.ToLower().Equals(product.Title.ToLower())).FirstOrDefaultAsync();
+            if (productDTO is null) return null!;
+            var checkProduct = appDbContext.Products.Where(p => p.Title.ToLower().Equals(productDTO.Title.ToLower())).FirstOrDefaultAsync();
             if (checkProduct is null) return null!;
 
-            var newProduct = appDbContext.Products.Add(product).Entity;
+            appDbContext.Products.Add(
+                new Product()
+                {
+                    Title = productDTO.Title,
+                    Subtitle = productDTO.Subtitle,
+                    Description = productDTO.Description,
+                    Weight = productDTO.Weight,
+                    StorageCondition = productDTO.StorageCondition,
+                    Price = productDTO.Price,
+                    Count = productDTO.Count,
+                    Protein = productDTO.Protein,
+                    Fats = productDTO.Fats,
+                    NutritionalValue = productDTO.NutritionalValue,
+                    EnergyValue = productDTO.EnergyValue,
+                    DateTimeAdded = DateTime.Now,
+                });
+
             await appDbContext.SaveChangesAsync();
-            return newProduct;
+            return new ProductResponse(true, "Продукт успешно добавлен!");
         }
 
         public async Task<Product> DeleteProductAsync(Guid productId)

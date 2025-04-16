@@ -6,9 +6,7 @@ namespace TMKStore.DTOs
     {
         [Required]
         public string Title { get; set; } = string.Empty;
-        [Required]
         public string Subtitle { get; set; } = string.Empty;
-        [Required]
         public string Description { get; set; } = string.Empty;
         [Required]
         public double Weight { get; set; }
@@ -16,17 +14,11 @@ namespace TMKStore.DTOs
         public string StorageCondition { get; set; } = string.Empty;
         [Required, Range(1.0, 1000.0)]
         public decimal Price { get; set; }
-        [Required]
         public int Count { get; set; }
-        [Required]
         public double Protein { get; set; }
-        [Required]
         public double Fats { get; set; }
-        [Required]
         public double NutritionalValue { get; set; }
-        [Required]
         public double EnergyValue { get; set; }
-        [Required]
-        public DateTime DateTimeAdded { get; set; }
+        public DateTime DateTimeAdded { get; set; } = DateTime.Now;
     }
 }

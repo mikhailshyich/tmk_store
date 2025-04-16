@@ -1,13 +1,15 @@
-﻿using TMKStore.Models;
+﻿using TMKStore.DTOs;
+using TMKStore.Models;
+using static TMKStore.Responses.CustomResponses;
 
 namespace TMKStore.Repos
 {
     public interface IProduct
     {
-        Task<Product> AddProductAsync(Product product);
-        Task<Product> UpdateProductAsync(Product product);
-        Task<Product> DeleteProductAsync(Guid productId);
+        Task<ProductResponse> AddProductAsync(ProductDTO product);
+        //Task<Product> UpdateProductAsync(Product product);
+        //Task<Product> DeleteProductAsync(Guid productId);
         Task<List<Product>> GetAllProductsAsync();
-        Task<Product> GetProductByIdAsync(Guid productId);
+        //Task<Product> GetProductByIdAsync(Guid productId);
     }
 }

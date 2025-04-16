@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TMKStore.DTOs;
 using TMKStore.Models;
 using TMKStore.Repos;
 
@@ -22,32 +23,32 @@ namespace TMKStore.Controllers
             return Ok(products);
         }
 
-        [HttpGet("single-product/{id}")]
-        public async Task<ActionResult<List<Product>>> GetSingleProductAsync(Guid id)
-        {
-            var product = await productInterface.GetProductByIdAsync(id);
-            return Ok(product);
-        }
+        //[HttpGet("single-product/{id}")]
+        //public async Task<ActionResult<List<Product>>> GetSingleProductAsync(Guid id)
+        //{
+        //    var product = await productInterface.GetProductByIdAsync(id);
+        //    return Ok(product);
+        //}
 
         [HttpPost("add")]
-        public async Task<ActionResult<List<Product>>> AddProductAsync(Product model)
+        public async Task<ActionResult<List<Product>>> AddProductAsync(ProductDTO model)
         {
             var product = await productInterface.AddProductAsync(model);
             return Ok(product);
         }
 
-        [HttpPut("product-update")]
-        public async Task<ActionResult<List<Product>>> UpdateProductAsync(Product model)
-        {
-            var product = await productInterface.UpdateProductAsync(model);
-            return Ok(product);
-        }
+        //[HttpPut("product-update")]
+        //public async Task<ActionResult<List<Product>>> UpdateProductAsync(Product model)
+        //{
+        //    var product = await productInterface.UpdateProductAsync(model);
+        //    return Ok(product);
+        //}
 
-        [HttpDelete("product-delete/{id}")]
-        public async Task<ActionResult<List<Product>>> DeleteProductAsync(Guid id)
-        {
-            var product = await productInterface.DeleteProductAsync(id);
-            return Ok(product);
-        }
+        //[HttpDelete("product-delete/{id}")]
+        //public async Task<ActionResult<List<Product>>> DeleteProductAsync(Guid id)
+        //{
+        //    var product = await productInterface.DeleteProductAsync(id);
+        //    return Ok(product);
+        //}
     }
 }
