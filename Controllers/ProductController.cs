@@ -23,12 +23,12 @@ namespace TMKStore.Controllers
             return Ok(products);
         }
 
-        //[HttpGet("single-product/{id}")]
-        //public async Task<ActionResult<List<Product>>> GetSingleProductAsync(Guid id)
-        //{
-        //    var product = await productInterface.GetProductByIdAsync(id);
-        //    return Ok(product);
-        //}
+        [HttpGet("single-product/{id}")]
+        public async Task<ActionResult<List<Product>>> GetSingleProductAsync(Guid id)
+        {
+            var product = await productInterface.GetProductByIdAsync(id);
+            return Ok(product);
+        }
 
         [HttpPost("add")]
         public async Task<ActionResult<List<Product>>> AddProductAsync(ProductDTO model)

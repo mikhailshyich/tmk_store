@@ -1,0 +1,77 @@
+﻿@page "/product-info"
+@page "/product-info/{Id:guid}"
+
+
+<main class="main d-flex justify-content-center">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="d-flex justify-content-center col-md-6 col-sm-12">
+                        <img class="post-image" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="product-info-head">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h1 class="product-title">@Product.Title</h1>
+                                    <p class="product-subtitle">@Product.Subtitle</p>
+                                </div>
+                                <div class="col-md-2 text-center product-info-weight">
+                                    <p>@Product.Weight г</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-descr">
+                            <p class="product-descr">@Product.Description</p>
+                        </div>
+                        <div class="product-info-acc">
+                            <div class="accordion" id="accordionInfo">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Подробнее
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionInfo">
+                                        <div class="accordion-body">
+                                            <p class="product-acc">@Product.StorageCondition</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info-parameters">
+                            <p class="product-parameters">Пищевая и энергетическая ценность 100 г продукта</p>
+                            <div class="product-info-items">
+                                @foreach(var param in ParametersList)
+                                {
+                                    <div class="product-info-item">
+                                        <p>@param</p>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    public Product Product { get; set; } = new();
+    public List<string> ParametersList { get; set; } = new();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        Product = await productService.GetProductByIdAsync(Id);
+        ParametersList.Add($"{Product.Protein} г");
+        ParametersList.Add($"{Product.Fats} г");
+        ParametersList.Add($"{Product.NutritionalValue} ккал");
+        ParametersList.Add($"{Product.EnergyValue} кДж");
+    }
+}

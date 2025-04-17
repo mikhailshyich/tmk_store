@@ -37,12 +37,12 @@ namespace TMKStore.Services
             return response!;
         }
 
-        //public async Task<ProductResponse> GetProductByIdAsync(Guid productId)
-        //{
-        //    var product = await httpClient.GetAsync($"{BaseUrl}/single-product/{productId}");
-        //    var response = await product.Content.ReadFromJsonAsync<ProductResponse>();
-        //    return response!;
-        //}
+        public async Task<Product> GetProductByIdAsync(Guid productId)
+        {
+            var product = await httpClient.GetAsync($"{BaseUrl}/single-product/{productId}");
+            var response = await product.Content.ReadFromJsonAsync<Product>();
+            return response!;
+        }
 
         //public async Task<ProductResponse> UpdateProductAsync(Product model)
         //{

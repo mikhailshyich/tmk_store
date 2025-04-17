@@ -10,6 +10,6 @@ namespace TMKStore.Repos
         //Task<Product> UpdateProductAsync(Product product);
         //Task<Product> DeleteProductAsync(Guid productId);
         Task<List<Product>> GetAllProductsAsync();
-        //Task<Product> GetProductByIdAsync(Guid productId);
+        Task<Product> GetProductByIdAsync(Guid productId);
     }
 }

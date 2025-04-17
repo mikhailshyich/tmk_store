@@ -1,5 +1,4 @@
 ﻿@page "/products"
-
 @rendermode InteractiveServer
 
 <PageTitle>Товары</PageTitle>
@@ -38,12 +37,12 @@
                         {
                             <div class="col col-md-4 col-sm-4 product-col">
                                 <div class="card card-product">
-                                    <a class="card-product-link" href="#">
+                                    <a class="card-product-link" href="/product-info/@product.Id">
                                         <img src="/img/products/mozzarella_flow_1_125-600x600.png" class="card-img-top product-img" alt="products">
                                     </a>
                                     <div class="card-body card-body-product">
                                         <div class="col-md-6">
-                                            <a href="#">
+                                            <a href="/product-info/@product.Id">
                                                 <p class="product-title">@product.Title</p>
                                                 <p class="product-subtitle">@product.Subtitle</p>
                                             </a>
@@ -70,7 +69,11 @@
         }
         else
         {
-            <h2>Нет продуктов</h2>
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
         }
     </div>
 </main>

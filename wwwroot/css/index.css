@@ -317,7 +317,7 @@ main.main-image {
     margin-top: 20px;
 }
 
-.cart-footer {
+.cart-column {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -420,6 +420,49 @@ main.main-image {
 
 /* End */
 
+/* ============================ Product info rules ==================================== */
+
+.post-image {
+    width: 80%;
+    margin: 0;
+    padding: 20px;
+}
+
+.product-info-head, .product-info-descr, .product-info-acc {
+    margin-bottom: 20px;
+}
+
+.product-info-head {
+    margin-top: 20px;
+}
+
+.product-descr, .product-acc, .product-parameters {
+    font-size: 17px;
+    margin: 0;
+}
+
+.product-parameters {
+    margin-bottom: 20px;
+}
+
+.product-info-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-info-weight {
+    max-width: 110px;
+}
+
+    .product-info-item p, .product-info-weight p {
+        margin: 0;
+        margin-right: 20px;
+        padding: 10px;
+        background-color: var(--bg-color);
+        border-radius: 25px;
+        font-size: 17px;
+        font-weight: 700;
+    }
 
 /* ============================ Footer rules ==================================== */
 ul.social-icons {
