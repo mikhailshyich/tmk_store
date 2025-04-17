@@ -9,6 +9,10 @@
                     <h2 class="text-center">Форма добавления продукта</h2>
                     <DataAnnotationsValidator />
                     <div class="form-group">
+                        <label class="form-label">Фото продукта</label>
+                        <InputFile OnChange="LoadFile" class="form-control"></InputFile>
+                    </div>
+                    <div class="form-group">
                         <label class="form-label">Наименование</label>
                         <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
                     </div>
@@ -65,10 +69,26 @@
 @code{
     [SupplyParameterFromForm]
     public ProductDTO productDTO { get; set; } = new();
+    public string FileName = string.Empty;
 
     private async Task AddProduct()
     {
         var result = producInterface.AddProductAsync(productDTO);
         NavManager.NavigateTo("/products", forceLoad: true);
+    }
+
+    private async Task LoadFile(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        FileName = e.File.Name;
+        // путь к папке, где будут храниться файлы
+        var uploadPath = $"{Directory.GetCurrentDirectory()}\\wwwroot\\img\\products";
+        // создаем папку для хранения файлов
+        Directory.CreateDirectory(uploadPath);
+        var path = Path.Combine(Environment.ProcessPath,
+            Environment.MachineName, uploadPath, e.File.Name);
+
+        await using FileStream fs = new(path, FileMode.Create);
+        await file.OpenReadStream().CopyToAsync(fs);
     }
 }

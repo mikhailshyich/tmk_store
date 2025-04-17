@@ -1,6 +1,8 @@
 ﻿@page "/product-info"
 @page "/product-info/{Id:guid}"
 
+@rendermode InteractiveServer
+
 
 <main class="main d-flex justify-content-center">
     <div class="container">
@@ -55,6 +57,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="back-to-products">
+            <a href="/products">&#060 Вернуться к товарам</a>
         </div>
     </div>
 </main>
