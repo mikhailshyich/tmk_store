@@ -17,9 +17,9 @@ namespace TMKStore.Repos
 
         public async Task<ProductResponse> AddProductAsync(ProductDTO productDTO)
         {
-            if (productDTO is null) return null!;
+            if (productDTO is null) return new ProductResponse(false, "Продукт равен null");
             var checkProduct = appDbContext.Products.Where(p => p.Title.ToLower().Equals(productDTO.Title.ToLower())).FirstOrDefaultAsync();
-            if (checkProduct is null) return null!;
+            if (checkProduct is null) return new ProductResponse(false, "Продукт равен null");
 
             appDbContext.Products.Add(
                 new Product()
@@ -43,14 +43,14 @@ namespace TMKStore.Repos
             return new ProductResponse(true, "Продукт успешно добавлен!");
         }
 
-        public async Task<Product> DeleteProductAsync(Guid productId)
+        public async Task<ProductResponse> DeleteProductAsync(Guid productId)
         {
             var product = appDbContext.Products.FirstOrDefault(p => p.Id == productId);
-            if (product is null) return null!;
+            if (product is null) return new ProductResponse(false, "Продукт не найден!");
 
             appDbContext.Products.Remove(product);
             await appDbContext.SaveChangesAsync();
-            return product;
+            return new ProductResponse(true, "Продукт успешно удалён!");
         }
 
         public async Task<List<Product>> GetAllProductsAsync() => await appDbContext.Products.ToListAsync();

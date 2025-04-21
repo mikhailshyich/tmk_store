@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -49,16 +41,24 @@
       "PackagePath": "staticwebassets\\img\\products.png"
     },
     {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "PackagePath": "staticwebassets\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png",
+      "PackagePath": "staticwebassets\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "PackagePath": "staticwebassets\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png",
+      "PackagePath": "staticwebassets\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png"
+    },
+    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
       "PackagePath": "staticwebassets\\img\\products\\mozzarella_flow_1_125-600x600.png"
-    },
-    {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
-      "PackagePath": "staticwebassets\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-    },
-    {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
-      "PackagePath": "staticwebassets\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png"
     },
     {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",

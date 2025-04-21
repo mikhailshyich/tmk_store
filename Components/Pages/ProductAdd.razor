@@ -1,70 +1,81 @@
 ﻿@page "/product/add"
 @rendermode InteractiveServer
 
+
 <main class="main d-flex justify-content-center">
     <div class="container">
-        <div class="row">
-            <div class="d-flex justify-content-center align-content-center">
-                <EditForm Model="@productDTO" OnValidSubmit="AddProduct" FormName="AddProduct">
-                    <h2 class="text-center">Форма добавления продукта</h2>
-                    <DataAnnotationsValidator />
-                    <div class="form-group">
-                        <label class="form-label">Изображение продукта</label>
-                        <InputFile OnChange="GetFileChangeEventArgsAsync" class="form-control"></InputFile>
+        <AuthorizeView Roles="Admin" Context="authContext">
+            <Authorized>
+                <div class="row">
+                    <div class="d-flex justify-content-center align-content-center">
+                        <EditForm Model="@productDTO" OnValidSubmit="AddProduct" FormName="AddProduct">
+                            <h2 class="text-center">Форма добавления продукта</h2>
+                            <DataAnnotationsValidator />
+                            <div class="form-group">
+                                <label class="form-label">Изображение продукта</label>
+                                <InputFile OnChange="GetFileChangeEventArgsAsync" class="form-control"></InputFile>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Наименование</label>
+                                <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Подзаголовок</label>
+                                <InputText @bind-Value="@productDTO.Subtitle" class="form-control"></InputText>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Описание</label>
+                                <InputTextArea type="text" @bind-Value="@productDTO.Description" class="form-control"></InputTextArea>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Вес в граммах</label>
+                                <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Условия хранения</label>
+                                <InputTextArea type="text" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputTextArea>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Цена за 1 шт.</label>
+                                <InputNumber @bind-Value="@productDTO.Price" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Количество</label>
+                                <InputNumber @bind-Value="@productDTO.Count" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Содержание белков в граммах</label>
+                                <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Содержание жиров в граммах</label>
+                                <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Пищевая ценность</label>
+                                <InputNumber TValue="double" type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Энергетическая ценность</label>
+                                <InputNumber TValue="double" type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
+                            </div>
+                            <div class="text-center form-group mt-3">
+                                <button class="btn btn-light btn-submit" type="submit">Добавить новый продукт</button>
+                            </div>
+                            <ValidationSummary />
+                        </EditForm>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label">Наименование</label>
-                        <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Подзаголовок</label>
-                        <InputText @bind-Value="@productDTO.Subtitle" class="form-control"></InputText>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Описание</label>
-                        <InputTextArea type="text" @bind-Value="@productDTO.Description" class="form-control"></InputTextArea>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Вес в граммах</label>
-                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Условия хранения</label>
-                        <InputTextArea type="text" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputTextArea>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Цена за 1 шт.</label>
-                        <InputNumber @bind-Value="@productDTO.Price" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Количество</label>
-                        <InputNumber @bind-Value="@productDTO.Count" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Содержание белков в граммах</label>
-                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Содержание жиров в граммах</label>
-                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Пищевая ценность</label>
-                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
-                    </div>
-                    <div class="form-group mt-3">
-                        <label class="form-label">Энергетическая ценность</label>
-                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
-                    </div>
-                    <div class="text-center form-group mt-3">
-                        <button class="btn btn-light btn-submit" type="submit">Добавить новый продукт</button>
-                    </div>
-                    <ValidationSummary />
-                </EditForm>
-            </div>
-        </div>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+        <AuthorizeView>
+            <NotAuthorized>
+                <h2>У вас недостаточно прав для просмотра этой страницы</h2>
+            </NotAuthorized>
+        </AuthorizeView>
     </div>
 </main>
+
 
 @code{
     [SupplyParameterFromForm]
@@ -74,11 +85,11 @@
 
     private async Task AddProduct()
     {
-        if (eventForm.File is not null)
+        if (eventForm != null)
         {
             FileName = await LoadFile(eventForm);
+            productDTO.SrcImageProduct = FileName;
         }
-        productDTO.SrcImageProduct = FileName;
         var result = producInterface.AddProductAsync(productDTO);
 
         NavManager.NavigateTo("/products", forceLoad: true);

@@ -13,10 +13,10 @@
                         <div class="d-flex align-items-center">
                             <ul class="menu-icons d-flex justify-content-center">
                                 <li><a href="/"><img class="menu-icons-item" alt="home" src="img/home.png"></a></li>
-                                <li><a href="products"><img class="menu-icons-item" alt="products" src="img/products.png"></a></li>
+                                <li><a href="/products"><img class="menu-icons-item" alt="products" src="img/products.png"></a></li>
                                 <AuthorizeView>
                                     <Authorized>
-                                        <li><a href="cart"><img class="menu-icons-item" alt="cart" src="img/cart.png"></a></li>
+                                        <li><a href="/cart"><img class="menu-icons-item" alt="cart" src="img/cart.png"></a></li>
                                     </Authorized>
                                 </AuthorizeView>
                                 @* <AuthorizeView Roles="Admin">
@@ -30,12 +30,12 @@
                                         <div class="dropdown-content">
                                             <AuthorizeView>
                                                 <Authorized>
-                                                    <a class="dropdown-item drop-item" href="profile">Посмотреть профиль</a>
-                                                    <a class="dropdown-item drop-item" href="logout">Выйти</a>
+                                                    <a class="dropdown-item drop-item" href="/profile">Посмотреть профиль</a>
+                                                    <a class="dropdown-item drop-item" href="/logout">Выйти</a>
                                                 </Authorized>
                                                 <NotAuthorized>
-                                                    <a class="dropdown-item drop-item" href="login">Войти</a>
-                                                    <a class="dropdown-item drop-item" href="registration">Зарегистрироваться</a>
+                                                    <a class="dropdown-item drop-item" href="/login">Войти</a>
+                                                    <a class="dropdown-item drop-item" href="/registration">Зарегистрироваться</a>
                                                 </NotAuthorized>
                                             </AuthorizeView>
                                         </div>

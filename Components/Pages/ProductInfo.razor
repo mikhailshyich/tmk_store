@@ -1,5 +1,6 @@
 ﻿@page "/product-info"
 @page "/product-info/{Id:guid}"
+@using BlazorBootstrap
 
 
 <main class="main d-flex justify-content-center">
@@ -26,7 +27,17 @@
                             <p class="product-descr">@Product.Description</p>
                         </div>
                         <div class="product-info-acc">
-                            <div class="accordion" id="accordionInfo">
+                            <Button Type="ButtonType.Button" class="accordion-button collapsed" @onclick="ToggleContentAsync"><u>Подробнее</u></Button>
+                            <Collapse @ref="collapse1">
+                                <Card>
+                                    <CardBody>
+                                        <p class="product-acc">@Product.StorageCondition</p>
+                                    </CardBody>
+                                </Card>
+                            </Collapse>
+                            
+
+                            @* <div class="accordion" id="accordionInfo">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -35,11 +46,11 @@
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionInfo">
                                         <div class="accordion-body">
-                                            <p class="product-acc">@Product.StorageCondition</p>
+                                            <p class="product-acc"></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> *@
                         </div>
                         <div class="product-info-parameters">
                             <p class="product-parameters">Пищевая и энергетическая ценность 100 г продукта</p>
@@ -68,6 +79,11 @@
 
     public Product Product { get; set; } = new();
     public List<string> ParametersList { get; set; } = new();
+
+    Collapse collapse1 = default!;
+    private async Task ToggleContentAsync() => await collapse1.ToggleAsync();
+
+
 
     protected override async Task OnParametersSetAsync()
     {

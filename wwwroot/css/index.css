@@ -113,7 +113,7 @@ ul.drop-menu li {
 /* ============================ Content rules ==================================== */
 
 main.main, .main-cart {
-    flex: 1 1 auto;
+/*    flex: 1 1 auto;*/
     margin: 20px 0;
 }
 
@@ -139,7 +139,6 @@ main.main-image {
 }
 
 /* ============================ ����� ����������� � ����������� ==================================== */
-
 .btn-submit {
     width: 250px;
     border-radius: 50px;
@@ -148,12 +147,12 @@ main.main-image {
 /* ============================ �������� ������ ==================================== */
 
 .page-products {
-    padding-top: 90px;
+    padding-top: 35px;
 }
 
-    .page-products:last-child {
-        padding-bottom: 90px;
-    }
+.page-products:last-child {
+    padding-bottom: 35px;
+}
 
 .page-title {
     font-weight: 800;

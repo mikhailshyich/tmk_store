@@ -290,3 +290,10 @@ D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\refint\TMKStore.dll
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.pdb
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.genruntimeconfig.cache
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\ref\TMKStore.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\BlazorBootstrap.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.JSInterop.dll

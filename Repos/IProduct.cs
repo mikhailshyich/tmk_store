@@ -8,7 +8,7 @@ namespace TMKStore.Repos
     {
         Task<ProductResponse> AddProductAsync(ProductDTO product);
         //Task<Product> UpdateProductAsync(Product product);
-        //Task<Product> DeleteProductAsync(Guid productId);
+        Task<ProductResponse> DeleteProductAsync(Guid productId);
         Task<List<Product>> GetAllProductsAsync();
         Task<Product> GetProductByIdAsync(Guid productId);
     }

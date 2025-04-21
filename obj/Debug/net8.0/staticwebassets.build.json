@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cLHZVUVHiHMZatq7fIwZ+liStYRGvTvmdegG4higB3w=",
+  "Hash": "aWGZSyrAMTcjuNHB1+sYyyNyuIx3bamCOT7lNXrpmCE=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -17,33 +17,33 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
       "AssetKind": "All",
-      "AssetMode": "All",
+      "AssetMode": "Reference",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "7t9tbfaemk",
+      "Integrity": "FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css"
     },
     {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.css",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,11 +52,179 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8inm30yfxf",
-      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "Fingerprint": "63oqyoiiv4",
+      "Integrity": "jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5vmds449nb",
+      "Integrity": "/56eGJ+O8AbP07k4uCOAQdLbbj1ZsrX1aBINOPS9IAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.pdf.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ct0ej5e0q0",
+      "Integrity": "oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.pdf.js"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.sortable-list.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ezlxc6gzv3",
+      "Integrity": "du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.sortable-list.js"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.theme-switcher.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pisakkcwob",
+      "Integrity": "Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.theme-switcher.js"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\icon\\128X128.png",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "icon/128X128.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tngynhsog2",
+      "Integrity": "J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\icon\\128X128.png"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8zp7bt7w3",
+      "Integrity": "XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.worker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "79hai7knhw",
+      "Integrity": "JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.worker.min.js"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TMKStore.styles.css",
+      "SourceId": "TMKStore",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "TMKStore#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "2f7rf8k9qo",
+      "Integrity": "spIvy1O7CaTdxNHlJtYL8on3W147Z8NDiDYc4NSFlT4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TMKStore.styles.css"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
@@ -73,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sqxytz13ol",
-      "Integrity": "rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=",
+      "Fingerprint": "bmv1j0xb43",
+      "Integrity": "UxnG45n8kgA9NitnbJLWmeq2BaXQCHVCln0b1qaV5ss=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -269,6 +437,90 @@
       "OriginalItemSpec": "wwwroot\\img\\products.png"
     },
     {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xno6nia2ei",
+      "Integrity": "ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2s5tseymhn",
+      "Integrity": "gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xno6nia2ei",
+      "Integrity": "ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2s5tseymhn",
+      "Integrity": "gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png"
+    },
+    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -288,48 +540,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png"
-    },
-    {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wayeo1tlql",
-      "Integrity": "2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-    },
-    {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "img/products/provoletta_affumicata_120g-e1726742425173-455x600#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xno6nia2ei",
-      "Integrity": "ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
@@ -439,8 +649,746 @@
   ],
   "Endpoints": [
     {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.5vmds449nb.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/56eGJ+O8AbP07k4uCOAQdLbbj1ZsrX1aBINOPS9IAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:04:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5vmds449nb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/56eGJ+O8AbP07k4uCOAQdLbbj1ZsrX1aBINOPS9IAM="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.63oqyoiiv4.css",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63oqyoiiv4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7t9tbfaemk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.css",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/56eGJ+O8AbP07k4uCOAQdLbbj1ZsrX1aBINOPS9IAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:04:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/56eGJ+O8AbP07k4uCOAQdLbbj1ZsrX1aBINOPS9IAM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.ct0ej5e0q0.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ct0ej5e0q0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.ezlxc6gzv3.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ezlxc6gzv3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.pisakkcwob.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pisakkcwob"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/icon/128X128.png",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\icon\\128X128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Apr 2022 11:45:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/icon/128X128.tngynhsog2.png",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\icon\\128X128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Apr 2022 11:45:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tngynhsog2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/icon/128X128.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.j8zp7bt7w3.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8zp7bt7w3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.79hai7knhw.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79hai7knhw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js",
+      "AssetFile": "C:\\Users\\shiich\\.nuget\\packages\\blazor.bootstrap\\3.3.1\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.bmv1j0xb43.css",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -449,7 +1397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "8927"
         },
         {
           "Name": "Content-Type",
@@ -457,11 +1405,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"UxnG45n8kgA9NitnbJLWmeq2BaXQCHVCln0b1qaV5ss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 05:06:44 GMT"
+          "Value": "Mon, 21 Apr 2025 13:37:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -471,134 +1419,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "bmv1j0xb43"
         },
         {
           "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css"
+          "Value": "css/index.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162720"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 05:06:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 05:06:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8inm30yfxf"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
-        }
-      ]
-    },
-    {
-      "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\bootstrap\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "449111"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 05:06:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+          "Value": "sha256-UxnG45n8kgA9NitnbJLWmeq2BaXQCHVCln0b1qaV5ss="
         }
       ]
     },
@@ -613,7 +1442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8925"
+          "Value": "8927"
         },
         {
           "Name": "Content-Type",
@@ -621,11 +1450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\""
+          "Value": "\"UxnG45n8kgA9NitnbJLWmeq2BaXQCHVCln0b1qaV5ss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:27:06 GMT"
+          "Value": "Mon, 21 Apr 2025 13:37:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -635,52 +1464,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="
-        }
-      ]
-    },
-    {
-      "Route": "css/index.sqxytz13ol.css",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8925"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:27:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sqxytz13ol"
-        },
-        {
-          "Name": "label",
-          "Value": "css/index.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="
+          "Value": "sha256-UxnG45n8kgA9NitnbJLWmeq2BaXQCHVCln0b1qaV5ss="
         }
       ]
     },
@@ -1423,6 +2207,334 @@
       ]
     },
     {
+      "Route": "img/products/18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 13:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 13:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/18c82125-7726-4e1e-acd8-8843e8cdf2c6_provoletta_affumicata_120g-e1726742425173-455x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.2s5tseymhn.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 10:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s5tseymhn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\984cc5ea-7231-4791-a841-f9a2f8b8f375_04_skamorza_preview-2a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 10:45:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 10:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 10:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/d0d259dd-7ee7-44be-b18d-2dd3645495af_provoletta_affumicata_120g-e1726742425173-455x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.2s5tseymhn.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:57:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s5tseymhn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\fbca45e4-b53e-4e63-9efd-6618ac8787e4_04_skamorza_preview-2a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 11:57:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvadrAIs0klmIi9Wi82ksKqzhGA7T+3A5BpyRKJS1j8="
+        }
+      ]
+    },
+    {
       "Route": "img/products/mozzarella_flow_1_125-600x600.6997qigplb.png",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
@@ -1501,170 +2613,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "95416"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 14:30:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.wayeo1tlql.jpg",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "95416"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 14:30:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wayeo1tlql"
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.png",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "466908"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:51:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "466908"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 06:51:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xno6nia2ei"
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         }
       ]
     },
@@ -2075,6 +3023,96 @@
         {
           "Name": "integrity",
           "Value": "sha256-0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc="
+        }
+      ]
+    },
+    {
+      "Route": "TMKStore.2f7rf8k9qo.styles.css",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TMKStore.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spIvy1O7CaTdxNHlJtYL8on3W147Z8NDiDYc4NSFlT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 12:11:46 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2f7rf8k9qo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-spIvy1O7CaTdxNHlJtYL8on3W147Z8NDiDYc4NSFlT4="
+        },
+        {
+          "Name": "label",
+          "Value": "TMKStore.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "TMKStore.styles.css",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TMKStore.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spIvy1O7CaTdxNHlJtYL8on3W147Z8NDiDYc4NSFlT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 12:11:46 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-spIvy1O7CaTdxNHlJtYL8on3W147Z8NDiDYc4NSFlT4="
         }
       ]
     }

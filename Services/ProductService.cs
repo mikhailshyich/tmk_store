@@ -23,12 +23,12 @@ namespace TMKStore.Services
             return response!;
         }
 
-        //public async Task<ProductResponse> DeleteProductAsync(Guid productId)
-        //{
-        //    var product = await httpClient.GetAsync($"{BaseUrl}/product-delete/{productId}");
-        //    var response = await product.Content.ReadFromJsonAsync<ProductResponse>();
-        //    return response!;
-        //}
+        public async Task<ProductResponse> DeleteProductAsync(Guid productId)
+        {
+            var product = await httpClient.GetAsync($"{BaseUrl}/product-delete/{productId}");
+            var response = await product.Content.ReadFromJsonAsync<ProductResponse>();
+            return response!;
+        }
 
         public async Task<List<Product>> GetAllProductsAsync()
         {
