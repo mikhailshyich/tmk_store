@@ -423,7 +423,7 @@ main.main-image {
 /* ============================ Product info rules ==================================== */
 
 .post-image {
-    width: 80%;
+    width: 75%;
     margin: 0;
     padding: 20px;
 }
@@ -454,15 +454,30 @@ main.main-image {
     max-width: 110px;
 }
 
-    .product-info-item p, .product-info-weight p {
-        margin: 0;
-        margin-right: 20px;
-        padding: 10px;
-        background-color: var(--bg-color);
-        border-radius: 25px;
-        font-size: 17px;
-        font-weight: 700;
-    }
+.product-info-item p, .product-info-weight p {
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.back-to-products {
+    margin-top: 10px;
+}
+
+.delete-btn-div {
+    display: flex;
+    justify-content: end;
+}
+
+.delete-btn {
+    margin: 5px;
+    border-radius: 50%;
+}
 
 /* ============================ Footer rules ==================================== */
 ul.social-icons {

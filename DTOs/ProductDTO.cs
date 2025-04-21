@@ -19,6 +19,7 @@ namespace TMKStore.DTOs
         public double Fats { get; set; }
         public double NutritionalValue { get; set; }
         public double EnergyValue { get; set; }
-        public DateTime DateTimeAdded { get; set; } = DateTime.Now;
+        public string? SrcImageProduct { get; set; }
+        public DateTime DateTimeAdded { get; set; }
     }
 }

@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r\u002BKmtx5FKHD/knkxxY/vamgfZwYys\u002B42AhIFdV0x4Fs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8752"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r\u002BKmtx5FKHD/knkxxY/vamgfZwYys\u002B42AhIFdV0x4Fs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:36:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8925"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 06:27:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.t5g6ilo5jx.css">
+    <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.sqxytz13ol.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t5g6ilo5jx"},{"Name":"integrity","Value":"sha256-r\u002BKmtx5FKHD/knkxxY/vamgfZwYys\u002B42AhIFdV0x4Fs="},{"Name":"label","Value":"_content/TMKStore/css/index.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8752"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022r\u002BKmtx5FKHD/knkxxY/vamgfZwYys\u002B42AhIFdV0x4Fs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 11:36:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sqxytz13ol"},{"Name":"integrity","Value":"sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="},{"Name":"label","Value":"_content/TMKStore/css/index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8925"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 06:27:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/cart.p4fuqxgzil.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cart.png'))</AssetFile>
@@ -155,6 +155,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 12:05:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"95416"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 14:30:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.wayeo1tlql.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wayeo1tlql"},{"Name":"integrity","Value":"sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="},{"Name":"label","Value":"_content/TMKStore/img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"95416"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 14:30:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/provoletta_affumicata_120g-e1726742425173-455x600.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 06:05:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xno6nia2ei"},{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="},{"Name":"label","Value":"_content/TMKStore/img/products/provoletta_affumicata_120g-e1726742425173-455x600.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 06:05:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/profile.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile.png'))</AssetFile>

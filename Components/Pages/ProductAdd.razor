@@ -9,8 +9,8 @@
                     <h2 class="text-center">Форма добавления продукта</h2>
                     <DataAnnotationsValidator />
                     <div class="form-group">
-                        <label class="form-label">Фото продукта</label>
-                        <InputFile OnChange="LoadFile" class="form-control"></InputFile>
+                        <label class="form-label">Изображение продукта</label>
+                        <InputFile OnChange="GetFileChangeEventArgsAsync" class="form-control"></InputFile>
                     </div>
                     <div class="form-group">
                         <label class="form-label">Наименование</label>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Вес в граммах</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
+                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Условия хранения</label>
@@ -42,19 +42,19 @@
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Содержание белков в граммах</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
+                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Содержание жиров в граммах</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
+                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Пищевая ценность</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
+                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
                     </div>
                     <div class="form-group mt-3">
                         <label class="form-label">Энергетическая ценность</label>
-                        <InputNumber type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
+                        <InputNumber TValue="double" type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
                     </div>
                     <div class="text-center form-group mt-3">
                         <button class="btn btn-light btn-submit" type="submit">Добавить новый продукт</button>
@@ -70,17 +70,28 @@
     [SupplyParameterFromForm]
     public ProductDTO productDTO { get; set; } = new();
     public string FileName = string.Empty;
+    public InputFileChangeEventArgs eventForm;
 
     private async Task AddProduct()
     {
+        if (eventForm.File is not null)
+        {
+            FileName = await LoadFile(eventForm);
+        }
+        productDTO.SrcImageProduct = FileName;
         var result = producInterface.AddProductAsync(productDTO);
+
         NavManager.NavigateTo("/products", forceLoad: true);
     }
 
-    private async Task LoadFile(InputFileChangeEventArgs e)
+    private async Task<InputFileChangeEventArgs> GetFileChangeEventArgsAsync(InputFileChangeEventArgs e)
+    {
+        return eventForm = e;
+    }
+
+    private async Task<string> LoadFile(InputFileChangeEventArgs e)
     {
         var file = e.File;
-        FileName = e.File.Name;
         // путь к папке, где будут храниться файлы
         var uploadPath = $"{Directory.GetCurrentDirectory()}\\wwwroot\\img\\products";
         // создаем папку для хранения файлов
@@ -90,5 +101,6 @@
 
         await using FileStream fs = new(path, FileMode.Create);
         await file.OpenReadStream().CopyToAsync(fs);
+        return e.File.Name;
     }
 }

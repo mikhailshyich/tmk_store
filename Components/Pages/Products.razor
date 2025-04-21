@@ -37,8 +37,15 @@
                         {
                             <div class="col col-md-4 col-sm-4 product-col">
                                 <div class="card card-product">
+                                    <AuthorizeView Roles="Admin">
+                                        <Authorized>
+                                            <div class="delete-btn-div">
+                                                <button title="Удалить продукт" class="btn btn-danger delete-btn">X</button>
+                                            </div>
+                                        </Authorized>
+                                    </AuthorizeView>
                                     <a class="card-product-link" href="/product-info/@product.Id">
-                                        <img src="/img/products/mozzarella_flow_1_125-600x600.png" class="card-img-top product-img" alt="products">
+                                        <img src="/img/products/@product.SrcImageProduct" class="card-img-top product-img" alt="@product.Title @product.Subtitle">
                                     </a>
                                     <div class="card-body card-body-product">
                                         <div class="col-md-6">
@@ -55,7 +62,7 @@
                                         <Authorized>
                                             <div class="btn-product">
                                                 <div class="col-md-12">
-                                                    <a class="btn btn-warning">Добавить в корзину</a>
+                                                    <a title="Добавить продукт в корзину" class="btn btn-warning">Добавить в корзину</a>
                                                 </div>
                                             </div>
                                         </Authorized>
@@ -97,4 +104,9 @@
     }
 
     protected override async Task OnInitializedAsync() => await LoadProduct();
+
+    private async Task DeleteProduct()
+    {
+
+    }
 }

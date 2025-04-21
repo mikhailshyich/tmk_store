@@ -11,6 +11,8 @@ wwwroot\img\instagram.png
 wwwroot\img\logo.png
 wwwroot\img\products.png
 wwwroot\img\products\mozzarella_flow_1_125-600x600.png
+wwwroot\img\products\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg
+wwwroot\img\products\provoletta_affumicata_120g-e1726742425173-455x600.png
 wwwroot\img\profile.png
 wwwroot\img\telegram.png
 wwwroot\index.html

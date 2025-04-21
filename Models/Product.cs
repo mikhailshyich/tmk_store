@@ -20,6 +20,7 @@ namespace TMKStore.Models
         public double Fats { get; set; }
         public double NutritionalValue {  get; set; }
         public double EnergyValue { get; set; }
+        public string? SrcImageProduct { get; set; }
         public DateTime DateTimeAdded { get; set; }
     }
 }

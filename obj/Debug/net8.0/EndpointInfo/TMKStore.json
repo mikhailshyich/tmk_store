@@ -430,6 +430,10 @@
             "type": "number",
             "format": "double"
           },
+          "srcImageProduct": {
+            "type": "string",
+            "nullable": true
+          },
           "dateTimeAdded": {
             "type": "string",
             "format": "date-time"
@@ -491,6 +495,10 @@
           "energyValue": {
             "type": "number",
             "format": "double"
+          },
+          "srcImageProduct": {
+            "type": "string",
+            "nullable": true
           },
           "dateTimeAdded": {
             "type": "string",

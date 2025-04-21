@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QjNVZ91xrh2VG15IrpYG22U9vAp7XNQAU0Gvcj9FegY=",
+  "Hash": "N6HnPyruGWUc4d57iukOPvV/wkxVCFWYRQf6TPY1hSY=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t5g6ilo5jx",
-      "Integrity": "r+Kmtx5FKHD/knkxxY/vamgfZwYys+42AhIFdV0x4Fs=",
+      "Fingerprint": "sqxytz13ol",
+      "Integrity": "rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -288,6 +288,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\products\\mozzarella_flow_1_125-600x600.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wayeo1tlql",
+      "Integrity": "2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/provoletta_affumicata_120g-e1726742425173-455x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xno6nia2ei",
+      "Integrity": "ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
@@ -571,7 +613,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8752"
+          "Value": "8925"
         },
         {
           "Name": "Content-Type",
@@ -579,11 +621,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r+Kmtx5FKHD/knkxxY/vamgfZwYys+42AhIFdV0x4Fs=\""
+          "Value": "\"rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:36:03 GMT"
+          "Value": "Mon, 21 Apr 2025 06:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -593,12 +635,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r+Kmtx5FKHD/knkxxY/vamgfZwYys+42AhIFdV0x4Fs="
+          "Value": "sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="
         }
       ]
     },
     {
-      "Route": "css/index.t5g6ilo5jx.css",
+      "Route": "css/index.sqxytz13ol.css",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -608,7 +650,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8752"
+          "Value": "8925"
         },
         {
           "Name": "Content-Type",
@@ -616,11 +658,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r+Kmtx5FKHD/knkxxY/vamgfZwYys+42AhIFdV0x4Fs=\""
+          "Value": "\"rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 11:36:03 GMT"
+          "Value": "Mon, 21 Apr 2025 06:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -630,7 +672,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t5g6ilo5jx"
+          "Value": "sqxytz13ol"
         },
         {
           "Name": "label",
@@ -638,7 +680,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r+Kmtx5FKHD/knkxxY/vamgfZwYys+42AhIFdV0x4Fs="
+          "Value": "sha256-rKeVRiUzNryKXM41whFcbhJt1NrRUqh5J2lexKs5RrY="
         }
       ]
     },
@@ -1459,6 +1501,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 14:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.wayeo1tlql.jpg",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 14:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wayeo1tlql"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2I51Gd64eHb3Jdl6kmAgJzpf1cDIdBcoucJ7ZGqJ1UY="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 06:05:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/provoletta_affumicata_120g-e1726742425173-455x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         }
       ]
     },

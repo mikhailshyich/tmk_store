@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TMKStore.Data;
 
@@ -10,9 +11,11 @@ using TMKStore.Data;
 namespace TMKStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250418122047_SrcImageProduct")]
+    partial class SrcImageProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.1");
@@ -76,6 +79,7 @@ namespace TMKStore.Migrations
                         .HasColumnType("REAL");
 
                     b.Property<string>("SrcImageProduct")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("StorageCondition")

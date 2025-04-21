@@ -53,6 +53,14 @@
       "PackagePath": "staticwebassets\\img\\products\\mozzarella_flow_1_125-600x600.png"
     },
     {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "PackagePath": "staticwebassets\\img\\products\\provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
       "PackagePath": "staticwebassets\\img\\profile.png"
     },

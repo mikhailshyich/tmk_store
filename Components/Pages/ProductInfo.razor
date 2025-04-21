@@ -1,8 +1,6 @@
 ﻿@page "/product-info"
 @page "/product-info/{Id:guid}"
 
-@rendermode InteractiveServer
-
 
 <main class="main d-flex justify-content-center">
     <div class="container">
@@ -10,7 +8,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="d-flex justify-content-center col-md-6 col-sm-12">
-                        <img class="post-image" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
+                        <img class="post-image" src="/img/products/@Product.SrcImageProduct" alt="@Product.Title @Product.Subtitle">
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="product-info-head">

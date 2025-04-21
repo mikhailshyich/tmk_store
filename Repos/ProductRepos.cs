@@ -35,6 +35,7 @@ namespace TMKStore.Repos
                     Fats = productDTO.Fats,
                     NutritionalValue = productDTO.NutritionalValue,
                     EnergyValue = productDTO.EnergyValue,
+                    SrcImageProduct = productDTO.SrcImageProduct,
                     DateTimeAdded = DateTime.Now,
                 });
 
