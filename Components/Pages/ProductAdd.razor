@@ -92,15 +92,16 @@
     private async Task<string> LoadFile(InputFileChangeEventArgs e)
     {
         var file = e.File;
+        var fileName = Guid.NewGuid().ToString() + "_" + e.File.Name;
         // путь к папке, где будут храниться файлы
         var uploadPath = $"{Directory.GetCurrentDirectory()}\\wwwroot\\img\\products";
         // создаем папку для хранения файлов
         Directory.CreateDirectory(uploadPath);
         var path = Path.Combine(Environment.ProcessPath,
-            Environment.MachineName, uploadPath, e.File.Name);
+            Environment.MachineName, uploadPath, fileName);
 
         await using FileStream fs = new(path, FileMode.Create);
         await file.OpenReadStream().CopyToAsync(fs);
-        return e.File.Name;
+        return fileName;
     }
 }
