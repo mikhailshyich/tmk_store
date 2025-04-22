@@ -78,8 +78,9 @@ namespace TMKStore.Repos
             product.Fats = model.Fats;
             product.NutritionalValue = model.NutritionalValue;
             product.EnergyValue = model.EnergyValue;
+            product.SrcImageProduct = model.SrcImageProduct;
 
-            
+            await appDbContext.SaveChangesAsync();
 
             return await appDbContext.Products.FirstOrDefaultAsync(p => p.Id == model.Id);
         }

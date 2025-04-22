@@ -44,11 +44,11 @@ namespace TMKStore.Services
             return response!;
         }
 
-        //public async Task<ProductResponse> UpdateProductAsync(Product model)
-        //{
-        //    var product = await httpClient.PutAsJsonAsync($"{BaseUrl}/product-update", model);
-        //    var response = await product.Content.ReadFromJsonAsync<ProductResponse>();
-        //    return response!;
-        //}
+        public async Task<Product> UpdateProductAsync(Product model)
+        {
+            var product = await httpClient.PutAsJsonAsync($"{BaseUrl}/product-update", model);
+            var response = await product.Content.ReadFromJsonAsync<Product>();
+            return response!;
+        }
     }
 }

@@ -41,12 +41,12 @@ namespace TMKStore.Controllers
             return Ok(product);
         }
 
-        //[HttpPut("product-update")]
-        //public async Task<ActionResult<List<Product>>> UpdateProductAsync(Product model)
-        //{
-        //    var product = await productInterface.UpdateProductAsync(model);
-        //    return Ok(product);
-        //}
+        [HttpPut("product-update")]
+        public async Task<ActionResult<List<Product>>> UpdateProductAsync(Product model)
+        {
+            var product = await productInterface.UpdateProductAsync(model);
+            return Ok(product);
+        }
 
         [HttpDelete("product-delete/{id}")]
         [Authorize(Roles = "Admin")]

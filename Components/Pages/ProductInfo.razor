@@ -35,7 +35,7 @@
                                     </CardBody>
                                 </Card>
                             </Collapse>
-                            
+
 
                             @* <div class="accordion" id="accordionInfo">
                                 <div class="accordion-item">
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="back-to-products">
-            <a href="/products">&#060 Вернуться к товарам</a>
+            <Button @onclick="GoToProducts">&#060 Вернуться к товарам</Button>
         </div>
     </div>
 </main>
@@ -83,7 +83,10 @@
     Collapse collapse1 = default!;
     private async Task ToggleContentAsync() => await collapse1.ToggleAsync();
 
-
+    private void GoToProducts()
+    {
+        NavManager.NavigateTo("/products");
+    }
 
     protected override async Task OnParametersSetAsync()
     {

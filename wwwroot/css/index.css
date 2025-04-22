@@ -179,6 +179,7 @@ main.main-image {
 
 .product-img {
     max-width: 75%;
+    max-height: 75%;
     padding: 5%;
     margin: auto;
 }
@@ -468,14 +469,13 @@ main.main-image {
     margin-top: 10px;
 }
 
-.delete-btn-div {
+.control-btn-div {
     display: flex;
     justify-content: end;
 }
 
-.delete-btn {
+.control-btn {
     margin: 5px;
-    border-radius: 50%;
 }
 
 /* ============================ Footer rules ==================================== */

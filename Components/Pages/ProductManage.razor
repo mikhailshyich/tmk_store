@@ -1,0 +1,221 @@
+﻿@page "/add-product/"
+@page "/update-product/{Id:guid}"
+
+
+<main class="main d-flex justify-content-center">
+    <div class="container">
+        <AuthorizeView Roles="Admin" Context="authContext">
+            <Authorized>
+                <div class="row">
+                    <div class="d-flex justify-content-center align-content-center">
+                        @if (Id == Guid.Empty)
+                        {
+                            <EditForm Model="@productDTO" OnValidSubmit="ManageProduct" FormName="AddProduct">
+                                <h2 class="text-center">Форма добавления продукта</h2>
+                                <DataAnnotationsValidator />
+                                <div class="form-group">
+                                    <label class="form-label">Изображение продукта</label>
+                                    <InputFile OnChange="GetFileChangeEventArgsAsync" class="form-control"></InputFile>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Наименование</label>
+                                    <InputText @bind-Value="@productDTO.Title" class="form-control"></InputText>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Подзаголовок</label>
+                                    <InputText @bind-Value="@productDTO.Subtitle" class="form-control"></InputText>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Описание</label>
+                                    <InputTextArea type="text" @bind-Value="@productDTO.Description" class="form-control"></InputTextArea>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Вес в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Weight" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Условия хранения</label>
+                                    <InputTextArea type="text" @bind-Value="@productDTO.StorageCondition" class="form-control"></InputTextArea>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Цена за 1 шт.</label>
+                                    <InputNumber @bind-Value="@productDTO.Price" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Количество</label>
+                                    <InputNumber @bind-Value="@productDTO.Count" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Содержание белков в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Protein" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Содержание жиров в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productDTO.Fats" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Пищевая ценность</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productDTO.NutritionalValue" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Энергетическая ценность</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productDTO.EnergyValue" class="form-control"></InputNumber>
+                                </div>
+                                <div class="text-center form-group mt-3">
+                                    <button class="btn btn-light btn-submit" type="submit">Добавить новый продукт</button>
+                                </div>
+                                <ValidationSummary />
+                            </EditForm>
+                        }
+                        else
+                        {
+                            <EditForm Model="@productModel" OnValidSubmit="ManageProduct" FormName="UpdateProduct">
+                                <h2 class="text-center">Форма редактирования продукта</h2>
+                                <DataAnnotationsValidator />
+                                <div class="form-group">
+                                    <label class="form-label">Изображение продукта</label>
+                                    <InputFile OnChange="GetFileChangeEventArgsAsync" class="form-control"></InputFile>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Текущее изображение продукта</label>
+                                    <input readonly type="text" class="form-control" @bind-value="@productModel.SrcImageProduct" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Наименование</label>
+                                    <InputText @bind-Value="@productModel.Title" class="form-control"></InputText>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Подзаголовок</label>
+                                    <InputText @bind-Value="@productModel.Subtitle" class="form-control"></InputText>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Описание</label>
+                                    <InputTextArea type="text" @bind-Value="@productModel.Description" class="form-control"></InputTextArea>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Вес в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productModel.Weight" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Условия хранения</label>
+                                    <InputTextArea type="text" @bind-Value="@productModel.StorageCondition" class="form-control"></InputTextArea>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Цена за 1 шт.</label>
+                                    <InputNumber @bind-Value="@productModel.Price" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Количество</label>
+                                    <InputNumber @bind-Value="@productModel.Count" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Содержание белков в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productModel.Protein" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Содержание жиров в граммах</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productModel.Fats" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Пищевая ценность</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productModel.NutritionalValue" class="form-control"></InputNumber>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label class="form-label">Энергетическая ценность</label>
+                                    <InputNumber TValue="double" type="number" @bind-Value="@productModel.EnergyValue" class="form-control"></InputNumber>
+                                </div>
+                                <div class="text-center form-group mt-3">
+                                    <button class="btn btn-light btn-submit" type="submit">Сохранить</button>
+                                </div>
+                                <ValidationSummary />
+                            </EditForm>
+                        }
+                    </div>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+        <AuthorizeView>
+            <NotAuthorized>
+                <h2>У вас недостаточно прав для просмотра этой страницы</h2>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+</main>
+
+
+@code{
+    [Parameter]
+    public Guid Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public ProductDTO productDTO { get; set; } = new();
+
+    public Product productModel{ get; set; } = new();
+
+    public int MAXALLOWEDSIZE = 3000000;
+    public string? FileName;
+    public InputFileChangeEventArgs eventForm;
+
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id != Guid.Empty)
+        {
+            productModel = await producInterface.GetProductByIdAsync(Id);
+        }
+    }
+
+    private async Task ManageProduct()
+    {
+        if (Id == Guid.Empty)
+        {
+            if (eventForm != null)
+            {
+                await LoadFile(eventForm);
+                productDTO.SrcImageProduct = FileName;
+            }
+
+            await producInterface.AddProductAsync(productDTO);
+        }
+        else
+        {
+            if (eventForm != null)
+            {
+                await LoadFile(eventForm);
+                productModel.SrcImageProduct = FileName;
+            }
+            else
+            {
+                FileName = productModel.SrcImageProduct;
+            }
+            await producInterface.UpdateProductAsync(productModel);         
+        }
+
+
+        NavManager.NavigateTo("/products", forceLoad: true);
+    }
+
+    private async Task<InputFileChangeEventArgs> GetFileChangeEventArgsAsync(InputFileChangeEventArgs e)
+    {
+        return eventForm = e;
+    }
+
+    private async Task LoadFile(InputFileChangeEventArgs e)
+    {
+        try
+        {
+            var file = e.File;
+            FileName = Guid.NewGuid() + "_" + e.File.Name;
+            // путь к папке, где будут храниться файлы
+            var uploadPath = $"{Directory.GetCurrentDirectory()}\\wwwroot\\img\\products";
+            // создаем папку для хранения файлов
+            Directory.CreateDirectory(uploadPath);
+            var path = Path.Combine(Environment.ProcessPath,
+                Environment.MachineName, uploadPath, FileName);
+
+            await using FileStream fs = new(path, FileMode.Create);
+            await file.OpenReadStream(MAXALLOWEDSIZE).CopyToAsync(fs);
+        }
+        catch(Exception ex){}
+    }
+}

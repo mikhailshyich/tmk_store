@@ -12,19 +12,17 @@
                     <div class="col-sm">
                         <div class="d-flex btn-group " role="group">
                             <div class="d-flex group-btn">
-                                <a href="#" class="btn item-btn">Mozzarella</a>
-                                <a href="#" class="btn item-btn">Mozzarella Pizza</a>
-                                <a href="#" class="btn item-btn">Mascarpone</a>
-                                <a href="#" class="btn item-btn">Provoletta & Scamorza</a>
-                                <a href="#" class="btn item-btn">Ricotta</a>
-                                <a href="#" class="btn item-btn">Ricotta десертная</a>
+                                @foreach (var title in uniqueProductNames)
+                                {
+                                    <a class="btn item-btn" id="@title">@title</a>
+                                }
                             </div>
                         </div>
                     </div>
                     <AuthorizeView Roles="Admin">
                         <Authorized>
                             <div class="col-sm col-btn">
-                                <a href="product/add" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
+                                <a href="/add-product" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
                             </div>
                         </Authorized>
                     </AuthorizeView>
@@ -34,15 +32,15 @@
                     <div class="page-products">
                         <h2 class="page-title">@title</h2>
                         <div class="row row-cols-1 row-cols-md-2 g-4">
-                            @foreach (var product in ProductsList.Where(p => p.Title == title))
+                            @foreach (var product in ProductsList.Where(p => p.Title == title).OrderBy(p => p.Weight))
                             {
                                 <div class="col col-md-4 col-sm-4">
                                     <div class="card card-product">
                                         <AuthorizeView Roles="Admin">
                                             <Authorized>
-                                                <div class="delete-btn-div">
-                                                    <button title="Редактировать продукт" class="btn btn-warning delete-btn">&#9999;&#65039;</button>
-                                                    <button @onclick="()=>DeleteProduct(product.Id)" title="Удалить продукт" class="btn btn-danger delete-btn">X</button>
+                                                <div class="control-btn-div">
+                                                    <button @onclick="()=>UpdateProduct(product.Id)" title="Редактировать товар" class="btn btn-warning control-btn">&#9999;&#65039;</button>
+                                                    <button @onclick="()=>DeleteProduct(product.Id)" title="Удалить товар" class="btn btn-danger control-btn">X</button>
                                                 </div>
                                             </Authorized>
                                         </AuthorizeView>
@@ -64,7 +62,7 @@
                                             <Authorized>
                                                 <div class="btn-product">
                                                     <div class="col-md-12">
-                                                        <a title="Добавить продукт в корзину" class="btn btn-warning">Добавить в корзину</a>
+                                                        <a title="Добавить товар в корзину" class="btn btn-warning">Добавить в корзину</a>
                                                     </div>
                                                 </div>
                                             </Authorized>
@@ -82,14 +80,14 @@
                     <AuthorizeView Roles="Admin">
                         <Authorized>
                             <div class="col-sm col-btn">
-                                <a href="product/add" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
+                                <a href="/add-product" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
                             </div>
                         </Authorized>
                     </AuthorizeView>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="spinner-border" role="status">
-                        <span class="visually-hidden">Загрузка продуктов...</span>
+                        <span class="visually-hidden">Загрузка товаров...</span>
                     </div>
                 </div>
             }
@@ -117,13 +115,18 @@
 
     protected override async Task OnInitializedAsync() => await LoadProduct();
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    // protected override async Task OnAfterRenderAsync(bool firstRender)
+    // {
+    //     if (firstRender)
+    //     {
+    //         await LoadProduct();
+    //         StateHasChanged();
+    //     }
+    // }
+
+    private async Task UpdateProduct(Guid id)
     {
-        if (firstRender)
-        {
-            await LoadProduct();
-            StateHasChanged();
-        }
+        NavManager.NavigateTo($"/update-product/{id}");
     }
 
     private async Task DeleteProduct(Guid idProduct)
