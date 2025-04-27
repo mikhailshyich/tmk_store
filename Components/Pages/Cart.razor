@@ -14,101 +14,82 @@
                     </div>
                     <div class="row">
                         <div class="col-md-10 card card-item">
-                            <div class="card-body card-item-body">
-                                <div class="row row-cart">
-                                    <div class="col-md-3 col-img-product">
-                                        <a class="cart-item-img" href="#">
-                                            <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3 col-description-product">
-                                        <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
-                                        <p class="cart-item-subtitle">Maxi</p>
-                                    </div>
-                                    <div class="col-md-3 cost-product">
-                                        <p>Цена за 1 шт.<br /><span class="cost-product-text">2.70</span><span style="font-weight: 400;"> BYN</span></p>
-                                    </div>
-                                    <div class="col-md-3 col-counter">
-                                        <div class="counter">
-                                            <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
-                                            <button class="counter-minus" disabled>−</button>
-                                            <button class="counter-plus">+</button>
-                                        </div>
+                            @if (ProductsList.Count > 0)
+                            {
+                                @foreach (var product in ProductsList)
+                                {
+                                    <div class="card-body card-item-body">
+                                        <div class="row row-cart">
+                                            <div class="col-md-3 col-img-product">
+                                                <a class="cart-item-img" href="/product-info/@product.Id">
+                                                    <img class="product-img" src="/img/products/@product.SrcImageProduct" alt="@product.Title">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3 col-description-product">
+                                                <h1 class="cart-item-title">@product.Title @product.Weight<span style="font-size: 15px;"> г</span></h1>
+                                                <p class="cart-item-subtitle">@product.Subtitle</p>
+                                            </div>
+                                            <div class="col-md-3 cost-product">
+                                                <p>Цена за 1 шт.<br /><span class="cost-product-text">@product.Price</span><span style="font-weight: 400;"> BYN</span></p>
+                                            </div>
+                                            <div class="col-md-3 col-counter">
+                                                <div class="counter">
+                                                    <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
+                                                    <button class="counter-minus" disabled>−</button>
+                                                    <button class="counter-plus">+</button>
+                                                </div>
 
-                                        <div class="quantity">
-                                            <p class="quantity-product">Осталось <span class="quantity-product-text">10</span> шт.</p>
+                                                <div class="quantity">
+                                                    <p class="quantity-product">Осталось <span class="quantity-product-text">@product.Count</span> шт.</p>
+                                                </div>
+                                                <div class="btn-remove">
+                                                    <button class="btn btn-danger">Убрать из корзины</button>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="btn-remove">
-                                            <button class="btn btn-danger">Убрать из корзины</button>
+                                    </div>
+                                }
+                            }
+
+                            @* @foreach (var cart in ProductsList)
+                            {
+                                <div class="card-body card-item-body">
+                                    <div class="row row-cart">
+                                        <div class="col-md-3 col-img-product">
+                                            <a class="cart-item-img" href="#">
+                                                <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3 col-description-product">
+                                            <h1 class="cart-item-title">@cart<span style="font-size: 15px;"> г</span></h1>
+                                            <p class="cart-item-subtitle">Maxi</p>
+                                        </div>
+                                        <div class="col-md-3 cost-product">
+                                            <p>Цена за 1 шт.<br /><span class="cost-product-text">6.70</span><span style="font-weight: 400;"> BYN</span></p>
+                                        </div>
+                                        <div class="col-md-3 col-counter">
+                                            <div class="counter">
+                                                <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
+                                                <button class="counter-minus" disabled>−</button>
+                                                <button class="counter-plus">+</button>
+                                            </div>
+
+                                            <div class="quantity">
+                                                <p class="quantity-product">Осталось <span class="quantity-product-text">23</span> шт.</p>
+                                            </div>
+                                            <div class="btn-remove">
+                                                <button class="btn btn-danger">Убрать из корзины</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-body card-item-body">
-                                <div class="row row-cart">
-                                    <div class="col-md-3 col-img-product">
-                                        <a class="cart-item-img" href="#">
-                                            <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3 col-description-product">
-                                        <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
-                                        <p class="cart-item-subtitle">Maxi</p>
-                                    </div>
-                                    <div class="col-md-3 cost-product">
-                                        <p>Цена за 1 шт.<br /><span class="cost-product-text">6.70</span><span style="font-weight: 400;"> BYN</span></p>
-                                    </div>
-                                    <div class="col-md-3 col-counter">
-                                        <div class="counter">
-                                            <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
-                                            <button class="counter-minus" disabled>−</button>
-                                            <button class="counter-plus">+</button>
-                                        </div>
+                            } *@
 
-                                        <div class="quantity">
-                                            <p class="quantity-product">Осталось <span class="quantity-product-text">23</span> шт.</p>
-                                        </div>
-                                        <div class="btn-remove">
-                                            <button class="btn btn-danger">Убрать из корзины</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body card-item-body">
-                                <div class="row row-cart">
-                                    <div class="col-md-3 col-img-product">
-                                        <a class="cart-item-img" href="#">
-                                            <img class="product-img" src="/img/products/mozzarella_flow_1_125-600x600.png" alt="mozzarella">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-3 col-description-product">
-                                        <h1 class="cart-item-title">Mozzarella 125<span style="font-size: 15px;"> г</span></h1>
-                                        <p class="cart-item-subtitle">Maxi</p>
-                                    </div>
-                                    <div class="col-md-3 cost-product">
-                                        <p>Цена за 1 шт.<br /><span class="cost-product-text">6.70</span><span style="font-weight: 400;"> BYN</span></p>
-                                    </div>
-                                    <div class="col-md-3 col-counter">
-                                        <div class="counter">
-                                            <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
-                                            <button class="counter-minus" disabled>−</button>
-                                            <button class="counter-plus">+</button>
-                                        </div>
-
-                                        <div class="quantity">
-                                            <p class="quantity-product">Осталось <span class="quantity-product-text">23</span> шт.</p>
-                                        </div>
-                                        <div class="btn-remove">
-                                            <button class="btn btn-danger">Убрать из корзины</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="col-md-2">
                             <div class="row cart-footer">
                                 <div class="col-md-12 d-flex justify-content-end total-cost">
-                                    <p>Итого: <span class="total-price">2020</span> BYN</p>
+                                    <p>Итого: <span class="total-price">@ProductPrice</span> BYN</p>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
                                     <button class="btn btn-pay">Оплатить товары</button>
@@ -127,12 +108,53 @@
 </main>
 
 @code {
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
+    private List<Product>? ProductsList { get; set; } = new();
+    private decimal ProductPrice;
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender == true)
         {
             await js.InvokeVoidAsync("counter");
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+            var user = authState.Result.User;
+            if (user.Identity is not null && user.Identity.IsAuthenticated)
+            {
+                ClaimsList = authState.Result.User.Claims.ToList();
+                var Email = ClaimsList[1].Value;
+                User = await account.GetUser(Email);
+            }
+            // ProductsList.Add("stroka");
+            // ProductsList.Add("stroka");
+            // ProductsList.Add("stroka");
+            // ProductsList.Add("stroka");
+            // ProductsList.Add("stroka");
+            // ProductsList.Add("stroka");
+            // ProductsList.Add(await product);
+            await GetCartProduct(User.Id);
+        }
+        catch { }
+    }
+
+    private async Task GetCartProduct(Guid userId)
+    {
+        var CartUserList = await cartService.GetCartByIdUserAsync(userId);
+
+        foreach (var element in CartUserList)
+        {
+            var product = await productService.GetProductByIdAsync(element.ProductId);
+            ProductsList.Add(product);
+            ProductPrice += product.Price;
         }
     }
 }

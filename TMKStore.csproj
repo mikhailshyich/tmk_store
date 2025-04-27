@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Models\Cart.cs~RFa0c8d3.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <!--Server-->
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Blazor.Bootstrap" Version="3.3.1" />
@@ -35,6 +39,10 @@
     <!--Client-->
     <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.1" />
 
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

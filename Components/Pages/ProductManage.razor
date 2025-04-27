@@ -161,7 +161,7 @@
     {
         if (Id != Guid.Empty)
         {
-            productModel = await producInterface.GetProductByIdAsync(Id);
+            productModel = await productInterface.GetProductByIdAsync(Id);
         }
     }
 
@@ -175,7 +175,7 @@
                 productDTO.SrcImageProduct = FileName;
             }
 
-            await producInterface.AddProductAsync(productDTO);
+            await productInterface.AddProductAsync(productDTO);
         }
         else
         {
@@ -188,7 +188,7 @@
             {
                 FileName = productModel.SrcImageProduct;
             }
-            await producInterface.UpdateProductAsync(productModel);         
+            await productInterface.UpdateProductAsync(productModel);
         }
 
 

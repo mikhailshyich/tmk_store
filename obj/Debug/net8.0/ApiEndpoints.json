@@ -78,16 +78,58 @@
     ]
   },
   {
-    "ContainingType": "TMKStore.Controllers.AccountController",
-    "Method": "GetWeatherForecast",
-    "RelativePath": "api/Account/weather",
+    "ContainingType": "TMKStore.Controllers.CartController",
+    "Method": "AddProductAsync",
+    "RelativePath": "api/Cart/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "productID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "productCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TMKStore.Models.Cart",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TMKStore.Controllers.CartController",
+    "Method": "GetCartByIdUserAsync",
+    "RelativePath": "api/Cart/user/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "TMKStore.DTOs.WeatherForecast[]",
+        "Type": "System.Collections.Generic.List\u00601[[TMKStore.Models.Product, TMKStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

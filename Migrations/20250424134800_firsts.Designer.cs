@@ -11,8 +11,8 @@ using TMKStore.Data;
 namespace TMKStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250414082330_ProductsTable")]
-    partial class ProductsTable
+    [Migration("20250424134800_firsts")]
+    partial class firsts
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,6 +47,31 @@ namespace TMKStore.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("TMKStore.Models.Cart", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("DateAdded")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Carts");
+                });
+
             modelBuilder.Entity("TMKStore.Models.Product", b =>
                 {
                     b.Property<Guid>("Id")
@@ -78,6 +103,9 @@ namespace TMKStore.Migrations
                     b.Property<double>("Protein")
                         .HasColumnType("REAL");
 
+                    b.Property<string>("SrcImageProduct")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("StorageCondition")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -96,6 +124,17 @@ namespace TMKStore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("TMKStore.Models.Cart", b =>
+                {
+                    b.HasOne("TMKStore.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

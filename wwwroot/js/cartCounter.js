@@ -3,6 +3,11 @@
 
     updateCartItemCount();
     function updateCartItemCount() {
+        cart.onreadystatechange = () => {
+            if (cart.readyState === 'complete') {
+                calculareTotalPrice();
+            }
+        };
         cart.addEventListener('click', (event) => {
             let currenItems, minusBtn, plusBtn, quantityProduct, price;
             if (event.target.matches('.counter-minus') || event.target.matches('.counter-plus')) {
@@ -80,6 +85,8 @@
             }
             calculareTotalPrice();
         });
+        cart.addEventListener("DOMContentLoaded", () => {
+            calculareTotalPrice();
     }
 
     const calculareTotalPrice = () => {
@@ -88,7 +95,7 @@
         // console.log('items ', cartItems);
         // console.log('cost ', cartTotalPrice);
 
-        let totalCartValue = 0;
+        let totalCartValue;
         cartItems.forEach((item) => {
             const itemCount = item.querySelector('.counter-text');
             // console.log('itemCount ', itemCount);

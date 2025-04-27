@@ -142,6 +142,14 @@ D:\MyProject\c#\TMKStore\obj\Debug\net8.0\refint\TMKStore.dll
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.pdb
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.genruntimeconfig.cache
 D:\MyProject\c#\TMKStore\obj\Debug\net8.0\ref\TMKStore.dll
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.csproj.AssemblyReference.cache
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.AssemblyInfoInputs.cache
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.AssemblyInfo.cs
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.csproj.CoreCompileInputs.cache
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.MvcApplicationPartsAssemblyInfo.cs
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.MvcApplicationPartsAssemblyInfo.cache
+D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.sourcelink.json
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\appsettings.Development.json
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\appsettings.json
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\libman.json
@@ -153,11 +161,14 @@ D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\TMKStore.runtimeconfig.json
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\TMKStore.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\TMKStore.pdb
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\BlazorBootstrap.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Humanizer.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -170,7 +181,10 @@ D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
@@ -178,6 +192,7 @@ D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.Loggin
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.JSInterop.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
@@ -265,14 +280,6 @@ D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\runtimes\win-arm\native\e_sqli
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.csproj.AssemblyReference.cache
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.GeneratedMSBuildEditorConfig.editorconfig
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.AssemblyInfoInputs.cache
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.AssemblyInfo.cs
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.csproj.CoreCompileInputs.cache
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.MvcApplicationPartsAssemblyInfo.cs
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.MvcApplicationPartsAssemblyInfo.cache
-D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.sourcelink.json
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\scopedcss\bundle\TMKStore.styles.css
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets.build.json
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\staticwebassets.development.json
@@ -290,10 +297,3 @@ D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\refint\TMKStore.dll
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.pdb
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\TMKStore.genruntimeconfig.cache
 D:\#Disk D\MyProject\c#\TMKStore\obj\Debug\net8.0\ref\TMKStore.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\BlazorBootstrap.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\#Disk D\MyProject\c#\TMKStore\bin\Debug\net8.0\Microsoft.JSInterop.dll

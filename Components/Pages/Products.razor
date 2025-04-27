@@ -62,7 +62,7 @@
                                             <Authorized>
                                                 <div class="btn-product">
                                                     <div class="col-md-12">
-                                                        <a title="Добавить товар в корзину" class="btn btn-warning">Добавить в корзину</a>
+                                                        <button @onclick="()=>AddToCart(product.Id)" title="Добавить товар в корзину" class="btn btn-warning">Добавить в корзину</button>
                                                     </div>
                                                 </div>
                                             </Authorized>
@@ -96,9 +96,12 @@
 </main>
 
 @code{
-    private List<Product> ProductsList { get; set; } = new();
-    private List<string> ProductTitleList { get; set; } = new();
+    private List<Product>? ProductsList { get; set; } = new();
+    private List<string>? ProductTitleList { get; set; } = new();
     private IEnumerable<string>? uniqueProductNames { get; set; }
+
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
 
     private async Task LoadProduct()
     {
@@ -115,15 +118,6 @@
 
     protected override async Task OnInitializedAsync() => await LoadProduct();
 
-    // protected override async Task OnAfterRenderAsync(bool firstRender)
-    // {
-    //     if (firstRender)
-    //     {
-    //         await LoadProduct();
-    //         StateHasChanged();
-    //     }
-    // }
-
     private async Task UpdateProduct(Guid id)
     {
         NavManager.NavigateTo($"/update-product/{id}");
@@ -131,8 +125,41 @@
 
     private async Task DeleteProduct(Guid idProduct)
     {
-        await producInterface.DeleteProductAsync(idProduct);
+        var checkProductCart = await cartInterface.GetCartProductByIdAsync(idProduct);
+        if(checkProductCart is false)
+        {
+            await productInterface.DeleteProductAsync(idProduct);
+        }
         await LoadProduct();
-        NavManager.Refresh();
+        NavManager.Refresh(forceReload: true);
+    }
+
+    private async Task AddToCart(Guid productId)
+    {
+        if(productId != Guid.Empty)
+        {
+            var product = await productService.GetProductByIdAsync(productId);
+            var userApp = await GetUser();
+            if (userApp is not null)
+            {
+                await cartInterface.AddCartProductAsync(userApp.Id, product.Id, 1);
+            }
+        }
+        NavManager.Refresh(forceReload: true);
+    }
+
+    private async Task<ApplicationUser> GetUser()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            ClaimsList = authState.Result.User.Claims.ToList();
+            var Email = ClaimsList[1].Value;
+            User = await account.GetUser(Email);
+            return User;
+        }
+        return null!;
     }
 }

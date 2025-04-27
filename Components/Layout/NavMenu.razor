@@ -16,7 +16,7 @@
                                 <li><a href="/products"><img class="menu-icons-item" title="Товары" alt="products" src="img/products.png"></a></li>
                                 <AuthorizeView>
                                     <Authorized>
-                                        <li><a href="/cart"><img class="menu-icons-item" title="Корзина" alt="cart" src="img/cart.png"></a></li>
+                                        <li><a href="/cart"><img class="menu-icons-item" title="Корзина" alt="cart" src="img/cart.png"><span class="badge text-bg-danger">@ProductCountInCart</span></a></li>
                                     </Authorized>
                                 </AuthorizeView>
                                 <li>
@@ -47,3 +47,35 @@
     </div>
 </header>
 <!-- #endregion -->
+@code {
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
+    private int ProductCountInCart;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+            var user = authState.Result.User;
+            if (user.Identity is not null && user.Identity.IsAuthenticated)
+            {
+                ClaimsList = authState.Result.User.Claims.ToList();
+                var Email = ClaimsList[1].Value;
+                User = await account.GetUser(Email);
+                await GetCartProduct(User.Id);
+            }
+        }
+        catch{}
+    }
+
+    private async Task GetCartProduct(Guid userId)
+    {
+        var CartUserList = await cartService.GetCartByIdUserAsync(userId);
+        if(CartUserList.Count > 0)
+        {
+            ProductCountInCart += CartUserList.Count();
+        }
+    }
+}

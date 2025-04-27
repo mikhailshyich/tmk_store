@@ -55,16 +55,17 @@ namespace TMKStore.Repos
         {
             var findUser = await GetUser(model.Email); //поиск пользователя в БД
             if (findUser != null) return new RegistrationResponse(false, "Пользователь уже зарегистрирован.");
+            var cart = new Cart();
+            var newUser = new ApplicationUser()
+            {
+                Name = model.Name,
+                Email = model.Email,
+                Role = model.Role,
+                Password = BCrypt.Net.BCrypt.HashPassword(model.Password), //хэшируем пароль
+            };
 
             //Добавление нового пользователя в базу
-            appDbContext.Users.Add(
-                new ApplicationUser()
-                {
-                    Name = model.Name,
-                    Email = model.Email,
-                    Role = model.Role,
-                    Password = BCrypt.Net.BCrypt.HashPassword(model.Password) //хэшируем пароль
-                });
+            appDbContext.Users.Add(newUser);
 
             await appDbContext.SaveChangesAsync(); //сохраняем пользователя в БД
             return new RegistrationResponse(true, "Успешная регистрация.");

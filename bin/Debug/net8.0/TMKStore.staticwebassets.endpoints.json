@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 12:11:46 GMT"
+          "Value": "Wed, 23 Apr 2025 12:03:34 GMT"
         },
         {
           "Name": "Link",
@@ -78,7 +78,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 21 Apr 2025 12:11:46 GMT"
+          "Value": "Wed, 23 Apr 2025 12:03:34 GMT"
         },
         {
           "Name": "Link",
@@ -845,7 +845,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8891"
+          "Value": "8918"
         },
         {
           "Name": "Content-Type",
@@ -853,22 +853,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zUtdbKzg9N8W4YhQxNPQkAUKzngqpsPypY44k7r51YM=\""
+          "Value": "\"zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 14:11:17 GMT"
+          "Value": "Wed, 23 Apr 2025 06:27:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zUtdbKzg9N8W4YhQxNPQkAUKzngqpsPypY44k7r51YM="
+          "Value": "sha256-zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE="
         }
       ]
     },
     {
-      "Route": "css/index.d4zc3vhtkf.css",
+      "Route": "css/index.w5y51f9qch.css",
       "AssetFile": "css/index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -882,7 +882,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8891"
+          "Value": "8918"
         },
         {
           "Name": "Content-Type",
@@ -890,21 +890,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zUtdbKzg9N8W4YhQxNPQkAUKzngqpsPypY44k7r51YM=\""
+          "Value": "\"zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 14:11:17 GMT"
+          "Value": "Wed, 23 Apr 2025 06:27:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d4zc3vhtkf"
+          "Value": "w5y51f9qch"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zUtdbKzg9N8W4YhQxNPQkAUKzngqpsPypY44k7r51YM="
+          "Value": "sha256-zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE="
         },
         {
           "Name": "label",
@@ -1651,8 +1651,8 @@
       ]
     },
     {
-      "Route": "img/products/03e77190-9d3b-4750-b54a-c83f8ccdbe4b_mozzarella_flow_1_125-600x600.6997qigplb.png",
-      "AssetFile": "img/products/03e77190-9d3b-4750-b54a-c83f8ccdbe4b_mozzarella_flow_1_125-600x600.png",
+      "Route": "img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.6997qigplb.png",
+      "AssetFile": "img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1677,7 +1677,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:21:55 GMT"
+          "Value": "Thu, 24 Apr 2025 07:25:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1691,13 +1691,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/products/03e77190-9d3b-4750-b54a-c83f8ccdbe4b_mozzarella_flow_1_125-600x600.png"
+          "Value": "img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png"
         }
       ]
     },
     {
-      "Route": "img/products/03e77190-9d3b-4750-b54a-c83f8ccdbe4b_mozzarella_flow_1_125-600x600.png",
-      "AssetFile": "img/products/03e77190-9d3b-4750-b54a-c83f8ccdbe4b_mozzarella_flow_1_125-600x600.png",
+      "Route": "img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png",
+      "AssetFile": "img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1722,7 +1722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:21:55 GMT"
+          "Value": "Thu, 24 Apr 2025 07:25:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1733,53 +1733,8 @@
       ]
     },
     {
-      "Route": "img/products/07c55224-4b9a-4e6e-b21a-ce4c3000be69_mozarella_40_250.m6sf7hpqx3.png",
-      "AssetFile": "img/products/07c55224-4b9a-4e6e-b21a-ce4c3000be69_mozarella_40_250.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "505435"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:35:05 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m6sf7hpqx3"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI="
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/07c55224-4b9a-4e6e-b21a-ce4c3000be69_mozarella_40_250.png"
-        }
-      ]
-    },
-    {
-      "Route": "img/products/07c55224-4b9a-4e6e-b21a-ce4c3000be69_mozarella_40_250.png",
-      "AssetFile": "img/products/07c55224-4b9a-4e6e-b21a-ce4c3000be69_mozarella_40_250.png",
+      "Route": "img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1792,7 +1747,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "505435"
+          "Value": "466908"
         },
         {
           "Name": "Content-Type",
@@ -1800,60 +1755,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI=\""
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:35:05 GMT"
+          "Value": "Sat, 26 Apr 2025 22:45:35 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI="
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         }
       ]
     },
     {
-      "Route": "img/products/08bd83e0-f5c9-46be-9524-9773f248cc72_mascarpone_500-2-573x600.png",
-      "AssetFile": "img/products/08bd83e0-f5c9-46be-9524-9773f248cc72_mascarpone_500-2-573x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "531490"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 13:47:26 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/08bd83e0-f5c9-46be-9524-9773f248cc72_mascarpone_500-2-573x600.r9qamejcvx.png",
-      "AssetFile": "img/products/08bd83e0-f5c9-46be-9524-9773f248cc72_mascarpone_500-2-573x600.png",
+      "Route": "img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1866,7 +1784,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "531490"
+          "Value": "466908"
         },
         {
           "Name": "Content-Type",
@@ -1874,76 +1792,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q=\""
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 13:47:26 GMT"
+          "Value": "Sat, 26 Apr 2025 22:45:35 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r9qamejcvx"
+          "Value": "xno6nia2ei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q="
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         },
         {
           "Name": "label",
-          "Value": "img/products/08bd83e0-f5c9-46be-9524-9773f248cc72_mascarpone_500-2-573x600.png"
+          "Value": "img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png"
         }
       ]
     },
     {
-      "Route": "img/products/0b192216-d867-436b-863d-1749ef869fc6_mozzarella_flow_1_100-600x600.e2b3yrqqxe.png",
-      "AssetFile": "img/products/0b192216-d867-436b-863d-1749ef869fc6_mozzarella_flow_1_100-600x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "587280"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:45:38 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e2b3yrqqxe"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY="
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/0b192216-d867-436b-863d-1749ef869fc6_mozzarella_flow_1_100-600x600.png"
-        }
-      ]
-    },
-    {
-      "Route": "img/products/0b192216-d867-436b-863d-1749ef869fc6_mozzarella_flow_1_100-600x600.png",
-      "AssetFile": "img/products/0b192216-d867-436b-863d-1749ef869fc6_mozzarella_flow_1_100-600x600.png",
+      "Route": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1956,7 +1829,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "587280"
+          "Value": "466908"
         },
         {
           "Name": "Content-Type",
@@ -1964,60 +1837,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY=\""
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 08:45:38 GMT"
+          "Value": "Sun, 27 Apr 2025 00:01:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY="
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         }
       ]
     },
     {
-      "Route": "img/products/15b65fbe-ee5d-4ea3-a3ea-575593287bcb_mozzarella_flow_5_125-600x600.png",
-      "AssetFile": "img/products/15b65fbe-ee5d-4ea3-a3ea-575593287bcb_mozzarella_flow_5_125-600x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "584044"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x28Q8WugTMDGublOsbZjCSFnwIDf2yyo+dH/vq79wc8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:28:45 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-x28Q8WugTMDGublOsbZjCSFnwIDf2yyo+dH/vq79wc8="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/15b65fbe-ee5d-4ea3-a3ea-575593287bcb_mozzarella_flow_5_125-600x600.xyp7pmojrn.png",
-      "AssetFile": "img/products/15b65fbe-ee5d-4ea3-a3ea-575593287bcb_mozzarella_flow_5_125-600x600.png",
+      "Route": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2030,7 +1866,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "584044"
+          "Value": "466908"
         },
         {
           "Name": "Content-Type",
@@ -2038,31 +1874,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x28Q8WugTMDGublOsbZjCSFnwIDf2yyo+dH/vq79wc8=\""
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:28:45 GMT"
+          "Value": "Sun, 27 Apr 2025 00:01:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xyp7pmojrn"
+          "Value": "xno6nia2ei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x28Q8WugTMDGublOsbZjCSFnwIDf2yyo+dH/vq79wc8="
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
         },
         {
           "Name": "label",
-          "Value": "img/products/15b65fbe-ee5d-4ea3-a3ea-575593287bcb_mozzarella_flow_5_125-600x600.png"
+          "Value": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png"
         }
       ]
     },
     {
-      "Route": "img/products/15ce5759-9a41-4338-b037-bd24642ed8d0_mozarella_40_250.m6sf7hpqx3.png",
-      "AssetFile": "img/products/15ce5759-9a41-4338-b037-bd24642ed8d0_mozarella_40_250.png",
+      "Route": "img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.6997qigplb.png",
+      "AssetFile": "img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2075,7 +1911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "505435"
+          "Value": "585168"
         },
         {
           "Name": "Content-Type",
@@ -2083,31 +1919,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI=\""
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 09:57:11 GMT"
+          "Value": "Thu, 24 Apr 2025 13:52:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m6sf7hpqx3"
+          "Value": "6997qigplb"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI="
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
         },
         {
           "Name": "label",
-          "Value": "img/products/15ce5759-9a41-4338-b037-bd24642ed8d0_mozarella_40_250.png"
+          "Value": "img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png"
         }
       ]
     },
     {
-      "Route": "img/products/15ce5759-9a41-4338-b037-bd24642ed8d0_mozarella_40_250.png",
-      "AssetFile": "img/products/15ce5759-9a41-4338-b037-bd24642ed8d0_mozarella_40_250.png",
+      "Route": "img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png",
+      "AssetFile": "img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2120,7 +1956,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "505435"
+          "Value": "585168"
         },
         {
           "Name": "Content-Type",
@@ -2128,263 +1964,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI=\""
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 09:57:11 GMT"
+          "Value": "Thu, 24 Apr 2025 13:52:08 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/636fc08e-f348-4886-ae20-d61aa3110197_mozzarella_flow_1_100-600x600.e2b3yrqqxe.png",
-      "AssetFile": "img/products/636fc08e-f348-4886-ae20-d61aa3110197_mozzarella_flow_1_100-600x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "587280"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 09:54:51 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e2b3yrqqxe"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY="
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/636fc08e-f348-4886-ae20-d61aa3110197_mozzarella_flow_1_100-600x600.png"
-        }
-      ]
-    },
-    {
-      "Route": "img/products/636fc08e-f348-4886-ae20-d61aa3110197_mozzarella_flow_1_100-600x600.png",
-      "AssetFile": "img/products/636fc08e-f348-4886-ae20-d61aa3110197_mozzarella_flow_1_100-600x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "587280"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 09:54:51 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OteDSrufes29kz3QWdQoKbDvkhHXXWBjxDpUlw5k4WY="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/aa74818a-fc23-4eb1-b96e-2cbc0a7b49d8_mascarpone_500-2-573x600.png",
-      "AssetFile": "img/products/aa74818a-fc23-4eb1-b96e-2cbc0a7b49d8_mascarpone_500-2-573x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "531490"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 13:54:26 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q="
-        }
-      ]
-    },
-    {
-      "Route": "img/products/aa74818a-fc23-4eb1-b96e-2cbc0a7b49d8_mascarpone_500-2-573x600.r9qamejcvx.png",
-      "AssetFile": "img/products/aa74818a-fc23-4eb1-b96e-2cbc0a7b49d8_mascarpone_500-2-573x600.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "531490"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 13:54:26 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r9qamejcvx"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gV7z1i8WMdzGVw4awQ5i6qcT5hFEICBf+PirnMLYW9Q="
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/aa74818a-fc23-4eb1-b96e-2cbc0a7b49d8_mascarpone_500-2-573x600.png"
-        }
-      ]
-    },
-    {
-      "Route": "img/products/d2a199b6-7195-4f44-b17d-902425b46fdb_mascarpone_250-600x516.jdyircvg41.png",
-      "AssetFile": "img/products/d2a199b6-7195-4f44-b17d-902425b46fdb_mascarpone_250-600x516.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "467173"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:36:21 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jdyircvg41"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM="
-        },
-        {
-          "Name": "label",
-          "Value": "img/products/d2a199b6-7195-4f44-b17d-902425b46fdb_mascarpone_250-600x516.png"
-        }
-      ]
-    },
-    {
-      "Route": "img/products/d2a199b6-7195-4f44-b17d-902425b46fdb_mascarpone_250-600x516.png",
-      "AssetFile": "img/products/d2a199b6-7195-4f44-b17d-902425b46fdb_mascarpone_250-600x516.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "467173"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:36:21 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM="
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
         }
       ]
     },
@@ -2635,7 +2225,7 @@
       ]
     },
     {
-      "Route": "js/cartCounter.en2pk47z0i.js",
+      "Route": "js/cartCounter.c5ei19c27j.js",
       "AssetFile": "js/cartCounter.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2649,7 +2239,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5255"
+          "Value": "5507"
         },
         {
           "Name": "Content-Type",
@@ -2657,21 +2247,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qi2BqAWmz6AsUDzVgiVH3kAQVOqJBZ5QE3GWJLWQHnQ=\""
+          "Value": "\"IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 14:19:00 GMT"
+          "Value": "Sun, 27 Apr 2025 00:19:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "en2pk47z0i"
+          "Value": "c5ei19c27j"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qi2BqAWmz6AsUDzVgiVH3kAQVOqJBZ5QE3GWJLWQHnQ="
+          "Value": "sha256-IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4="
         },
         {
           "Name": "label",
@@ -2694,7 +2284,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5255"
+          "Value": "5507"
         },
         {
           "Name": "Content-Type",
@@ -2702,17 +2292,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qi2BqAWmz6AsUDzVgiVH3kAQVOqJBZ5QE3GWJLWQHnQ=\""
+          "Value": "\"IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 14:19:00 GMT"
+          "Value": "Sun, 27 Apr 2025 00:19:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qi2BqAWmz6AsUDzVgiVH3kAQVOqJBZ5QE3GWJLWQHnQ="
+          "Value": "sha256-IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4="
         }
       ]
     },

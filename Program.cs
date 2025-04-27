@@ -53,6 +53,11 @@ builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStat
 builder.Services.AddScoped<IProduct, ProductRepos>();
 builder.Services.AddScoped<ProductService>();
 
+builder.Services.AddScoped<ICart, CartRepos>();
+builder.Services.AddScoped<CartService>();
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,78 @@
+﻿@page "/test"
+
+<h3>Test</h3>
+@foreach (var product in ProductsList)
+{
+    <div class="card-body card-item-body">
+        <div class="row row-cart">
+            <div class="col-md-3 col-img-product">
+                <a class="cart-item-img" href="/product-info/@product.Id">
+                    <img class="product-img" src="/img/products/@product.SrcImageProduct" alt="@product.Title">
+                </a>
+            </div>
+            <div class="col-md-3 col-description-product">
+                <h1 class="cart-item-title">@product.Title @product.Weight<span style="font-size: 15px;"> г</span></h1>
+                <p class="cart-item-subtitle">@product.Subtitle</p>
+            </div>
+            <div class="col-md-3 cost-product">
+                <p>Цена за 1 шт.<br /><span class="cost-product-text">@product.Price</span><span style="font-weight: 400;"> BYN</span></p>
+            </div>
+            <div class="col-md-3 col-counter">
+                <div class="counter">
+                    <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
+                    <button class="counter-minus" disabled>−</button>
+                    <button class="counter-plus">+</button>
+                </div>
+
+                <div class="quantity">
+                    <p class="quantity-product">Осталось <span class="quantity-product-text">@product.Count</span> шт.</p>
+                </div>
+                <div class="btn-remove">
+                    <button class="btn btn-danger">Убрать из корзины</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
+    private List<Product>? ProductsList { get; set; } = new();
+    private List<Cart>? CartUserList { get; set; } = new();
+
+    // protected override async Task OnAfterRenderAsync(bool firstRender)
+    // {
+    //     if (firstRender == true)
+    //     {
+    //         await js.InvokeVoidAsync("counter");
+    //     }
+    // }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            ClaimsList = authState.Result.User.Claims.ToList();
+            var Email = ClaimsList[1].Value;
+            User = await account.GetUser(Email);
+        }
+        // ProductsList.Add("stroka");
+        // ProductsList.Add("stroka");
+        // ProductsList.Add("stroka");
+        // ProductsList.Add("stroka");
+        // ProductsList.Add("stroka");
+        // ProductsList.Add("stroka");
+        // ProductsList.Add(await product);
+        // await GetCartProduct(User.Id);
+    }
+
+    // private async Task GetCartProduct(Guid userId)
+    // {
+    //     ProductsList = await cartService.GetCartByIdUserAsync(userId);
+    // }
+}
