@@ -27,11 +27,11 @@ namespace TMKStore.Services
             return response!;
         }
 
-        public async Task<CartResponse> AddCartProductAsync(Guid userId, Guid porductId, int productCount)
+        public async Task<CartResponse> AddCartProductAsync(Guid userId, Guid productId, int productCount)
         {
             var seriliazeValue = new List<Guid>();
             seriliazeValue.Add(userId);
-            seriliazeValue.Add(porductId);
+            seriliazeValue.Add(productId);
 
             var cart = await httpClient.PostAsJsonAsync($"{BaseUrl}/add", seriliazeValue);
             var response = await cart.Content.ReadFromJsonAsync<CartResponse>();
@@ -42,6 +42,13 @@ namespace TMKStore.Services
         {
             var cart = await httpClient.GetAsync($"{BaseUrl}/product/{productId}");
             var response = await cart.Content.ReadFromJsonAsync<bool>();
+            return response!;
+        }
+
+        public async Task<CartResponse> DeleteCartProductAsync(Guid cartId)
+        {
+            var cart = await httpClient.GetAsync($"{BaseUrl}/delete/{cartId}");
+            var response = await cart.Content.ReadFromJsonAsync<CartResponse>();
             return response!;
         }
     }

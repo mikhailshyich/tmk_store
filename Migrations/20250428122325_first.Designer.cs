@@ -11,8 +11,8 @@ using TMKStore.Data;
 namespace TMKStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250425131323_secondCart")]
-    partial class secondCart
+    [Migration("20250428122325_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -66,6 +66,8 @@ namespace TMKStore.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
 
                     b.ToTable("Carts");
                 });
@@ -122,6 +124,17 @@ namespace TMKStore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("TMKStore.Models.Cart", b =>
+                {
+                    b.HasOne("TMKStore.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

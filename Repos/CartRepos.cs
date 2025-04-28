@@ -36,7 +36,7 @@ namespace TMKStore.Repos
                 checkProduct.Count -= productCount;
             }
 
-            var checkCart = appDbContext.Carts.FirstOrDefault(c => c.UserId == userId & c.ProductId == productId);
+            var checkCart = appDbContext.Carts.FirstOrDefault(c => c.UserId == userId & c.Product == checkProduct);
 
             if (checkCart != null)
             {
@@ -49,7 +49,7 @@ namespace TMKStore.Repos
                     new Cart
                     {
                         UserId = checkUser.Id,
-                        ProductId = checkProduct.Id,
+                        Product = checkProduct,
                         Count = productCount,
                         DateAdded = DateTime.Now,
                     });
@@ -59,6 +59,18 @@ namespace TMKStore.Repos
             return new CartResponse(true, "Продукт успешно добавлен в корзину");
         }
 
+        public async Task<CartResponse> DeleteCartProductAsync(Guid cartId)
+        {
+            if (cartId == Guid.Empty) return new CartResponse(false, "Id пустой");
+
+            var checkCart = appDbContext.Carts.FirstOrDefault(c => c.Id == cartId);
+            if (checkCart == null) return new CartResponse(false, "Нет такой записи в корзине");
+
+            appDbContext.Carts.Remove(checkCart);
+            appDbContext.SaveChanges();
+            return new CartResponse(true, "Продукт из корзины успешно удалён");
+        }
+
         public Task<List<Cart>> GetAllCartProductAsync()
         {
             throw new NotImplementedException();
@@ -66,23 +78,25 @@ namespace TMKStore.Repos
 
         public async Task<List<Cart>> GetCartByIdUserAsync(Guid userId)
         {
+            var cartList = new List<Cart>();
             if (userId == Guid.Empty) return null!;
             var checkCart = await appDbContext.Carts.Where(c => c.UserId == userId).ToListAsync();
             if (checkCart.Count <= 0) return null!;
-            //var productsList = new List<Product>();
 
-            //foreach (var product in checkCart)
-            //{
-            //    productsList.Add(appDbContext.Products.FirstOrDefault(p => p.Id == product.ProductId));
-            //}
+            foreach(var cart in checkCart)
+            {
+                var product = appDbContext.Products.FirstOrDefault(c => c.Id == cart.ProductId);
+                cart.Product = product;
+                cartList.Add(cart);
+            }
 
-            return checkCart;
+            return cartList;
         }
 
         public async Task<bool> GetCartProductByIdAsync(Guid productId)
         {
             if (productId == Guid.Empty) return false;
-            var checkCartProduct = appDbContext.Carts.FirstOrDefault(c => c.ProductId == productId);
+            var checkCartProduct = appDbContext.Carts.FirstOrDefault(c => c.Product.Id == productId);
             if(checkCartProduct == null) return false;
             return true;
         }

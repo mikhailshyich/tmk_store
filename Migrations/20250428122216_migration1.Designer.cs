@@ -11,8 +11,8 @@ using TMKStore.Data;
 namespace TMKStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250424134800_firsts")]
-    partial class firsts
+    [Migration("20250428122216_migration1")]
+    partial class migration1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

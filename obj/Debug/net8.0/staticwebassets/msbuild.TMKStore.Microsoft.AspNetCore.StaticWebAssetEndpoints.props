@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.7p643stfq6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7p643stfq6"},{"Name":"integrity","Value":"sha256-FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY="},{"Name":"label","Value":"_content/TMKStore/css/index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8922"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:41:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8918"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:27:25 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TMKStore/css/index.w5y51f9qch.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w5y51f9qch"},{"Name":"integrity","Value":"sha256-zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE="},{"Name":"label","Value":"_content/TMKStore/css/index.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8918"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zHaIr/L6EtWS3mpsoFgzkKEGLy1aCOpZ1whvQjRJEhE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 23 Apr 2025 06:27:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8922"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:41:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/cart.p4fuqxgzil.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cart.png'))</AssetFile>
@@ -120,6 +120,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b3OQg2bMx2r/vzrxwkp5OLynAfJ/N\u002Bm6kJ5FCvVg08k="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2882"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022b3OQg2bMx2r/vzrxwkp5OLynAfJ/N\u002Bm6kJ5FCvVg08k=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 11:32:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.6997qigplb.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6997qigplb"},{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="},{"Name":"label","Value":"_content/TMKStore/img/products/08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:26:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:26:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.6997qigplb.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -144,6 +156,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xno6nia2ei"},{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="},{"Name":"label","Value":"_content/TMKStore/img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 26 Apr 2025 22:45:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.6997qigplb.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6997qigplb"},{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="},{"Name":"label","Value":"_content/TMKStore/img/products/96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 09:50:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 09:50:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -156,6 +180,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xno6nia2ei"},{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="},{"Name":"label","Value":"_content/TMKStore/img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 27 Apr 2025 00:01:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 09:49:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xno6nia2ei"},{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="},{"Name":"label","Value":"_content/TMKStore/img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 09:49:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.6997qigplb.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -167,6 +203,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"585168"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ZrOK2VynHwe\u002BInYMqJu9emH1tRcbObXfWu\u002BNhNFOm/M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 13:52:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:38:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TMKStore/img/products/f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xno6nia2ei"},{"Name":"integrity","Value":"sha256-ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA="},{"Name":"label","Value":"_content/TMKStore/img/products/f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"466908"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ox7FscsXJ8nA\u002BIFXr\u002BLeuS8NUm9dWHD3wagHu4y9tLA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 12:38:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TMKStore/img/profile.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile.png'))</AssetFile>

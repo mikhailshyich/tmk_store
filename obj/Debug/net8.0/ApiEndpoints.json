@@ -115,6 +115,32 @@
   },
   {
     "ContainingType": "TMKStore.Controllers.CartController",
+    "Method": "DeleteCartProductByIdAsync",
+    "RelativePath": "api/Cart/delete/{cartId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TMKStore.Models.Product, TMKStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TMKStore.Controllers.CartController",
     "Method": "GetCartByIdUserAsync",
     "RelativePath": "api/Cart/user/{userId}",
     "HttpMethod": "GET",

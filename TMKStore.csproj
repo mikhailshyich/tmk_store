@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20250428122216_migration1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Models\Cart.cs~RFa0c8d3.TMP" />
   </ItemGroup>
 

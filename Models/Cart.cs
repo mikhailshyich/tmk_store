@@ -12,5 +12,7 @@ namespace TMKStore.Models
 
         public int Count { get; set; }
         public DateTime DateAdded { get; set; }
+
+        public virtual Product Product { get; set; }
     }
 }

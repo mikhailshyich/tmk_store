@@ -28,8 +28,15 @@ namespace TMKStore.Controllers
         [HttpGet("user/{userId}")]
         public async Task<ActionResult<List<Product>>> GetCartByIdUserAsync(Guid userId)
         {
-            var product = await cartInterface.GetCartByIdUserAsync(userId);
-            return Ok(product);
+            var cartUser = await cartInterface.GetCartByIdUserAsync(userId);
+            return Ok(cartUser);
+        }
+
+        [HttpDelete("delete/{cartId}")]
+        public async Task<ActionResult<List<Product>>> DeleteCartProductByIdAsync(Guid cartId)
+        {
+            var cartUser = await cartInterface.DeleteCartProductAsync(cartId);
+            return Ok(cartUser);
         }
     }
 }
