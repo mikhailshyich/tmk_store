@@ -1,5 +1,4 @@
 ﻿@page "/cart"
-@using static Microsoft.AspNetCore.Components.Web.RenderMode
 @rendermode InteractiveServer
 
 <PageTitle>Корзина</PageTitle>
@@ -43,7 +42,7 @@
                                                     <p class="quantity-product">Осталось <span class="quantity-product-text">@cart.Product.Count</span> шт.</p>
                                                 </div>
                                                 <div class="btn-remove">
-                                                    <button @onclick="()=>DeleteCartPRoduct(cart.Id)" class="btn btn-danger">Убрать из корзины</button>
+                                                    <button @onclick="()=>DeleteCartProduct(cart.Id)" class="btn btn-danger">Убрать из корзины</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +80,7 @@
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (firstRender == true)
+        if (firstRender)
         {
             await js.InvokeVoidAsync("counter");
         }
@@ -100,13 +99,6 @@
                 var Email = ClaimsList[1].Value;
                 User = await account.GetUser(Email);
             }
-            // ProductsList.Add("stroka");
-            // ProductsList.Add("stroka");
-            // ProductsList.Add("stroka");
-            // ProductsList.Add("stroka");
-            // ProductsList.Add("stroka");
-            // ProductsList.Add("stroka");
-            // ProductsList.Add(await product);
             await GetCartProduct(User.Id);
         }
         catch { }
@@ -115,17 +107,11 @@
     private async Task GetCartProduct(Guid userId)
     {
         CartUserList = await cartService.GetCartByIdUserAsync(userId);
-
-        // foreach (var element in CartUserList)
-        // {
-        //     var product = await productService.GetProductByIdAsync(element.Product.Id);
-        //     ProductsList?.Add(product);
-        // }
     }
 
-    private async Task DeleteCartPRoduct(Guid cartId)
+    private async Task DeleteCartProduct(Guid cartId)
     {
         await cartInterface.DeleteCartProductAsync(cartId);
-        NavManager.Refresh(forceReload: true);
+        NavManager.Refresh(forceReload:true);
     }
 }

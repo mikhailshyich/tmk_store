@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fPa5uYqRaxIzbW44kg+oK+gchIkV0aHuCsUtZ5ahzws=",
+  "Hash": "dm9gRQE+Rh3WgH650V1v/1LJacme346j9e8nyigr+oE=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -668,27 +668,6 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
-      "SourceId": "TMKStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
-      "BasePath": "_content/TMKStore",
-      "RelativePath": "js/cartCounter#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "c5ei19c27j",
-      "Integrity": "IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\cartCounter.js"
-    },
-    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -703,8 +682,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hfg0dnqwp6",
-      "Integrity": "0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc=",
+      "Fingerprint": "fsoec26b20",
+      "Integrity": "/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
@@ -3172,89 +3151,7 @@
       ]
     },
     {
-      "Route": "js/cartCounter.c5ei19c27j.js",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5507"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 00:19:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c5ei19c27j"
-        },
-        {
-          "Name": "label",
-          "Value": "js/cartCounter.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4="
-        }
-      ]
-    },
-    {
-      "Route": "js/cartCounter.js",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5507"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 00:19:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IL06YukN1w5IbA/uJVkr50sv3Be/m7I0TraUtC1yPo4="
-        }
-      ]
-    },
-    {
-      "Route": "js/main.hfg0dnqwp6.js",
+      "Route": "js/main.fsoec26b20.js",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3264,7 +3161,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "5199"
         },
         {
           "Name": "Content-Type",
@@ -3272,11 +3169,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc=\""
+          "Value": "\"/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 12:36:01 GMT"
+          "Value": "Mon, 28 Apr 2025 16:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3286,7 +3183,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hfg0dnqwp6"
+          "Value": "fsoec26b20"
         },
         {
           "Name": "label",
@@ -3294,7 +3191,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc="
+          "Value": "sha256-/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4="
         }
       ]
     },
@@ -3309,7 +3206,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "5199"
         },
         {
           "Name": "Content-Type",
@@ -3317,11 +3214,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc=\""
+          "Value": "\"/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Apr 2025 12:36:01 GMT"
+          "Value": "Mon, 28 Apr 2025 16:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3331,7 +3228,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0yPNf+5CjWfKLP4Vl4Rz3ci+qmPayIylp1zoifNUqxc="
+          "Value": "sha256-/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4="
         }
       ]
     },

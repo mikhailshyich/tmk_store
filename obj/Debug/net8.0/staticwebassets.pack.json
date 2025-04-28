@@ -85,10 +85,6 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\cartCounter.js",
-      "PackagePath": "staticwebassets\\js\\cartCounter.js"
-    },
-    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

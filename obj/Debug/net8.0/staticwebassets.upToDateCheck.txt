@@ -19,5 +19,4 @@ wwwroot\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_
 wwwroot\img\profile.png
 wwwroot\img\telegram.png
 wwwroot\index.html
-wwwroot\js\cartCounter.js
 wwwroot\js\main.js
