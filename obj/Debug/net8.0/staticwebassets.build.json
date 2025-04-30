@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dm9gRQE+Rh3WgH650V1v/1LJacme346j9e8nyigr+oE=",
+  "Hash": "XFPuR7jwlnP0NmmBIFq8F/86tTApuXWK+zbP5x6OVcU=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7p643stfq6",
-      "Integrity": "FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY=",
+      "Fingerprint": "cqpd7n3e4j",
+      "Integrity": "hJamFw6S3HRlg3HvIhEf5kiQLmUJBH2jW0HoCLYLomY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -519,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\products\\96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6997qigplb",
+      "Integrity": "ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
@@ -1429,7 +1450,7 @@
       ]
     },
     {
-      "Route": "css/index.7p643stfq6.css",
+      "Route": "css/index.cqpd7n3e4j.css",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1439,7 +1460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8922"
+          "Value": "8934"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY=\""
+          "Value": "\"hJamFw6S3HRlg3HvIhEf5kiQLmUJBH2jW0HoCLYLomY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:41:19 GMT"
+          "Value": "Wed, 30 Apr 2025 12:16:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,7 +1482,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7p643stfq6"
+          "Value": "cqpd7n3e4j"
         },
         {
           "Name": "label",
@@ -1469,7 +1490,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY="
+          "Value": "sha256-hJamFw6S3HRlg3HvIhEf5kiQLmUJBH2jW0HoCLYLomY="
         }
       ]
     },
@@ -1484,7 +1505,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8922"
+          "Value": "8934"
         },
         {
           "Name": "Content-Type",
@@ -1492,11 +1513,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY=\""
+          "Value": "\"hJamFw6S3HRlg3HvIhEf5kiQLmUJBH2jW0HoCLYLomY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 12:41:19 GMT"
+          "Value": "Wed, 30 Apr 2025 12:16:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1506,7 +1527,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FaJpy9gN7t/lIB8wUgxBHxKZALavijJ7jKp6gOy1pjY="
+          "Value": "sha256-hJamFw6S3HRlg3HvIhEf5kiQLmUJBH2jW0HoCLYLomY="
         }
       ]
     },
@@ -2563,6 +2584,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 28 Apr 2025 09:50:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.6997qigplb.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6997qigplb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 11:33:43 GMT"
         },
         {
           "Name": "Cache-Control",

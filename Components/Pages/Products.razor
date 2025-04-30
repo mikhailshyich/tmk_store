@@ -113,7 +113,7 @@
             ProductsList?.Add(product);
             ProductTitleList?.Add(product.Title);
         }
-        uniqueProductNames = ProductTitleList?.Distinct();
+        uniqueProductNames = ProductTitleList?.Distinct().OrderBy(t => t);
     }
 
     protected override async Task OnInitializedAsync() => await LoadProduct();

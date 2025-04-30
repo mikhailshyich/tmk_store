@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="col-md-3 col-counter">
                                                 <div class="counter">
-                                                    <input class="counter-text" type="number" step="1" min="1" name="count" value="1">
+                                                    <input class="counter-text" type="number" step="1" min="1" name="count" value="@cart.Count">
                                                     <button class="counter-minus" disabled>−</button>
                                                     <button class="counter-plus">+</button>
                                                 </div>
@@ -52,11 +52,11 @@
                         </div>
                         <div class="col-md-2">
                             <div class="row cart-footer">
-                                <div class="col-md-12 d-flex justify-content-end total-cost">
+                                <div class="col-md-12 d-flex justify-content-center total-cost">
                                     <p>Итого: <span class="total-price">@ProductPrice</span> BYN</p>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <button class="btn btn-pay">Оплатить товары</button>
+                                    <button class="btn btn-pay">Оформить заказ</button>
                                 </div>
                             </div>
                         </div>
