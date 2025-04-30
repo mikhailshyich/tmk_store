@@ -9,42 +9,73 @@
         <Authorized>
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex">
-                        <div class="card mb-4 me-4 col-4">
+                    <div class="col-lg-4">
+                        <div class="card mb-4">
                             <div class="card-body text-center">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
-                                     class="rounded-circle img-fluid" style="width: 150px;">
+                                <img src="/img/profile-img.png"
+                                     alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                                 <h5 class="my-3">@User.Name</h5>
-                                <p class="text-muted mb-1">@User.Email</p>
+                                <p class="text-muted mb-4">@User.Email</p>
+                                <div class="d-flex justify-content-center mb-2">
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
+                                            class="btn btn-primary">
+                                        Редактировать профиль
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="card mb-4 col-8">
-                            <h5 class="card-header">Мои заказы</h5>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card mb-4">
+                            <div class="card-header text-center">
+                                Мои заказы
+                            </div>
                             <div class="card-body">
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
-                                <p class="card-text">Вывести заказы</p>
+                                <table class="table order-table">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th scope="col">№</th>
+                                            <th scope="col">Дата</th>
+                                            <th scope="col">Сумма, BYN</th>
+                                            <th scope="col">Действие</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="text-center">
+                                            <th scope="row">1</th>
+                                            <td>30.04.2025</td>
+                                            <td>2040</td>
+                                            <td><button class="btn btn-warning">Посмотреть</button></td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <th scope="row">1</th>
+                                            <td>30.04.2025</td>
+                                            <td>2040</td>
+                                            <td><button class="btn btn-warning">Посмотреть</button></td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <th scope="row">1</th>
+                                            <td>30.04.2025</td>
+                                            <td>2040</td>
+                                            <td><button class="btn btn-warning">Посмотреть</button></td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <th scope="row">1</th>
+                                            <td>30.04.2025</td>
+                                            <td>2040</td>
+                                            <td><button class="btn btn-warning">Посмотреть</button></td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <th scope="row">1</th>
+                                            <td>30.04.2025</td>
+                                            <td>2040</td>
+                                            <td><button class="btn btn-warning">Посмотреть</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer text-muted d-flex justify-content-end">
+                                Итого по заказам: 23000 BYN
                             </div>
                         </div>
                     </div>

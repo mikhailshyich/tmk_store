@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XFPuR7jwlnP0NmmBIFq8F/86tTApuXWK+zbP5x6OVcU=",
+  "Hash": "FitzNauKU1g3Xt0LIi+LFikqozWvEUtEUh3B9/hFQS8=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -645,6 +645,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\profile.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile-img.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/profile-img#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1au8x1sn4c",
+      "Integrity": "t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\profile-img.png"
     },
     {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\telegram.png",
@@ -3086,6 +3107,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Q921QHnhwszmKJOa68NOlmlC65q8dkt4Vip5FqjjD3s="
+        }
+      ]
+    },
+    {
+      "Route": "img/profile-img.1au8x1sn4c.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1au8x1sn4c"
+        },
+        {
+          "Name": "label",
+          "Value": "img/profile-img.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
+        }
+      ]
+    },
+    {
+      "Route": "img/profile-img.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
         }
       ]
     },

@@ -18,6 +18,7 @@ wwwroot\img\products\d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_
 wwwroot\img\products\ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png
 wwwroot\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png
 wwwroot\img\profile.png
+wwwroot\img\profile-img.png
 wwwroot\img\telegram.png
 wwwroot\index.html
 wwwroot\js\main.js

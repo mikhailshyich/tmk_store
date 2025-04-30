@@ -2389,6 +2389,88 @@
       ]
     },
     {
+      "Route": "img/profile-img.1au8x1sn4c.png",
+      "AssetFile": "img/profile-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1au8x1sn4c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
+        },
+        {
+          "Name": "label",
+          "Value": "img/profile-img.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/profile-img.png",
+      "AssetFile": "img/profile-img.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
+        }
+      ]
+    },
+    {
       "Route": "img/profile.png",
       "AssetFile": "img/profile.png",
       "Selectors": [],

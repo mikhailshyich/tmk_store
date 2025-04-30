@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\img\\products\\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png"
     },
     {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile-img.png",
+      "PackagePath": "staticwebassets\\img\\profile-img.png"
+    },
+    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\profile.png",
       "PackagePath": "staticwebassets\\img\\profile.png"
     },
