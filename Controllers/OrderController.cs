@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TMKStore.Components.Pages;
 using TMKStore.DTOs;
 using TMKStore.Models;
 using TMKStore.Repos;
@@ -20,9 +21,16 @@ namespace TMKStore.Controllers
         }
 
         [HttpPost("add")]
-        public async Task<ActionResult<OrderResponse>> AddOrderAsync(Guid userId, decimal productPrice, Guid guidCarts)
+        public async Task<ActionResult<OrderResponse>> AddOrderAsync(Guid userId, decimal productPrice, int productCount, Guid productId, Guid uniqueGuid)
         {
-            var order = await orderInterface.AddOrderAsync(userId, productPrice, guidCarts);
+            var order = await orderInterface.AddOrderAsync(userId, productPrice, productCount, productId, uniqueGuid);
+            return Ok(order);
+        }
+
+        [HttpGet("get")]
+        public async Task<ActionResult<OrderResponse>> GetOrdersUserByIdAsync(Guid userId)
+        {
+            var order = await orderInterface.GetOrdersUserByIdAsync(userId);
             return Ok(order);
         }
     }

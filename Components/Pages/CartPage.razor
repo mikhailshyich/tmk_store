@@ -34,8 +34,8 @@
                                             <div class="col-md-3 col-counter">
                                                 <div class="counter">
                                                     <input value="@cart.Count" @onchange="((e) => Change(e, cart))" class="counter-text" type="number" step="1" min="1" name="count">
-                                                    <button @onclick="()=>MinusCount(cart.Id, cart.Count)" class="counter-minus">−</button>
-                                                    <button @onclick="()=>PlusCount(cart.Id, cart.Count)" class="counter-plus">+</button>
+                                                    <button @onclick="()=>MinusCount(cart)" class="counter-minus">−</button>
+                                                    <button @onclick="()=>PlusCount(cart)" class="counter-plus">+</button>
                                                 </div>
 
                                                 <div class="quantity">
@@ -53,10 +53,10 @@
                         <div class="col-md-2">
                             <div class="row cart-footer">
                                 <div class="col-md-12 d-flex justify-content-center total-cost">
-                                    <p>Итого: <span class="total-price">@CountProduct</span> BYN</p>
+                                    <p>Итого: <span class="total-price">@ProductPrice()</span> BYN</p>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <button class="btn btn-pay">Оформить заказ</button>
+                                    <button @onclick="()=>AddOrder()" class="btn btn-pay">Оформить заказ</button>
                                 </div>
                             </div>
                         </div>
@@ -76,13 +76,24 @@
     private ApplicationUser User = new();
     private List<Product>? ProductsList { get; set; } = new();
     private List<Cart>? CartUserList { get; set; } = new();
-    private int CountProduct = 2;
+    private int CountProduct;
+
+
+    private decimal ProductPrice()
+    {
+        decimal productPrice = 0;
+        foreach(var cart in CartUserList)
+        {
+            productPrice = productPrice + (cart.Product.Price * cart.Count);
+        }
+        return Math.Round(productPrice, 2);
+    }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            // await js.InvokeVoidAsync("counter");
+            await js.InvokeVoidAsync("counter");
         }
     }
 
@@ -100,6 +111,7 @@
                 User = await account.GetUser(Email);
             }
             await GetCartProduct(User.Id);
+            ProductPrice();
             // await js.InvokeVoidAsync("calculareTotalPrice");
         }
         catch { }
@@ -116,28 +128,20 @@
         NavManager.Refresh(forceReload:true);
     }
 
-    private async Task PlusCount(Guid cartId, int productCount)
+    private async Task PlusCount(Cart cart)
     {
-        productCount += 1;
-        await cartInterface.UpdateCartRecordAsync(cartId, productCount);
+        var productCount = cart.Count + 1;
+        await cartInterface.UpdateCartRecordAsync(cart.Id, productCount);
         NavManager.Refresh(forceReload: true);
     }
 
-    private async Task MinusCount(Guid cartId, int productCount)
+    private async Task MinusCount(Cart cart)
     {
-        productCount -= 1;
-        await cartInterface.UpdateCartRecordAsync(cartId, productCount);
+        var productCount = cart.Count - 1;
+        await cartInterface.UpdateCartRecordAsync(cart.Id, productCount);
         NavManager.Refresh(forceReload: true);
     }
 
-    // private void ChangeCount(ChangeEventArgs e)
-    // {
-    //     var value = (string)e.Value;
-    //     if(int.TryParse(value, out int count))
-    //     {
-    //         CountProduct = count;
-    //     }
-    // }
     private async Task Change(ChangeEventArgs e, Cart cart)
     {
         var value = (string)e.Value;
@@ -145,7 +149,25 @@
         {
             CountProduct = count;
         }
+
+        if(CountProduct > cart.Product.Count)
+        {
+            CountProduct = cart.Product.Count;
+        }
         await cartInterface.UpdateCartRecordAsync(cart.Id, CountProduct);
         NavManager.Refresh(forceReload: true);
+    }
+
+    private async Task AddOrder()
+    {
+        Guid uniqueGuid = Guid.NewGuid();
+
+        foreach(var cart in CartUserList)
+        {
+            decimal productPrice = cart.Count * cart.Product.Price;
+            await orderInterface.AddOrderAsync(User.Id, productPrice, cart.Count, cart.Product.Id, uniqueGuid);
+            await cartInterface.DeleteCartProductAsync(cart.Id);
+            NavManager.Refresh(forceReload: true);
+        }
     }
 }

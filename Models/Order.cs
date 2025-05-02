@@ -4,8 +4,10 @@
     {
         public int Id { get; set; }
         public DateTime DateTime { get; set; }
-        public decimal Price { get; set; }
+        public decimal ProductPrice { get; set; }
+        public int ProductCount { get; set; }
         public Guid UserId { get; set; }
-        public Guid CartsGuid { get; set; }
+        public Guid ProductId { get; set; }
+        public Guid UniqueGuid { get; set; }
     }
 }

@@ -22,14 +22,14 @@ function counter() {
             }
 
             if (event.target.matches('.counter-plus')) {
-                if (parseInt(currenItems.value) < 9999 & parseInt(currenItems.value) < parseInt(quantityProduct)) {
+                if (parseInt(currenItems.value) < parseInt(quantityProduct)) {
                     currenItems.value = ++currenItems.value;
                     minusBtn.removeAttribute('disabled');
                 }
                 else {
                     plusBtn.setAttribute('disabled', true);
                 }
-                calculareTotalPrice();
+                //calculareTotalPrice();
             }
             if (event.target.matches('.counter-minus')) {
                 if (parseInt(currenItems.value) >= 2) {
@@ -40,14 +40,14 @@ function counter() {
                 else if (parseInt(currenItems.value) === 1) {
                     minusBtn.setAttribute('disabled', true);
                 }
-                else if (parseInt(currenItems.value) < 9999) {
+                else if (parseInt(currenItems.value) < parseInt(quantityProduct)) {
                     plusBtn.removeAttribute('disabled');
                 }
                 else {
                     currenItems.value = --currenItems.value;
                     minusBtn.setAttribute('disabled', true);
                 }
-                calculareTotalPrice();
+                //calculareTotalPrice();
             }
         });
         cart.addEventListener('input', (event) => {
@@ -69,16 +69,16 @@ function counter() {
             else if (parseInt(currenItems.value) > parseInt(quantityProduct)) {
                 currenItems.value = parseInt(quantityProduct);
             }
-            else if (parseInt(currenItems.value) > 9999) {
-                currenItems.value = 9999;
+            else if (parseInt(currenItems.value) > quantityProduct) {
+                currenItems.value = quantityProduct;
                 plusBtn.setAttribute('disabled', true);
                 minusBtn.removeAttribute('disabled');
             }
-            else if (parseInt(currenItems.value) <= 9999) {
+            else if (parseInt(currenItems.value) <= quantityProduct) {
                 minusBtn.removeAttribute('disabled');
                 plusBtn.removeAttribute('disabled');
             }
-            calculareTotalPrice();
+            //calculareTotalPrice();
         });
     }
 
@@ -103,5 +103,5 @@ function counter() {
         });
         cartTotalPrice.textContent = totalCartValue.toFixed(2);
     };
-    calculareTotalPrice();
+    //calculareTotalPrice();
 }

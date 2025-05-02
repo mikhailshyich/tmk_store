@@ -13,12 +13,12 @@
                         <div class="card mb-4">
                             <div class="card-body text-center">
                                 <img src="/img/profile-img.png"
-                                     alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                                alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                                 <h5 class="my-3">@User.Name</h5>
                                 <p class="text-muted mb-4">@User.Email</p>
                                 <div class="d-flex justify-content-center mb-2">
                                     <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                            class="btn btn-primary">
+                                    class="btn btn-primary">
                                         Редактировать профиль
                                     </button>
                                 </div>
@@ -34,43 +34,26 @@
                                 <table class="table order-table">
                                     <thead>
                                         <tr class="text-center">
-                                            <th scope="col">№</th>
+                                            <th scope="col">Уникальный Id</th>
                                             <th scope="col">Дата</th>
                                             <th scope="col">Сумма, BYN</th>
                                             @* <th scope="col">Действие</th> *@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr class="text-center">
-                                            <th scope="row">1</th>
-                                            <td>30.04.2025</td>
-                                            <td>2040</td>
-                                        </tr>
-                                        <tr class="text-center">
-                                            <th scope="row">1</th>
-                                            <td>30.04.2025</td>
-                                            <td>2040</td>
-                                        </tr>
-                                        <tr class="text-center">
-                                            <th scope="row">1</th>
-                                            <td>30.04.2025</td>
-                                            <td>2040</td>
-                                        </tr>
-                                        <tr class="text-center">
-                                            <th scope="row">1</th>
-                                            <td>30.04.2025</td>
-                                            <td>2040</td>
-                                        </tr>
-                                        <tr class="text-center">
-                                            <th scope="row">1</th>
-                                            <td>30.04.2025</td>
-                                            <td>2040</td>
-                                        </tr>
+                                        @foreach (var order in OrdersList)
+                                        {
+                                            <tr class="text-center">
+                                                <th scope="row">@order.UniqueGuid</th>
+                                                <td>@order.DateTime.ToString("dd-MM-yyyy")</td>
+                                                <td>@order.ProductPrice</td>
+                                            </tr>
+                                        }
                                     </tbody>
                                 </table>
                             </div>
                             <div class="card-footer text-muted d-flex justify-content-end">
-                                Итого по заказам: 23000 BYN
+                                Итого по заказам: @TotalCost BYN
                             </div>
                         </div>
                     </div>
@@ -87,6 +70,9 @@
 @code {
     private List<System.Security.Claims.Claim> ClaimsList = new();
     private ApplicationUser User = new();
+    private List<Order> OrdersList = new();
+    private IEnumerable<Order> uniqueOrders;
+    private decimal TotalCost;
 
     protected override async Task OnInitializedAsync()
     {
@@ -99,5 +85,17 @@
             var Email = ClaimsList[1].Value;
             User = await account.GetUser(Email);
         }
+        await GetOrders(User.Id);
+    }
+
+    private async Task GetOrders(Guid userId)
+    {
+        var orders = await orderInterface.GetOrdersUserByIdAsync(userId);
+        foreach(var order in orders)
+        {
+            OrdersList.Add(order);
+            TotalCost += order.ProductPrice;
+        }
+        OrdersList.OrderBy(o => o.DateTime);
     }
 }
