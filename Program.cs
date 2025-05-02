@@ -56,6 +56,10 @@ builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<ICart, CartRepos>();
 builder.Services.AddScoped<CartService>();
 
+builder.Services.AddScoped<IOrder, OrderRepos>();
+builder.Services.AddScoped<OrderService>();
+ 
+
 
 
 var app = builder.Build();

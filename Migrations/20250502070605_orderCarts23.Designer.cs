@@ -11,8 +11,8 @@ using TMKStore.Data;
 namespace TMKStore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250428122325_first")]
-    partial class first
+    [Migration("20250502070605_orderCarts23")]
+    partial class orderCarts23
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,6 +70,29 @@ namespace TMKStore.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("TMKStore.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<Guid>("CartsGuid")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("TMKStore.Models.Product", b =>

@@ -40,5 +40,8 @@ namespace TMKStore.Repos
         /// <param name="cartId">ID записи в корзине</param>
         /// <returns>Ответ об успешном или не успешном удалении продукта из корзины</returns>
         Task<CartResponse> DeleteCartProductAsync(Guid cartId);
+
+        Task<CartResponse> UpdateCartRecordAsync(Guid cartId, int updateCount);
+
     }
 }

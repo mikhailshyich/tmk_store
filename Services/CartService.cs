@@ -51,5 +51,12 @@ namespace TMKStore.Services
             var response = await cart.Content.ReadFromJsonAsync<CartResponse>();
             return response!;
         }
+
+        public async Task<CartResponse> UpdateCartRecordAsync(Guid cartId, int updateCount)
+        {
+            var cart = await httpClient.GetAsync($"{BaseUrl}/update/{cartId}");
+            var response = await cart.Content.ReadFromJsonAsync<CartResponse>();
+            return response!;
+        }
     }
 }

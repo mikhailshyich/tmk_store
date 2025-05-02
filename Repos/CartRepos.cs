@@ -100,5 +100,17 @@ namespace TMKStore.Repos
             if(checkCartProduct == null) return false;
             return true;
         }
+
+        public async Task<CartResponse> UpdateCartRecordAsync(Guid cartId, int updateCount)
+        {
+            if (cartId == Guid.Empty) return new CartResponse(false, "Id пустой");
+
+            var checkCart = appDbContext.Carts.FirstOrDefault(c => c.Id == cartId);
+            if (checkCart == null) return new CartResponse(false, "Нет такой записи в корзине");
+
+            checkCart.Count = updateCount;
+            appDbContext.SaveChanges();
+            return new CartResponse(true, "Количество успешно изменено");
+        }
     }
 }

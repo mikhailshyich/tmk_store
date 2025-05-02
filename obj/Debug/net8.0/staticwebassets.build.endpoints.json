@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 11:28:23 GMT"
+          "Value": "Fri, 02 May 2025 16:53:19 GMT"
         },
         {
           "Name": "Link",
@@ -78,7 +78,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 11:28:23 GMT"
+          "Value": "Fri, 02 May 2025 16:53:19 GMT"
         },
         {
           "Name": "Link",
@@ -2061,6 +2061,88 @@
       ]
     },
     {
+      "Route": "img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.6997qigplb.png",
+      "AssetFile": "img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 11:44:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6997qigplb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png",
+      "AssetFile": "img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "585168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 11:44:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M="
+        }
+      ]
+    },
+    {
       "Route": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "AssetFile": "img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
@@ -2143,6 +2225,88 @@
       ]
     },
     {
+      "Route": "img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:49:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:49:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png"
+        }
+      ]
+    },
+    {
       "Route": "img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "AssetFile": "img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png",
       "Selectors": [],
@@ -2221,6 +2385,88 @@
         {
           "Name": "label",
           "Value": "img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:10:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:10:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png"
         }
       ]
     },
@@ -2389,7 +2635,7 @@
       ]
     },
     {
-      "Route": "img/profile-img.1au8x1sn4c.png",
+      "Route": "img/profile-img.lrwu8pdr6t.png",
       "AssetFile": "img/profile-img.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2403,7 +2649,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12623"
+          "Value": "12741"
         },
         {
           "Name": "Content-Type",
@@ -2411,21 +2657,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+          "Value": "\"n2K0LxYGV2yP3Sf21OK84TWc+h7TtKDKzXuX8cOhCf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+          "Value": "Wed, 30 Apr 2025 18:09:12 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1au8x1sn4c"
+          "Value": "lrwu8pdr6t"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
+          "Value": "sha256-n2K0LxYGV2yP3Sf21OK84TWc+h7TtKDKzXuX8cOhCf8="
         },
         {
           "Name": "label",
@@ -2448,7 +2694,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12623"
+          "Value": "12741"
         },
         {
           "Name": "Content-Type",
@@ -2456,17 +2702,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U=\""
+          "Value": "\"n2K0LxYGV2yP3Sf21OK84TWc+h7TtKDKzXuX8cOhCf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 18:07:20 GMT"
+          "Value": "Wed, 30 Apr 2025 18:09:12 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-t89Pc+xaWmiKnhQ+YQnvb3OKNNYvRNynARIBCKNbi4U="
+          "Value": "sha256-n2K0LxYGV2yP3Sf21OK84TWc+h7TtKDKzXuX8cOhCf8="
         }
       ]
     },
@@ -2717,7 +2963,7 @@
       ]
     },
     {
-      "Route": "js/main.fsoec26b20.js",
+      "Route": "js/main.fvh1jo2vc9.js",
       "AssetFile": "js/main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2731,7 +2977,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5199"
+          "Value": "5093"
         },
         {
           "Name": "Content-Type",
@@ -2739,21 +2985,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4=\""
+          "Value": "\"u0NvKylJBtlfaOLoG+JrXTj9yShQWFzszyx19NbPGJM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 16:32:30 GMT"
+          "Value": "Fri, 02 May 2025 16:59:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fsoec26b20"
+          "Value": "fvh1jo2vc9"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4="
+          "Value": "sha256-u0NvKylJBtlfaOLoG+JrXTj9yShQWFzszyx19NbPGJM="
         },
         {
           "Name": "label",
@@ -2776,7 +3022,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5199"
+          "Value": "5093"
         },
         {
           "Name": "Content-Type",
@@ -2784,17 +3030,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4=\""
+          "Value": "\"u0NvKylJBtlfaOLoG+JrXTj9yShQWFzszyx19NbPGJM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 16:32:30 GMT"
+          "Value": "Fri, 02 May 2025 16:59:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/2h8BaaPK048+IEqgR43qree3aPo6GHquqJI8gdOgr4="
+          "Value": "sha256-u0NvKylJBtlfaOLoG+JrXTj9yShQWFzszyx19NbPGJM="
         }
       ]
     }

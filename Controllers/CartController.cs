@@ -38,5 +38,12 @@ namespace TMKStore.Controllers
             var cartUser = await cartInterface.DeleteCartProductAsync(cartId);
             return Ok(cartUser);
         }
+
+        [HttpPut("update/{cartId}")]
+        public async Task<ActionResult<Cart>> DeleteCartProductByIdAsync(Guid cartId, int updateCount)
+        {
+            var cartUser = await cartInterface.UpdateCartRecordAsync(cartId, updateCount);
+            return Ok(cartUser);
+        }
     }
 }
