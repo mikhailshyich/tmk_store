@@ -44,15 +44,42 @@ a {
 
 /* ============================ Header rules ==================================== */
 
+@media (max-width: 320px) {
+    a.navbar-brand {
+        width: 70%;
+    }
+
+    ul.navbar-nav li {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    ul.navbar-nav li {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and ((min-width: 320px) and (max-width: 992px)) {
+    ul.navbar-nav li {
+        margin-bottom: 20px;
+    }
+}
+
+.menu-icons-item {
+    width: 40px;
+}
+
 ul.menu-icons {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-    ul.menu-icons li {
-        margin-right: 50px;
-    }
+ul.menu-icons li {
+    margin-right: 50px;
+}
 
 .drop-menu {
     background-color: var(--bg-color);

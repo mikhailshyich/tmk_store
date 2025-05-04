@@ -1,6 +1,55 @@
 ﻿<!--Header-->
 <header class="header">
-    <div class="header-main">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo.png" width="100%" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="/"><img class="menu-icons-item" src="img/home.png">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/products"><img class="menu-icons-item" src="img/products.png">Товары</a>
+                    </li>
+                    <AuthorizeView>
+                        <Authorized>
+                            <li class="nav-item">
+                                <a href="/cart"><img class="menu-icons-item" title="Корзина" alt="cart" src="img/cart.png">
+                                    Корзина <span class="badge text-bg-danger">@ProductCountInCart</span>
+                                </a>
+                            </li>
+                        </Authorized>
+                    </AuthorizeView>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <img class="menu-icons-item" alt="profile" src="img/profile.png">
+                                Профиль
+                            </button>
+                            <div class="dropdown-content">
+                                <AuthorizeView>
+                                    <Authorized>
+                                        <a class="dropdown-item drop-item" title="Посмотреть профиль" href="/profile">Посмотреть профиль</a>
+                                        <a class="dropdown-item drop-item" title="Выйти" href="/logout">Выйти</a>
+                                    </Authorized>
+                                    <NotAuthorized>
+                                        <a class="dropdown-item drop-item" title="Войти" href="/login">Войти</a>
+                                        <a class="dropdown-item drop-item" title="Зарегистрироваться" href="/registration">Зарегистрироваться</a>
+                                    </NotAuthorized>
+                                </AuthorizeView>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @* <div class="header-main">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
@@ -44,7 +93,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> *@
 </header>
 <!-- #endregion -->
 @code {

@@ -12,9 +12,10 @@
                     <div class="col-sm">
                         <div class="d-flex btn-group " role="group">
                             <div class="d-flex group-btn">
+                                <button onclick="clearSearch()" class="btn item-btn">Все</button>
                                 @foreach (var title in uniqueProductNames)
                                 {
-                                    <a class="btn item-btn" id="@title">@title</a>
+                                    <button onclick="searchProducts(@title.Replace(" ", "_"))" class="btn item-btn">@title</button>
                                 }
                             </div>
                         </div>
@@ -29,7 +30,7 @@
                 </div>
                 @foreach (var title in uniqueProductNames)
                 {
-                    <div class="page-products">
+                    <div class="page-products" id="@title.Replace(" ", "_")">
                         <h2 class="page-title">@title</h2>
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             @foreach (var product in ProductsList.Where(p => p.Title == title).OrderBy(p => p.Weight))
@@ -102,6 +103,15 @@
 
     private List<System.Security.Claims.Claim> ClaimsList = new();
     private ApplicationUser User = new();
+
+    protected async override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // await js.InvokeVoidAsync("searchProducts");
+            // await js.InvokeVoidAsync("clearSearch");
+        }
+    }
 
     private async Task LoadProduct()
     {

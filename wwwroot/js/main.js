@@ -105,3 +105,28 @@ function counter() {
     };
     //calculareTotalPrice();
 }
+
+function searchProducts(elementProduct) {
+
+    const elements = document.querySelectorAll('.page-products');
+
+    elements.forEach(element => {
+        if (element === elementProduct) {
+            element.classList.add('d-block');
+            element.classList.remove('d-none');
+        }
+        else if (element != elementProduct) {
+            element.classList.add('d-none');
+            element.classList.remove('d-block');
+        }
+    });
+}
+
+function clearSearch() {
+    const elements = document.querySelectorAll('.page-products');
+    elements.forEach(element => {
+        element.classList.remove('d-none');
+        element.classList.remove('d-block');
+    });
+
+}
