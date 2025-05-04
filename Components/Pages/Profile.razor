@@ -16,12 +16,6 @@
                                 alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                                 <h5 class="my-3">@User.Name</h5>
                                 <p class="text-muted mb-4">@User.Email</p>
-                                <div class="d-flex justify-content-center mb-2">
-                                    <button type="button" data-mdb-button-init data-mdb-ripple-init
-                                    class="btn btn-primary">
-                                        Редактировать профиль
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -30,30 +24,49 @@
                             <div class="card-header text-center">
                                 Мои заказы
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" style="overflow: auto;">
                                 <table class="table order-table">
-                                    <thead>
-                                        <tr class="text-center">
-                                            <th scope="col">Уникальный Id</th>
-                                            <th scope="col">Дата</th>
-                                            <th scope="col">Сумма, BYN</th>
-                                            @* <th scope="col">Действие</th> *@
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        @foreach (var order in OrdersList)
-                                        {
+                                    @if (OrdersList.Count > 0)
+                                    {
+                                        <thead>
                                             <tr class="text-center">
-                                                <th scope="row">@order.UniqueGuid</th>
-                                                <td>@order.DateTime.ToString("dd-MM-yyyy")</td>
-                                                <td>@order.ProductPrice</td>
+                                                <th scope="col">№ заказа</th>
+                                                <th scope="col">Дата оформления заказа</th>
+                                                <th scope="col">Сумма, BYN</th>
+                                                <th scope="col"></th>
                                             </tr>
-                                        }
-                                    </tbody>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var order in OrdersList.OrderBy(o => o.DateTime).DistinctBy(o => o.UniqueGuid))
+                                            {
+                                                <tr class="text-center">
+                                                    <td scope="row">@OrderNumber</td>
+                                                    <td>@order.DateTime.ToString("dd-MM-yyyy")</td>
+                                                    @if (PriceOrder.ContainsKey(order.UniqueGuid))
+                                                    {
+                                                        <td>@PriceOrder[order.UniqueGuid]</td>
+                                                    }
+                                                    <td><a href="#" class="btn btn-warning">Посмотреть</a></td>
+                                                </tr>
+                                                @if(OrderNumber == OrderNumber)
+                                                {
+                                                    OrderNumber++;
+                                                }
+                                            }
+                                        </tbody>
+                                    }
+                                    else
+                                    {
+                                        <tbody>
+                                            <tr class="text-center">
+                                                <td>Вы ничего не заказывали</td>
+                                            </tr>
+                                        </tbody> 
+                                    }
                                 </table>
                             </div>
                             <div class="card-footer text-muted d-flex justify-content-end">
-                                Итого по заказам: @TotalCost BYN
+                                <p>Итого по заказам: <b>@TotalCost</b> BYN</p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +84,10 @@
     private List<System.Security.Claims.Claim> ClaimsList = new();
     private ApplicationUser User = new();
     private List<Order> OrdersList = new();
+    private Dictionary<Guid,decimal> PriceOrder = new();
     private IEnumerable<Order> uniqueOrders;
     private decimal TotalCost;
+    private int OrderNumber = 1;
 
     protected override async Task OnInitializedAsync()
     {
@@ -91,11 +106,21 @@
     private async Task GetOrders(Guid userId)
     {
         var orders = await orderInterface.GetOrdersUserByIdAsync(userId);
-        foreach(var order in orders)
+        if(orders.Count > 0)
         {
-            OrdersList.Add(order);
-            TotalCost += order.ProductPrice;
+            foreach (var order in orders)
+            {
+                if (PriceOrder.ContainsKey(order.UniqueGuid))
+                {
+                    PriceOrder[order.UniqueGuid] += order.ProductPrice;
+                }
+                else
+                {
+                    PriceOrder.Add(order.UniqueGuid, order.ProductPrice);
+                }
+                OrdersList.Add(order);
+                TotalCost += order.ProductPrice;
+            }
         }
-        OrdersList.OrderBy(o => o.DateTime);
     }
 }

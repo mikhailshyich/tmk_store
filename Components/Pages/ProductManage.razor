@@ -78,7 +78,9 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Текущее изображение продукта</label>
-                                    <input readonly type="text" class="form-control" @bind-value="@productModel.SrcImageProduct" />
+                                    <div class="text-center">
+                                        <img class="rounded" style="width: 50%;" src="/img/products/@productModel.SrcImageProduct" alt="@productModel.Title" />
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Наименование</label>
