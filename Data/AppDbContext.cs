@@ -12,5 +12,12 @@ namespace TMKStore.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ApplicationUser>().HasData(
+                    new ApplicationUser { Id = Guid.NewGuid(), Name = "Admin", Email = "admin@mail.ru", Password = BCrypt.Net.BCrypt.HashPassword("admin"), Role = "Admin" }
+            );
+        }
     }
 }

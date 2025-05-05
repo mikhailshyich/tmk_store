@@ -180,12 +180,30 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png'))">
       <SourceType>Package</SourceType>
       <SourceId>TMKStore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png</RelativePath>
+      <RelativePath>img/products/174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m6sf7hpqx3</Fingerprint>
+      <Integrity>kmgkByrMErnddyW+C5Za/bHWDO6aWPVnddQE4FbRAAI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TMKStore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TMKStore</BasePath>
+      <RelativePath>img/products/520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -196,205 +214,25 @@
       <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\08e37abb-5503-4e94-a20a-a76bd0c6bc63_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\no-foto.png'))">
       <SourceType>Package</SourceType>
       <SourceId>TMKStore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png</RelativePath>
+      <RelativePath>img/products/no-foto.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6997qigplb</Fingerprint>
-      <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
+      <Fingerprint>k9sccqyvrc</Fingerprint>
+      <Integrity>GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0c74409f-f49a-427e-844b-4d269d9f6685_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\1d617cac-0494-4fd8-b0d0-5253e572fce6_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6997qigplb</Fingerprint>
-      <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\96d6044a-3d00-47ea-956e-7c969da9eda1_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6997qigplb</Fingerprint>
-      <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\a27da0f4-364f-4594-901a-bbf8ffb0c366_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6997qigplb</Fingerprint>
-      <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\b071c084-3861-4be9-81b2-ecbb556a4102_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\be2c07f5-c059-41c4-a124-61204578dc01_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\c054532a-272c-49d6-95fc-1ab1e4b5e6de_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d71380b9-1c30-460a-a0bc-0a809772e13f_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\dfeb2e4d-ab70-46a2-83aa-1b9ec6252a3d_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6997qigplb</Fingerprint>
-      <Integrity>ZrOK2VynHwe+InYMqJu9emH1tRcbObXfWu+NhNFOm/M=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\ed384db3-6c9a-47fe-b774-7df18ca5b5ca_mozzarella_flow_1_125-600x600.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>TMKStore</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/TMKStore</BasePath>
-      <RelativePath>img/products/f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xno6nia2ei</Fingerprint>
-      <Integrity>ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\f23310cc-6dd9-4d7b-a8e2-d8a217eb72cf_provoletta_affumicata_120g-e1726742425173-455x600.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\no-foto.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile.png'))">
       <SourceType>Package</SourceType>
@@ -480,8 +318,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>82cgrqthub</Fingerprint>
-      <Integrity>8KuqXdh7yaf9hYyeFiV+spAJ+a1HYvAmFo8h9pd9yZg=</Integrity>
+      <Fingerprint>6dhvd0w93z</Fingerprint>
+      <Integrity>qtbkodH1hCZz3Qdzq7TaHe4e2woEdfFAgVuM6PckSh4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</OriginalItemSpec>

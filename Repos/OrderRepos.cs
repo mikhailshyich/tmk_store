@@ -22,6 +22,7 @@ namespace TMKStore.Repos
             if (checkUser is null) return new OrderResponse(false, "Пользователь не найден.");
             if (productId == Guid.Empty) return new OrderResponse(false, "ID продукта пустой.");
             var checkProduct = appDbContext.Products.FirstOrDefault(p => p.Id == productId);
+            if (checkProduct is null) return new OrderResponse(false, "Продукт не найден.");
 
             appDbContext.Orders.Add(
                 new Order()
@@ -33,6 +34,7 @@ namespace TMKStore.Repos
                     ProductId = productId,
                     UniqueGuid = uniqueGuid,
                 });
+            checkProduct.Count -= productCount;
             appDbContext.SaveChanges();
             return new OrderResponse(true, "Заказ успешно добавлен");
         }

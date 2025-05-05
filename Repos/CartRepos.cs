@@ -31,10 +31,6 @@ namespace TMKStore.Repos
             {
                 return new CartResponse(false, "Желаемое количество продукта больше фактического");
             }
-            else
-            {
-                checkProduct.Count -= productCount;
-            }
 
             var checkCart = appDbContext.Carts.FirstOrDefault(c => c.UserId == userId & c.Product == checkProduct);
 

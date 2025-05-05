@@ -42,6 +42,16 @@ namespace TMKStore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f1eaf5e4-d6e0-4d98-94ba-6e4ac7f313ad"),
+                            Email = "admin@mail.ru",
+                            Name = "Admin",
+                            Password = "$2a$11$9svbVw1aT7.5whKY618Mce0sx/5zDKhhcMt3kvdU4uxitllDQAqye",
+                            Role = "Admin"
+                        });
                 });
 
             modelBuilder.Entity("TMKStore.Models.Cart", b =>

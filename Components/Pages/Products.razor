@@ -5,15 +5,15 @@
 
 <main class="main d-flex justify-content-center">
     <div class="container">
-        <div class="row">
-            @if (ProductsList.Count > 0)
-            {
+        @if (ProductsList!.Count > 0)
+        {
+            <div class="row">
                 <div class="row row-btn">
-                    <div class="col-sm">
+                    <div class="col-sm mt-3">
                         <div class="d-flex btn-group " role="group">
                             <div class="d-flex group-btn">
                                 <button onclick="clearSearch()" class="btn item-btn">Все</button>
-                                @foreach (var title in uniqueProductNames)
+                                @foreach (var title in uniqueProductNames!)
                                 {
                                     <button onclick="searchProducts(@title.Replace(" ", "_"))" class="btn item-btn">@title</button>
                                 }
@@ -22,77 +22,86 @@
                     </div>
                     <AuthorizeView Roles="Admin">
                         <Authorized>
-                            <div class="col-sm col-btn">
+                            <div class="col-sm col-btn justify-content-center mt-3">
                                 <a href="/add-product" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
                             </div>
                         </Authorized>
                     </AuthorizeView>
                 </div>
-                @foreach (var title in uniqueProductNames)
-                {
-                    <div class="page-products" id="@title.Replace(" ", "_")">
-                        <h2 class="page-title">@title</h2>
-                        <div class="row row-cols-1 row-cols-md-2 g-4">
-                            @foreach (var product in ProductsList.Where(p => p.Title == title).OrderBy(p => p.Weight))
-                            {
-                                <div class="col col-md-4 col-sm-4">
-                                    <div class="card card-product">
-                                        <AuthorizeView Roles="Admin">
-                                            <Authorized>
-                                                <div class="control-btn-div">
-                                                    <button @onclick="()=>UpdateProduct(product.Id)" title="Редактировать товар" class="btn btn-warning control-btn">&#9999;&#65039;</button>
-                                                    <button @onclick="()=>DeleteProduct(product.Id)" title="Удалить товар" class="btn btn-danger control-btn">X</button>
-                                                </div>
-                                            </Authorized>
-                                        </AuthorizeView>
-                                        <a class="card-product-link" href="/product-info/@product.Id">
-                                            <img src="/img/products/@product.SrcImageProduct" class="card-img-top product-img" alt="@product.Title @product.Subtitle">
-                                        </a>
-                                        <div class="card-body card-body-product">
-                                            <div class="col-md-6">
-                                                <a href="/product-info/@product.Id">
-                                                    <p class="product-title">@product.Title</p>
-                                                    <p class="product-subtitle">@product.Subtitle</p>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <b><p class="product-weight">@product.Weight <span>г</span></p></b>
-                                            </div>
-                                        </div>
-                                        <AuthorizeView>
-                                            <Authorized>
-                                                <div class="btn-product">
-                                                    <div class="col-md-12">
-                                                        <button @onclick="()=>AddToCart(product.Id)" title="Добавить товар в корзину" class="btn btn-warning">Добавить в корзину</button>
-                                                    </div>
-                                                </div>
-                                            </Authorized>
-                                        </AuthorizeView>
-                                    </div>
-                                </div>
-                            }
-                        </div>
-                    </div>
-                }
-            }
-            else
+            </div>
+            @foreach (var title in uniqueProductNames)
             {
-                <div class="row row-btn">
-                    <AuthorizeView Roles="Admin">
-                        <Authorized>
-                            <div class="col-sm col-btn">
-                                <a href="/add-product" class="btn btn-warning col-btn"><span>+ </span>Добавить товар</a>
+                <div class="page-products" id="@title.Replace(" ", "_")">
+                    <h2 class="page-title">@title</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        @foreach (var product in ProductsList.Where(p => p.Title == title).OrderBy(p => p.Weight))
+                        {
+                            <div class="col col-md-4 col-sm-4">
+                                <div class="card card-product">
+                                    <AuthorizeView Roles="Admin">
+                                        <Authorized>
+                                            <div class="control-btn-div">
+                                                <button @onclick="()=>UpdateProduct(product.Id)" title="Редактировать товар" class="btn btn-warning control-btn">&#9999;&#65039;</button>
+                                                <button @onclick="()=>ShowDialogAsync(product.Id)" title="Удалить товар" class="btn btn-danger control-btn">X</button>
+                                            </div>
+                                        </Authorized>
+                                    </AuthorizeView>
+                                    <a class="card-product-link" href="/product-info/@product.Id">
+                                        @if(product.SrcImageProduct is null)
+                                        {
+                                            <img src="/img/products/no-foto.png" class="card-img-top product-img" alt="@product.Title @product.Subtitle">
+                                        }
+                                        else
+                                        {
+                                            <img src="/img/products/@product.SrcImageProduct" class="card-img-top product-img" alt="@product.Title @product.Subtitle">
+                                        }
+                                    </a>
+                                    <div class="card-body card-body-product">
+                                        <div class="col-md-6">
+                                            <a href="/product-info/@product.Id">
+                                                <p class="product-title">@product.Title</p>
+                                                <p class="product-subtitle">@product.Subtitle</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="product-weight"><b>@product.Weight <span>г</span></b></p>
+                                        </div>
+                                    </div>
+                                    <AuthorizeView>
+                                        <Authorized>
+                                            <div class="btn-product">
+                                                <div class="col-md-12">
+                                                    <button @onclick="()=>AddToCart(product.Id)" title="Добавить товар в корзину" class="btn btn-warning">Добавить в корзину</button>
+                                                </div>
+                                            </div>
+                                        </Authorized>
+                                    </AuthorizeView>
+                                </div>
                             </div>
-                        </Authorized>
-                    </AuthorizeView>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <div class="spinner-border" role="status">
-                        <span class="visually-hidden">Загрузка товаров...</span>
+                        }
                     </div>
                 </div>
             }
-        </div>
+            <ConfirmDialog @ref="dialog" />
+        }
+        else if(User.Role == "Admin")
+        {
+            <div class="row row-btn justify-content-center">
+                <AuthorizeView Roles="Admin">
+                    <Authorized>
+                        <a href="/add-product" class="btn btn-warning col-btn" style="width: 180px;"><span>+ </span>Добавить товар</a>
+                    </Authorized>
+                </AuthorizeView>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Загрузка товаров...</span>
+                </div>
+            </div>
+        }
     </div>
 </main>
 
@@ -100,6 +109,7 @@
     private List<Product>? ProductsList { get; set; } = new();
     private List<string>? ProductTitleList { get; set; } = new();
     private IEnumerable<string>? uniqueProductNames { get; set; }
+    private ConfirmDialog dialog = default!;
 
     private List<System.Security.Claims.Claim> ClaimsList = new();
     private ApplicationUser User = new();
@@ -108,8 +118,33 @@
     {
         if (firstRender)
         {
-            // await js.InvokeVoidAsync("searchProducts");
-            // await js.InvokeVoidAsync("clearSearch");
+            await js.InvokeVoidAsync("searchProducts");
+            await js.InvokeVoidAsync("clearSearch");
+        }
+        else
+        {
+            await js.InvokeVoidAsync("searchProducts");
+            await js.InvokeVoidAsync("clearSearch");
+        }
+    }
+
+    private async Task ShowDialogAsync(Guid id)
+    {
+        var options = new ConfirmDialogOptions 
+        { 
+            IsVerticallyCentered = true,
+            YesButtonText = "Да",
+            YesButtonColor = ButtonColor.Danger,
+            NoButtonText = "Нет"
+        };
+        var confirmation = await dialog.ShowAsync(
+            title: "Удаление товара",
+            message1: "Действительно хотите удалить товар?",
+            confirmDialogOptions: options);
+
+        if (confirmation)
+        {
+            await DeleteProduct(id);
         }
     }
 
@@ -126,7 +161,11 @@
         uniqueProductNames = ProductTitleList?.Distinct().OrderBy(t => t);
     }
 
-    protected override async Task OnInitializedAsync() => await LoadProduct();
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProduct();
+        await GetUser();
+    }
 
     private async Task UpdateProduct(Guid id)
     {

@@ -48,7 +48,7 @@
                                                     }
                                                     <td><a href="#" class="btn btn-warning">Посмотреть</a></td>
                                                 </tr>
-                                                @if(OrderNumber == OrderNumber)
+                                                @if(OrderNumber != 0)
                                                 {
                                                     OrderNumber++;
                                                 }
@@ -66,7 +66,7 @@
                                 </table>
                             </div>
                             <div class="card-footer text-muted d-flex justify-content-end">
-                                <p>Итого по заказам: <b>@TotalCost</b> BYN</p>
+                                <p>Итого: <b>@TotalCost</b> BYN</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,6 @@
     private ApplicationUser User = new();
     private List<Order> OrdersList = new();
     private Dictionary<Guid,decimal> PriceOrder = new();
-    private IEnumerable<Order> uniqueOrders;
     private decimal TotalCost;
     private int OrderNumber = 1;
 

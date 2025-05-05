@@ -79,7 +79,14 @@
                                 <div class="form-group">
                                     <label class="form-label">Текущее изображение продукта</label>
                                     <div class="text-center">
-                                        <img class="rounded" style="width: 50%;" src="/img/products/@productModel.SrcImageProduct" alt="@productModel.Title" />
+                                        @if (productModel.SrcImageProduct is null)
+                                        {
+                                            <img src="/img/products/no-foto.png" class="card-img-top product-img" alt="@productModel.Title @productModel.Subtitle">
+                                        }
+                                        else
+                                        {
+                                            <img class="rounded" style="width: 50%;" src="/img/products/@productModel.SrcImageProduct" alt="@productModel.Title" />
+                                        }
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -218,6 +225,6 @@
             await using FileStream fs = new(path, FileMode.Create);
             await file.OpenReadStream(MAXALLOWEDSIZE).CopyToAsync(fs);
         }
-        catch(Exception ex){}
+        catch{}
     }
 }

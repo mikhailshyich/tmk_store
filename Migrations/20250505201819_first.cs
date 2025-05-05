@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TMKStore.Migrations
 {
     /// <inheritdoc />
-    public partial class orderCarts23 : Migration
+    public partial class first : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,9 +18,11 @@ namespace TMKStore.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     DateTime = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    Price = table.Column<decimal>(type: "TEXT", nullable: false),
+                    ProductPrice = table.Column<decimal>(type: "TEXT", nullable: false),
+                    ProductCount = table.Column<int>(type: "INTEGER", nullable: false),
                     UserId = table.Column<Guid>(type: "TEXT", nullable: false),
-                    CartsGuid = table.Column<Guid>(type: "TEXT", nullable: false)
+                    ProductId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    UniqueGuid = table.Column<Guid>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -86,6 +88,11 @@ namespace TMKStore.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "Email", "Name", "Password", "Role" },
+                values: new object[] { new Guid("f1eaf5e4-d6e0-4d98-94ba-6e4ac7f313ad"), "admin@mail.ru", "Admin", "$2a$11$9svbVw1aT7.5whKY618Mce0sx/5zDKhhcMt3kvdU4uxitllDQAqye", "Admin" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Carts_ProductId",

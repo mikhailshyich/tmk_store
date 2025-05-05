@@ -9,7 +9,14 @@
             <div class="card-body">
                 <div class="row">
                     <div class="d-flex justify-content-center col-md-6 col-sm-12">
-                        <img class="post-image" src="/img/products/@Product.SrcImageProduct" alt="@Product.Title @Product.Subtitle">
+                        @if (Product.SrcImageProduct is null)
+                        {
+                            <img src="/img/products/no-foto.png" class="card-img-top product-img" alt="@Product.Title @Product.Subtitle">
+                        }
+                        else
+                        {
+                            <img class="post-image" src="/img/products/@Product.SrcImageProduct" alt="@Product.Title @Product.Subtitle">
+                        }
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="product-info-head">
@@ -21,6 +28,15 @@
                                 <div class="col-md-3 text-center product-info-weight">
                                     <p>@Product.Weight г</p>
                                 </div>
+                                <AuthorizeView>
+                                    <Authorized>
+                                        <div class="col-md-3 d-flex justify-content-end">
+                                            <button @onclick="()=>AddToCart(Product.Id)" title="Добавить товар в корзину" class="btn btn-warning">
+                                                <img src="/img/cart.png" width="25"/>
+                                            </button>
+                                        </div>
+                                    </Authorized>
+                                </AuthorizeView>
                             </div>
                         </div>
                         <div class="product-info-descr">
@@ -35,22 +51,6 @@
                                     </CardBody>
                                 </Card>
                             </Collapse>
-
-
-                            @* <div class="accordion" id="accordionInfo">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Подробнее
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionInfo">
-                                        <div class="accordion-body">
-                                            <p class="product-acc"></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> *@
                         </div>
                         <div class="product-info-parameters">
                             <p class="product-parameters">Пищевая и энергетическая ценность 100 г продукта</p>
@@ -77,6 +77,8 @@
     [Parameter]
     public Guid Id { get; set; }
 
+    private List<System.Security.Claims.Claim> ClaimsList = new();
+    private ApplicationUser User = new();
     public Product Product { get; set; } = new();
     public List<string> ParametersList { get; set; } = new();
 
@@ -90,10 +92,44 @@
 
     protected override async Task OnParametersSetAsync()
     {
-        Product = await productService.GetProductByIdAsync(Id);
+        await GetProduct(Id);
+    }
+
+    private async Task GetProduct(Guid id)
+    {
+        Product = await productService.GetProductByIdAsync(id);
         ParametersList.Add($"{Product.Protein} г");
         ParametersList.Add($"{Product.Fats} г");
         ParametersList.Add($"{Product.NutritionalValue} ккал");
         ParametersList.Add($"{Product.EnergyValue} кДж");
+    }
+
+    private async Task AddToCart(Guid productId)
+    {
+        if (productId != Guid.Empty)
+        {
+            var product = await productService.GetProductByIdAsync(productId);
+            var userApp = await GetUser();
+            if (userApp is not null)
+            {
+                await cartInterface.AddCartProductAsync(userApp.Id, product.Id, 1);
+            }
+        }
+        NavManager.NavigateTo("/products", true);
+    }
+
+    private async Task<ApplicationUser> GetUser()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authState = customAuthStateProvider.GetAuthenticationStateAsync();
+        var user = authState.Result.User;
+        if (user.Identity is not null && user.Identity.IsAuthenticated)
+        {
+            ClaimsList = authState.Result.User.Claims.ToList();
+            var Email = ClaimsList[1].Value;
+            User = await account.GetUser(Email);
+            return User;
+        }
+        return null!;
     }
 }
