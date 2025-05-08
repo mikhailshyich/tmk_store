@@ -45,8 +45,24 @@
       "PackagePath": "staticwebassets\\img\\products\\174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png"
     },
     {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png",
+      "PackagePath": "staticwebassets\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "PackagePath": "staticwebassets\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png",
       "PackagePath": "staticwebassets\\img\\products\\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png",
+      "PackagePath": "staticwebassets\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png"
+    },
+    {
+      "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png",
+      "PackagePath": "staticwebassets\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png"
     },
     {
       "Id": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\no-foto.png",

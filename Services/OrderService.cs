@@ -29,5 +29,12 @@ namespace TMKStore.Services
             var response = await order.Content.ReadFromJsonAsync<List<Order>>();
             return response!;
         }
+
+        public async Task<Order> GetOrderByIdAsync(int id)
+        {
+            var order = await httpClient.PostAsJsonAsync($"{BaseUrl}/{id}", id);
+            var response = await order.Content.ReadFromJsonAsync<Order>();
+            return response!;
+        }
     }
 }

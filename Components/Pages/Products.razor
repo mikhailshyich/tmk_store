@@ -34,7 +34,7 @@
                 <div class="page-products" id="@title.Replace(" ", "_")">
                     <h2 class="page-title">@title</h2>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
-                        @foreach (var product in ProductsList.Where(p => p.Title == title).OrderBy(p => p.Weight))
+                        @foreach (var product in ProductsList.Where(p => p.Title == title & p.Enable == true).OrderBy(p => p.Weight))
                         {
                             <div class="col col-md-4 col-sm-4">
                                 <div class="card card-product">
@@ -138,8 +138,8 @@
             NoButtonText = "Нет"
         };
         var confirmation = await dialog.ShowAsync(
-            title: "Удаление товара",
-            message1: "Действительно хотите удалить товар?",
+            title: "Отключение карточки товара",
+            message1: "Действительно хотите отключить карточку товара?",
             confirmDialogOptions: options);
 
         if (confirmation)
@@ -156,7 +156,10 @@
         foreach(var product in products)
         {
             ProductsList?.Add(product);
-            ProductTitleList?.Add(product.Title);
+            if(product.Enable == true)
+            {
+                ProductTitleList?.Add(product.Title);
+            }
         }
         uniqueProductNames = ProductTitleList?.Distinct().OrderBy(t => t);
     }

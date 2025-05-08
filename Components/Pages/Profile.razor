@@ -40,18 +40,14 @@
                                             @foreach (var order in OrdersList.OrderBy(o => o.DateTime).DistinctBy(o => o.UniqueGuid))
                                             {
                                                 <tr class="text-center">
-                                                    <td scope="row">@OrderNumber</td>
+                                                    <td scope="row">@order.Id</td>
                                                     <td>@order.DateTime.ToString("dd-MM-yyyy")</td>
                                                     @if (PriceOrder.ContainsKey(order.UniqueGuid))
                                                     {
                                                         <td>@PriceOrder[order.UniqueGuid]</td>
                                                     }
-                                                    <td><a href="#" class="btn btn-warning">Посмотреть</a></td>
+                                                    <td><a href="/oder/@order.Id" class="btn btn-warning">Детально</a></td>
                                                 </tr>
-                                                @if(OrderNumber != 0)
-                                                {
-                                                    OrderNumber++;
-                                                }
                                             }
                                         </tbody>
                                     }
@@ -86,7 +82,6 @@
     private List<Order> OrdersList = new();
     private Dictionary<Guid,decimal> PriceOrder = new();
     private decimal TotalCost;
-    private int OrderNumber = 1;
 
     protected override async Task OnInitializedAsync()
     {

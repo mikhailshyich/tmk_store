@@ -33,5 +33,12 @@ namespace TMKStore.Controllers
             var order = await orderInterface.GetOrdersUserByIdAsync(userId);
             return Ok(order);
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Order>> GetOrderById(int id)
+        {
+            var order = await orderInterface.GetOrderByIdAsync(id);
+            return Ok(order);
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fP5386/uzWYY781aqJQeXHa8ZqflOmkJcW7abjRixn8=",
+  "Hash": "4gX2exBTRNu6u6Rs+E80oGXlKVC1dUL0nEVd2KaCHWw=",
   "Source": "TMKStore",
   "BasePath": "_content/TMKStore",
   "Mode": "Default",
@@ -458,6 +458,48 @@
       "OriginalItemSpec": "wwwroot\\img\\products\\174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png"
     },
     {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jdyircvg41",
+      "Integrity": "eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xno6nia2ei",
+      "Integrity": "ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png"
+    },
+    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -479,6 +521,48 @@
       "OriginalItemSpec": "wwwroot\\img\\products\\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png"
     },
     {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xinpf1l4uq",
+      "Integrity": "WaYoMILYKJ1lrD2cqhjlBVZ07+1oOMmnCimXNr3DGso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png"
+    },
+    {
+      "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png",
+      "SourceId": "TMKStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\",
+      "BasePath": "_content/TMKStore",
+      "RelativePath": "img/products/d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ncas2ddla",
+      "Integrity": "gK0b3j5f1wKoC1MYmgeYfzg0BbzigeZefcv5IkmpLXo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png"
+    },
+    {
       "Identity": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\no-foto.png",
       "SourceId": "TMKStore",
       "SourceType": "Discovered",
@@ -493,8 +577,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k9sccqyvrc",
-      "Integrity": "GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI=",
+      "Fingerprint": "288e2ldgdk",
+      "Integrity": "IqcR6sQiUkUYSP+Wz945QzovbXp/zcIouT6Dzi6PIZ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\products\\no-foto.png"
@@ -2247,6 +2331,170 @@
       ]
     },
     {
+      "Route": "img/products/349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.jdyircvg41.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jdyircvg41"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eebv2P0d13+dizkft+OeATlBqTS/Q7OBrVpf1CIWsTM="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.xno6nia2ei.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xno6nia2ei"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox7FscsXJ8nA+IFXr+LeuS8NUm9dWHD3wagHu4y9tLA="
+        }
+      ]
+    },
+    {
       "Route": "img/products/520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.6997qigplb.png",
       "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png",
       "Selectors": [],
@@ -2329,8 +2577,8 @@
       ]
     },
     {
-      "Route": "img/products/no-foto.k9sccqyvrc.png",
-      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\no-foto.png",
+      "Route": "img/products/bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2339,7 +2587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "371161"
+          "Value": "378653"
         },
         {
           "Name": "Content-Type",
@@ -2347,11 +2595,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI=\""
+          "Value": "\"WaYoMILYKJ1lrD2cqhjlBVZ07+1oOMmnCimXNr3DGso=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 23:17:51 GMT"
+          "Value": "Mon, 05 May 2025 23:50:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WaYoMILYKJ1lrD2cqhjlBVZ07+1oOMmnCimXNr3DGso="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.xinpf1l4uq.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WaYoMILYKJ1lrD2cqhjlBVZ07+1oOMmnCimXNr3DGso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:50:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2361,7 +2646,134 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k9sccqyvrc"
+          "Value": "xinpf1l4uq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WaYoMILYKJ1lrD2cqhjlBVZ07+1oOMmnCimXNr3DGso="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.4ncas2ddla.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gK0b3j5f1wKoC1MYmgeYfzg0BbzigeZefcv5IkmpLXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:51:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ncas2ddla"
+        },
+        {
+          "Name": "label",
+          "Value": "img/products/d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gK0b3j5f1wKoC1MYmgeYfzg0BbzigeZefcv5IkmpLXo="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gK0b3j5f1wKoC1MYmgeYfzg0BbzigeZefcv5IkmpLXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:51:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gK0b3j5f1wKoC1MYmgeYfzg0BbzigeZefcv5IkmpLXo="
+        }
+      ]
+    },
+    {
+      "Route": "img/products/no-foto.288e2ldgdk.png",
+      "AssetFile": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\wwwroot\\img\\products\\no-foto.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IqcR6sQiUkUYSP+Wz945QzovbXp/zcIouT6Dzi6PIZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 23:17:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "288e2ldgdk"
         },
         {
           "Name": "label",
@@ -2369,7 +2781,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI="
+          "Value": "sha256-IqcR6sQiUkUYSP+Wz945QzovbXp/zcIouT6Dzi6PIZ8="
         }
       ]
     },
@@ -2384,7 +2796,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "371161"
+          "Value": "361176"
         },
         {
           "Name": "Content-Type",
@@ -2392,11 +2804,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI=\""
+          "Value": "\"IqcR6sQiUkUYSP+Wz945QzovbXp/zcIouT6Dzi6PIZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 23:17:51 GMT"
+          "Value": "Mon, 05 May 2025 23:17:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2406,7 +2818,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GC4m+0wcWHlKOdc4m4rB66Sle62NVs7tkK1kyQL/hKI="
+          "Value": "sha256-IqcR6sQiUkUYSP+Wz945QzovbXp/zcIouT6Dzi6PIZ8="
         }
       ]
     },

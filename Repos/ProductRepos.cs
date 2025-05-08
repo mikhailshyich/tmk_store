@@ -48,9 +48,9 @@ namespace TMKStore.Repos
             var product = appDbContext.Products.FirstOrDefault(p => p.Id == productId);
             if (product is null) return new ProductResponse(false, "Продукт не найден!");
 
-            appDbContext.Products.Remove(product);
+            product.Enable = false;
             await appDbContext.SaveChangesAsync();
-            return new ProductResponse(true, "Продукт успешно удалён!");
+            return new ProductResponse(true, "Продукт успешно отключён!");
         }
 
         public async Task<List<Product>> GetAllProductsAsync() => await appDbContext.Products.ToListAsync();

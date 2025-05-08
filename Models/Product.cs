@@ -22,5 +22,6 @@ namespace TMKStore.Models
         public double EnergyValue { get; set; }
         public string? SrcImageProduct { get; set; }
         public DateTime DateTimeAdded { get; set; }
+        public bool Enable { get; set; } = true;
     }
 }

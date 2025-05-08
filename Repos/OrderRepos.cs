@@ -39,6 +39,14 @@ namespace TMKStore.Repos
             return new OrderResponse(true, "Заказ успешно добавлен");
         }
 
+        public async Task<Order> GetOrderByIdAsync(int id)
+        {
+            if (id <= 0) return null!;
+            var checkOrder = appDbContext.Orders.FirstOrDefault(o => o.Id == id);
+            if(checkOrder is null) return null!;
+            return checkOrder;
+        }
+
         public async Task<List<Order>> GetOrdersUserByIdAsync(Guid userId)
         {
             if (userId == Guid.Empty) return null!;
