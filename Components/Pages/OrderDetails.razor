@@ -1,12 +1,64 @@
 ﻿@page "/oder/{Id}"
 
-<h3>Заказ № @Order.Id</h3>
+<main class="main d-flex justify-content-center">
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                Ваш заказ
+            </div>
+            <div class="card-body card-item-body">
+                <div class="row row-cart">
+                    @foreach (var order in OrdersList)
+                    {
+                        <div class="d-flex justify-content-center align-items-center col-md-12">
+                            <div class="col-md-3 col-img-product">
+                                <a class="cart-item-img" href="/product-info/@order.Product.Id">
+                                    <img class="product-img" src="/img/products/@order.Product.SrcImageProduct" alt="@order.Product.Title">
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-description-product">
+                                @if (order.Product.Enable == false)
+                                {
+                                    <div class="badge bg-danger text-wrap">
+                                        Снят с продажи
+                                    </div>
+                                }
+                                <h1 class="cart-item-title">@order.Product.Title @order.Product.Weight<span style="font-size: 15px;"> г</span></h1>
+                                <p class="cart-item-subtitle">@order.Product.Subtitle</p>
+                            </div>
+                            <div class="col-md-3 col-counter">
+                                <p>В количестве <b>@order.ProductCount</b> шт.</p>
+                            </div>
+                            <div class="col-md-3 cost-product">
+                                <p>Стоимость<br /><span class="cost-product-text">@order.ProductPrice</span><span style="font-weight: 400;"> BYN</span></p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <a href="/profile">&#060 Вернуться к заказам</a>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <p>Итого по заказу: <b>@OrderPrice</b> BYN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 @code {
     [Parameter]
     public string? Id { get; set; }
 
     public Order Order { get; set; } = new();
+    public List<Order> OrdersList { get; set; } = new();
+    public Product Product { get; set; } = new();
+    public decimal OrderPrice = 0;
+
 
     protected async override Task OnInitializedAsync()
     {
@@ -17,6 +69,11 @@
             if (checkOrder != null)
             {
                 Order = checkOrder;
+                OrdersList = await orderInterface.GetUniqueOrdersByIdAsync(checkOrder.UniqueGuid);
+                foreach(var order in OrdersList)
+                {
+                    OrderPrice += order.ProductPrice;
+                }
             }
             else
             {

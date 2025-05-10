@@ -42,6 +42,7 @@ namespace TMKStore.Controllers
         }
 
         [HttpPut("product-update")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Product>>> UpdateProductAsync(Product model)
         {
             var product = await productInterface.UpdateProductAsync(model);

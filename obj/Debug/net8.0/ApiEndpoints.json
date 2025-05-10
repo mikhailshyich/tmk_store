@@ -295,6 +295,32 @@
     ]
   },
   {
+    "ContainingType": "TMKStore.Controllers.OrderController",
+    "Method": "GetUniqueOrderById",
+    "RelativePath": "api/Order/unique/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TMKStore.Models.Order, TMKStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "TMKStore.Controllers.ProductController",
     "Method": "AddProductAsync",
     "RelativePath": "api/Product/add",

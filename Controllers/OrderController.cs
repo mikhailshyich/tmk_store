@@ -40,5 +40,12 @@ namespace TMKStore.Controllers
             var order = await orderInterface.GetOrderByIdAsync(id);
             return Ok(order);
         }
+
+        [HttpGet("unique/{id}")]
+        public async Task<ActionResult<List<Order>>> GetUniqueOrderById(Guid id)
+        {
+            var order = await orderInterface.GetUniqueOrdersByIdAsync(id);
+            return Ok(order);
+        }
     }
 }

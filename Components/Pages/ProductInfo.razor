@@ -98,8 +98,8 @@
     private async Task GetProduct(Guid id)
     {
         Product = await productService.GetProductByIdAsync(id);
-        ParametersList.Add($"{Product.Protein} г");
-        ParametersList.Add($"{Product.Fats} г");
+        ParametersList.Add($"белки {Product.Protein} г");
+        ParametersList.Add($"жиры {Product.Fats} г");
         ParametersList.Add($"{Product.NutritionalValue} ккал");
         ParametersList.Add($"{Product.EnergyValue} кДж");
     }

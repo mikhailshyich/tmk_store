@@ -33,6 +33,7 @@ namespace TMKStore.Repos
                     UserId = userId,
                     ProductId = productId,
                     UniqueGuid = uniqueGuid,
+                    Product = checkProduct,
                 });
             checkProduct.Count -= productCount;
             appDbContext.SaveChanges();
@@ -55,6 +56,18 @@ namespace TMKStore.Repos
             var checkOrder = await appDbContext.Orders.Where(o => o.UserId == userId).ToListAsync();
             if (checkOrder is null) return null!;
 
+            return checkOrder;
+        }
+
+        public async Task<List<Order>> GetUniqueOrdersByIdAsync(Guid uniqueId)
+        {
+            if (uniqueId == Guid.Empty) return null!;
+            var checkOrder = appDbContext.Orders.Where(o => o.UniqueGuid == uniqueId).ToList();
+            if (checkOrder is null) return null!;
+            foreach (var order in checkOrder)
+            {
+                order.Product = appDbContext.Products.FirstOrDefault(p => p.Id == order.ProductId);
+            }
             return checkOrder;
         }
     }

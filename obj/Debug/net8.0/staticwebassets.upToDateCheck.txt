@@ -9,10 +9,13 @@ wwwroot\img\instagram.png
 wwwroot\img\logo.png
 wwwroot\img\products.png
 wwwroot\img\products\174e8dc0-c6b2-4624-9da4-0e1df97514b5_mozarella_40_250.png
+wwwroot\img\products\1e20e444-c397-492f-b7fa-b56c3d9997f2_bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png
 wwwroot\img\products\349457e8-0314-46fb-aadd-f8d11363d9e9_mascarpone_250-600x516.png
+wwwroot\img\products\3495aa53-f2c4-4201-a224-0f4940cfe8df_mozzarella_flow_10_80-768x767.png
 wwwroot\img\products\373e9bfa-cb19-45da-a90f-06a45a8e82b4_provoletta_affumicata_120g-e1726742425173-455x600.png
 wwwroot\img\products\520d4707-c4bf-4a19-afed-c5b70f06a77e_mozzarella_flow_1_125-600x600.png
 wwwroot\img\products\bd88d467-a30c-4f86-b01c-f723ad889a53_bonfesto_mockups-malina_01-e1726822978497-600x518.png
+wwwroot\img\products\c5f34901-a404-44ec-9436-c94b4428eba8_mozzarella_flow_1_100-768x767.png
 wwwroot\img\products\d9153e30-f0e1-4152-816d-fdb3c7a2d164_ricotta-light-250.png
 wwwroot\img\products\no-foto.png
 wwwroot\img\profile.png

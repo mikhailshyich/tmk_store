@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\orderdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\orderdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\productinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\productinfo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,24 +11,68 @@
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\orderdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\orderdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\orderrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\orderrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\orderrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\orderrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\pages\\cartpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\pages\\cartpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\repos\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:repos\\productrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6316E106-7EE1-4E5F-A83A-55ED1DC94CF2}|TMKStore.csproj|d:\\#disk d\\myproject\\c#\\tmkstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,6 +111,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Layout\\Footer.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\Footer.razor",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Layout\\Footer.razor",
+              "RelativeToolTip": "Components\\Layout\\Footer.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T17:26:30.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:14:37.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:13:49.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICart.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\ICart.cs",
+              "RelativeDocumentMoniker": "Repos\\ICart.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\ICart.cs",
+              "RelativeToolTip": "Repos\\ICart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:42:50.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:40:16.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:28:49.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:25:57.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:25:42.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\IOrder.cs",
+              "RelativeDocumentMoniker": "Repos\\IOrder.cs",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\IOrder.cs",
+              "RelativeToolTip": "Repos\\IOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:23:40.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartPage.razor",
+              "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\CartPage.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\CartPage.razor",
+              "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\CartPage.razor",
+              "RelativeToolTip": "Components\\Pages\\CartPage.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAH0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:13:35.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -78,38 +248,37 @@
               "RelativeToolTip": "Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T12:02:24.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T12:02:24.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderDetails.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\OrderDetails.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\OrderDetails.razor",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\OrderDetails.razor",
               "RelativeToolTip": "Components\\Pages\\OrderDetails.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-08T09:26:15.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProductRepos.cs",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\ProductRepos.cs",
               "RelativeDocumentMoniker": "Repos\\ProductRepos.cs",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\ProductRepos.cs",
               "RelativeToolTip": "Repos\\ProductRepos.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T08:20:24.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -117,25 +286,24 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwBgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:20:26.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T07:20:26.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T06:24:20.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ProductManage.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\ProductManage.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductManage.razor",
@@ -143,51 +311,50 @@
               "RelativeToolTip": "Components\\Pages\\ProductManage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T23:24:39.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T23:24:39.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "OrderRepos.cs",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\OrderRepos.cs",
               "RelativeDocumentMoniker": "Repos\\OrderRepos.cs",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Repos\\OrderRepos.cs",
               "RelativeToolTip": "Repos\\OrderRepos.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T23:05:00.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductInfo.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\ProductInfo.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductInfo.razor",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\ProductInfo.razor",
               "RelativeToolTip": "Components\\Pages\\ProductInfo.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-05T22:09:47.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Profile.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Profile.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Profile.razor",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Profile.razor",
               "RelativeToolTip": "Components\\Pages\\Profile.razor",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-05T19:15:54.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
@@ -199,13 +366,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Products.razor",
               "DocumentMoniker": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Products.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Products.razor",
               "ToolTip": "D:\\#Disk D\\MyProject\\c#\\TMKStore\\Components\\Pages\\Products.razor",
               "RelativeToolTip": "Components\\Pages\\Products.razor",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T12:51:55.166Z",
               "EditorCaption": ""
