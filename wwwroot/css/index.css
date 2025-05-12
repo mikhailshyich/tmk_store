@@ -272,6 +272,11 @@ main.main-image {
         color: white;
     }
 
+.active-btn {
+    background-color: var(--page-title-color);
+    color: white;
+}
+
 /* ============================ Cart rules ==================================== */
 
 .row-item {

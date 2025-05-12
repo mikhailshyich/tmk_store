@@ -12,7 +12,7 @@
                     <div class="col-sm mt-3">
                         <div class="d-flex btn-group " role="group">
                             <div class="d-flex group-btn">
-                                <button onclick="clearSearch()" class="btn item-btn">Все</button>
+                                <button onclick="clearSearch()" class="btn item-btn active-btn">Все</button>
                                 @foreach (var title in uniqueProductNames!)
                                 {
                                     <button onclick="searchProducts(@title.Replace(" ", "_"))" class="btn item-btn">@title</button>

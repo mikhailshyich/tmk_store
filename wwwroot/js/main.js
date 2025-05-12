@@ -111,6 +111,19 @@ function counter() {
 function searchProducts(elementProduct) {
 
     const elements = document.querySelectorAll('.page-products');
+    const buttonsDiv = document.querySelector('.group-btn');
+
+
+    if (buttonsDiv != null) {
+        const buttons = buttonsDiv.getElementsByClassName('btn');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active-btn");
+                current[0].className = current[0].className.replace(" active-btn", "");
+                this.className += " active-btn";
+            });
+        }
+    }
 
     elements.forEach(element => {
         if (element === elementProduct) {
